@@ -1,0 +1,862 @@
+.comm-navigation__top-level-item[data-label="Home"] {
+    display: none !important;
+}
+
+.slds-listbox__option .slds-media__body .slds-truncate {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+}
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Thin.woff2')  format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Thin.woff') format('woff');
+         
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraLight.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraLight.woff') format('woff');
+         
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Light.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Regular.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Medium.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Medium.woff') format('woff');
+         
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-SemiBold.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Bold.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraBold.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraBold.woff') format('woff');
+         
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Black.woff2') format('woff2'),
+         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Black.woff') format('woff');
+        
+}
+
+.filter-input .slds-combobox__input, .sort-select .slds-combobox__input {
+    display: flex!important;
+    align-items: center!important;
+}
+
+/* Global font-family */
+.filter-input .slds-combobox__input, .sort-select .slds-combobox__input {
+    display: flex!important;
+    align-items: center!important;
+}
+
+/* Global font-family */
+body {
+    font-family: 'Lexend', sans-serif !important;
+}
+
+/* Heading 1 styles */
+/*
+h1 {
+    color: rgba(57, 81, 92, 1);
+    font-size: 60px !important;
+    font-weight: 300 !important;
+    line-height: 60px !important;
+    letter-spacing: -4%
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 64px !important;
+        line-height: 68px !important;
+    }
+}
+*/
+/* Heading 2 styles
+h2 {
+    color: rgba(57, 81, 92, 1) !important;
+    font-size: 26px !important;
+    font-weight: 500 !important;
+    line-height: 32.5px !important;
+}
+ */
+/* Heading 3 styles
+h3 {
+    color: rgba(57, 81, 92, 1) !important;
+    font-size: 60px !important;
+    font-weight: 300 !important;
+    line-height: 60px !important;
+}
+
+@media (max-width: 767px) {
+    h3 {
+        font-size: 48px !important;
+        line-height: 58px !important;
+    }
+    
+    runtime_omnistudio_omniscript-omniscript-step-chart [role="progressbar"]{
+      display: block !important;
+    }
+}
+ */
+/* Heading 4 styles 
+h4 {
+    color: rgba(57, 81, 92, 1) !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 22.5px !important;
+}
+*/
+
+/* Paragraph styles */
+/*
+p {
+    color: rgba(57, 81, 92, 1) !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 22.5px !important;
+}
+*/
+
+/* Label styles */
+/*
+label, label>span {
+    color: rgba(57, 81, 92, 1) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.5px !important;
+}
+
+li > a {
+  color: rgb(51, 51, 51)!important;
+}
+*/
+
+
+/*
+runtime_omnistudio_omniscript-omniscript-block section, 
+runtime_omnistudio_omniscript-omniscript-block section fieldset{
+    padding:0 !important;
+}
+
+runtime_omnistudio_omniscript-omniscript-block section , 
+runtime_omnistudio_omniscript-omniscript-block section fieldset runtime_omnistudio_omniscript-omniscript-text-block {
+    margin-left: 20px !important;
+}   
+runtime_omnistudio_omniscript-omniscript-block section {
+    margin-left:0 !important;
+}
+runtime_omnistudio_omniscript-omniscript-block section, 
+runtime_omnistudio_omniscript-omniscript-block section fieldset runtime_omnistudio_omniscript-omniscript-text-block runtime_omnistudio_omniscript-omniscript-formatted-rich-text div {
+    color: #39515C;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+runtime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key="cfViewProfile"] h2.slds-accordion__summary-heading button
+{
+    padding-left:15px;
+}
+runtime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key="cfViewProfile"] h2.slds-accordion__summary-heading button span.slds-accordion__summary-content {
+    font-size: 18px;
+    padding-left:7px;
+    font-weight:700;
+}
+
+runtime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key="cfViewProfile"] div.slds-accordion__content div p {
+    font-size:16px !important;
+    line-height: 20px !important;
+    font-weight: 700 !important;
+    color:#39515C;
+}
+
+runtime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key="cfViewProfile"] runtime_omnistudio_flexcards-flex-card-state div.slds-card button span.blockLabel {
+    font-weight:700;
+}
+
+*/
+
+/*view profile*/
+div.viewProfileNavSection div.EditProfileButtonDiv {
+    width: 167px !important;
+}
+
+div.viewProfileNavSection div.EditProfileButtonDiv button {
+    width: 131px !important;
+}
+div.viewProfileNavSection div.ChangePasswordBtnDiv button {
+    width:185px !important;
+}
+
+
+/*save for later*/
+
+div.saveforlaterbutton button.slds-button_brand {
+    background-color:#39515C !important;
+    color:#fff !important;
+    font-size:16px !important;
+    line-height:20px !important;
+    font-weight:700 !important;
+    padding:15px 20px !important;
+    border-radius:15px !important;
+}
+
+section.slds-modal div.slds-modal__container slot h1 {
+     font-size:18px !important;
+    font-weight:800 !important;
+    line-height:22.5px !important;
+    color:#fff !important;
+}
+
+/*
+
+runtime_omnistudio_omniscript-omniscript-modal section.slds-modal div.slds-modal__container div.slds-modal__content slot span {
+    font-size: 18px !important;
+    color: #39515C !important;
+    
+}
+
+runtime_omnistudio_omniscript-omniscript-modal section.slds-modal footer {
+    padding-top:20px;
+}
+runtime_omnistudio_omniscript-omniscript-modal section.slds-modal footer li.slds-button-group-item {
+    margin-right:10px;
+}
+
+runtime_omnistudio_omniscript-omniscript-modal section.slds-modal footer button {
+    font-size: 16px !important;
+    color:#39515C !important;
+    border-color:#39515C !important;
+    border-width:2px !important;
+    border-radius:15px !important;
+    padding: 10px 20px !important;  
+    font-weight: 700 !important;  
+}
+
+*/
+
+div.myIntakeTitle {
+     margin-top:42px;
+    margin-bottom:20px;
+}
+
+
+
+
+.account-buttons {
+    display: flex;
+    justify-content: center;
+    padding: var(--lwc-spacingMedium);
+}
+
+.account-buttons .create-btn {
+    color: var(--lwc-colorTextButtonBrand);
+    border-radius: var(--lwc-borderRadiusMedium);
+    padding: var(--lwc-spacingSmall) var(--lwc-spacingLarge);
+    font-weight: var(--lwc-fontWeightBold);
+}
+
+.account-buttons .sign-in-btn {
+    background-color: transparent;
+    color: var(--lwc-colorTextButtonBrand);
+    border: 2px solid var(--lwc-colorBorderButtonDefault);
+    border-radius: var(--lwc-borderRadiusMedium);
+    padding: var(--lwc-spacingSmall) var(--lwc-spacingLarge);
+    font-weight: var(--lwc-fontWeightBold);
+}
+
+
+.forceContentFilesHomeDesktop .slds-media__body .slds-line-height--reset, .forceContentFilesHomeDesktop .slds-media__body .slds-page-header__title
+{display:none;}
+.forceContentFilesHomeDesktop .leftNav li:nth-child(4)
+{display:none;}
+.forceContentFilesHomeDesktop .leftNav li:nth-child(2)
+{display:none;}
+
+.test-listViewManager .forceListViewManagerHeader .slds-grid {
+  display: none;
+}
+
+/*notification section*/
+.notification-row div.notification-content h3.notification-text-title {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    font-family: 'Lexend', sans-serif !important; 
+    margin-bottom: 10px !important; 
+}
+
+.unsNotificationsListRow.notification-unread{
+    background-color: #F3F3F3;
+      
+
+}
+
+.unsNotificationsListRow .notification-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+}
+
+
+.unsNotificationsListRow .notification-age {
+    font-size: 14px !important;
+    line-height: 17.5px !important;
+    font-weight: 400 !important;
+}
+
+.unsNotificationsPanel .titleName {
+    color:#39515C !important;
+    font-size: 18px !important;
+    line-height: 22.5px !important;
+    font-weight: 700 !important;
+    
+    
+}
+
+.unsNotificationsPanel .trayMarkAllRead a {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height:17.5px !important;
+    color:#39515C !important;
+}
+
+body.comm-page-custom-my-registration-intakes div.forceVirtualActionMarker {
+    display: none
+}
+
+
+.department-banner {
+  background-color: white !important;
+  padding: 1.5rem !important;
+  position: relative;
+}
+
+/* Container with logo background */
+.department-banner .slds-p-vertical_medium.slds-p-horizontal_large {
+  height: 280px !important; /* Total height for logo + content */
+  background-size: 180px 50px !important; /* Control logo size */
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  padding: 60px 0 0 0 !important; /* Push content below logo */
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Home page department IBM banners */
+.department-banner {
+  background-color: white !important;
+  padding: 1.5rem !important;
+  position: relative;
+  overflow: hidden !important; /* Prevent background bleed */
+}
+
+/* Main container */
+.department-banner .slds-p-vertical_medium.slds-p-horizontal_large {
+  height: auto !important;
+  background-size: 180px 50px !important;
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  padding: 60px 0 0 0 !important;
+  position: relative;
+  z-index: 1;
+  background-color: white !important;
+}
+
+/* White overlay to prevent bleed-through */
+.department-banner .slds-p-vertical_medium.slds-p-horizontal_large::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  z-index: -1;
+}
+
+/* Force background image to only show in logo area */
+.department-banner .slds-p-vertical_medium.slds-p-horizontal_large::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 50px;
+  background: inherit;
+  background-size: contain !important;
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  z-index: 2;
+}
+
+/* Hide original background */
+.department-banner .x7s-banner-overlay {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+.department-banner .slds-text-heading_medium {
+  font-size: 1.125rem;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.department-banner .x7s-banner__text p {
+  font-size: 0.875rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 42rem;
+  position: relative;
+  z-index: 1;
+  background: white;
+}
+
+.department-banner .x7s-banner__buttons {
+  margin-top: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.department-banner .buttons-horizontal {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+/*
+.department-banner .buttons-horizontal .slds-button_inverse:first-child {
+  border: 1px solid #666;
+  border-radius: 999px;
+  background: transparent;
+  color: #333;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  text-transform: lowercase;
+}
+
+.department-banner .buttons-horizontal .slds-button_inverse:last-child {
+  border: none;
+  background: transparent;
+  color: #333;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  text-transform: lowercase;
+}
+*/
+.department-banner .slds-container_center {
+  max-width: 100%;
+  padding: 0;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.department-banner .slds-grid_pull-padded {
+  margin: 0;
+}
+
+.department-banner .slds-p-right_small.slds-p-left_small {
+  padding: 0;
+}
+
+.department-banner .slds-text-color_inverse {
+  color: inherit !important;
+}
+
+/* Update department banner button styles */
+.department-banner .buttons-horizontal .slds-button,
+.department-banner lightning-button button {
+  text-transform: none !important; /* Remove lowercase transformation */
+  font-size: 0.875rem;
+}
+
+/* Style for button-black class */
+/*
+.department-banner .button-black button {
+  background-color: #39515C !important;
+  border-radius: 15px !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 5px 20px !important;
+  font-size: 16px !important;
+}
+*/
+/* Style for button-white class */
+/*
+.department-banner .button-white button {
+  background-color: white !important;
+  border: 2px solid #39515C !important;
+  border-radius: 15px !important;
+  color: #39515C !important;
+  font-weight: bold !important;
+  padding: 5px 20px !important;
+  font-size: 16px !important;
+}
+*/
+/* Style for button-text class */
+/*
+.department-banner .button-text button {
+  background-color: white !important;
+  border: none !important;
+  color: #39515C !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 0 !important;
+}
+*/
+/*
+
+.department-banner .button-text button:hover {
+  background-color: white !important;
+  color: #39515C !important;
+  box-shadow: none !important;
+  transform: none !important;
+  text-decoration: underline !important;
+}
+*/
+
+.department-banner .button-text button:focus {
+  outline: 2px solid #39515C !important;
+  background-color: white !important;
+  color: #39515C !important;
+}
+
+.blue-background-text {
+    background-color: rgb(210, 234, 245); padding: .5em; border-radius: 20px 20px 20px 20px; width:50%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/*homepage*/
+
+.HPTopSecondSection
+.HPcreateAccountBtn.slds-medium-size_8-of-12,
+.HPTheMoreSection
+.HPcreateAccountBtn.slds-medium-size_8-of-12
+{
+    width:45% !important;
+    padding: 0 !important;
+}
+
+.HPTopSecondSection
+.HPSignInBtn.slds-medium-size_4-of-12,
+.HPTheMoreSection
+.HPSignInBtn.slds-medium-size_4-of-12
+{
+    width:55% !important;
+    padding: 0 !important;
+}
+
+
+
+
+.HPTopSecondSection .HPcreateAccountBtn.slds-medium-size_8-of-12 div.x7s-banner__text 
+p.slds-text-align_left,
+.HPTheMoreSection .HPcreateAccountBtn.slds-medium-size_8-of-12 div.x7s-banner__text 
+p.slds-text-align_left
+ {
+    text-align: center !important;
+    width: 90%! important;
+    
+}
+
+
+.HPTopSecondSection .HPSignInBtn.slds-medium-size_4-of-12 div.x7s-banner__text 
+p.slds-text-align_left,
+.HPTheMoreSection .HPSignInBtn.slds-medium-size_4-of-12 div.x7s-banner__text 
+p.slds-text-align_left 
+{
+    text-align: center !important;
+    width: 90%! important;
+    
+}
+
+
+
+.HPTopSecondSection button,
+.HPTheMoreSection button {
+    width: 90% !important;
+}
+
+/*mobile view change*/
+@media screen and (max-width: 768px) {
+    home.comm-page-home div.ui-widget div.forceCommunitySection div.slds-grid div:last-child
+    .forceCommunityBannerLayout .slds-is-relative {
+    height: auto !important; 
+    }
+    home.comm-page-home  div.forceCommunitySection 
+    div.cb-section_row.slds-grid
+    div.cb-section_column
+    div.ui-widget
+    div.forceCommunityBannerLayout
+    div.slds-is-relative
+    div.slds-scrollable_none
+    div[role=“img”] {
+     background-size: contain !important;
+    }
+    
+}
+
+/*end mobile view change*/
+/*end home page*/
+
+
+/*omniscript signature*/
+/*
+runtime_industries_assessment-signature[data-omni-key="Intake Signature"] section.slds-modal 
+.slds-modal__content div.slds-gutters {
+    margin:0 !important;
+}
+
+runtime_industries_assessment-signature[data-omni-key="Intake Signature"] section.slds-modal 
+.slds-modal__content lightning-tab[aria-labelledby="choose__item"] div.slds-grid div:last-child{
+    display:none !important;
+}
+
+runtime_industries_assessment-signature[data-omni-key="Intake Signature"] section.slds-modal 
+.slds-modal__content lightning-tab[aria-labelledby="draw__item"].slds-show div.slds-grid div:last-child{
+    display:block !important;
+}
+*/
+/*end signature*/
+/*footer*/
+.footerFLwinsLogoDiv {
+    width: 108px;
+    margin-top:29px;
+    margin-left:20px;
+}
+
+.footerMainBodyTxt {
+    width:713px;
+    margin-top: 27px !important;
+}
+.FLWINSfooterLinkDiv1  .footerLinksLine.slds-size_1-of-12 {
+    width:25px !important;
+}
+
+.FLWINSfooterLinkDiv1 {
+    margin-top:0 !important;
+    margin-bottom:17px !important;
+}
+
+.FLWINSfooterLinkDiv1 .slds-col .privacyLink,
+.FLWINSfooterLinkDiv1 .slds-col .AccessibilityLink,
+.FLWINSfooterLinkDiv1 .slds-col .LegalLink{
+    width: auto !important;
+}
+.FLWINSfooterLinkDiv1 .slds-col .privacyLink span.slds-action_text,
+.FLWINSfooterLinkDiv1 .slds-col .AccessibilityLink span.slds-action_text,
+.FLWINSfooterLinkDiv1 .slds-col .LegalLink span.slds-action_text
+{
+    color: #39515C !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 17.5px !important;
+}
+.FooterSectionWrapper {
+    border: 0 !important;
+}
+.footerLinksWrapper {
+    margin:0;
+}
+.footerMainBodyTxt span.slds-assistive-text, .footerLinksLine span.slds-assistive-text, .myIntakeTitle span.slds-assistive-text{ 
+    display: none !important;
+    }
+
+.IntakeRegistrationTitle span.slds-assistive-text .Department span.slds-assistive-text, .programTitle span.slds-assistive-text { 
+    display: none !important;
+    }
+/*mobile view change*/
+@media screen and (max-width: 768px) {
+    .footerFLwinsLogoDiv {
+        width: 108px;
+        margin: 0 !important;
+        margin-left:25px;
+
+    }
+    .footerMainBodyTxt {
+        width: 95%;
+        margin: 0 !important;
+
+    }
+    .footerMainBodyLeft {
+        width: 100% !important;
+        
+    }
+    .footerMainBodyTopRow .footerLogoWrapper {
+        margin-top:20px;
+    }
+    .footerLinksRow {
+        display:block;
+        
+    }
+    .footerLinksWrapper {
+        width:100%;
+        margin:0;
+    }
+    .footerMainBodyTopRow .footerMainBodyLeft .block-container div.slds-grid.slds-wrap {
+        justify-content: center;
+    }
+    .footerMainBodyWrapper {
+        width: 100%; 
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .footerMainBodyWrapper .block-container .slds-grid.slds-wrap {
+        justify-content: center;
+    }
+
+    .footerLinksRow .footerMainBodyLeft {
+        display:none;
+    }
+    .FLWINSfooterLinkDiv1 {
+        margin: 0 !important;
+    }
+   div.forceCommunityActionsContainerMobile button:nth-of-type(3) {
+    display: none;
+	}
+	.footerMainBodyTxt span.slds-assistive-text, .footerLinksLine span.slds-assistive-text { 
+    display: none !important;
+    }
+    
+}
+
+/* Notification Override Start*/
+.unsNotificationsPanel .titleName {
+  display: none !important;
+}
+
+span.unsNotificationsPanel.noNotifications {
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+.tooltip-advanced.tooltip-body {
+  display: none !important;
+}
+
+.pointer.pointer-advanced {
+  display: none !important;
+}
+
+.notification-age {
+  display: none !important;
+}
+
+.notification-link {
+  pointer-events: none !important;
+  cursor: default;
+}
+
+.notification-row.notification-unread {
+  background-color: transparent !important;
+}
+
+.notification-row.notification-unread:hover {
+  background-color: #f5f5f5 !important;
+  cursor: default;
+}
+/* Notification Override End*/
+
+/*omniscript progressbar last div hidden in desktop*/
+runtime_omnistudio_omniscript-omniscript-step-chart [role="progressbar"] {
+  display: none !important;
+}
+@media screen and (max-width: 767px) {
+  runtime_omnistudio_omniscript-omniscript-step-chart [role="progressbar"]{
+      display: block !important;
+    }
+}
+
+.assistive-unread-mark {
+  display: none !important;
+}
+
+/*
+@media (max-width: 768px) {
+  .slds-form-element .slds-grid {
+    align-items: baseline;
+  }
+    
+   .slds-form-element .slds-float_left {
+        width: 50%;
+    }
+    
+    .slds-gutters .slds-medium-size_2-of-12 {   
+    	width: 30%;
+    	margin-left: -50px;
+    }
+    
+    .slds-gutters .slds-medium-size_10-of-12 {
+        width: 90%;
+    }
+}
+
+.slds-dropdown-trigger_click .slds-grid .slds-form-element__label {
+    white-space: normal;
+}
+*/
+
+/*end footer*/
+/*
+.x7s-theme__logo-link {
+    pointer-events: none;
+}
+*/
