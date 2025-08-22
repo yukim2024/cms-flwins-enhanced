@@ -866,3 +866,12 @@ runtime_omnistudio_omniscript-omniscript-step-chart [role="progressbar"] {
      border: none !important;
     box-shadow: none  !important;
 }
+.card-document-type .slds-radio .slds-radio__label, 
+.card-document-type .slds-radio .slds-form-element__label{
+    font-weight:var(--flwins-font-weight-700)  !important;
+    font-size:  var(--flwins-c-font-size_16)  !important;
+}
+.card-document-type p.desc-document-type {
+    font-size:  var(--flwins-c-font-size_16)  !important;
+    font-weight:var(--flwins-font-weight-400)  !important;
+}
