@@ -860,3 +860,9 @@ runtime_omnistudio_omniscript-omniscript-step-chart [role="progressbar"] {
     pointer-events: none;
 }
 */
+
+/*document upload select test */
+.my-document-selectType article.slds-card_narrow {
+     border: none !important;
+    box-shadow: none  !important;
+}
