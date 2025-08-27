@@ -1,0 +1,90 @@
+/**
+ * @description: Controller class for the myDocumentsFileUploader LWC
+ * @author: Alex Brodsky
+ * @group: IBM
+ * @last modified on:   5/7/2025
+ * @last modified by:   IBM
+ * Ver      Date            Author                          Modification
+ * 1.0      5/7/2025       Alex Brodsky                    Initial Version
+ */
+
+public with sharing class MyDocumentsFileUploadController {
+
+     // Method for uploading files to Salesforce
+     @AuraEnabled
+     public static Id uploadFileToServer(String fileName, String base64Data, Boolean createDocumentLink) {
+         Blob fileBody = EncodingUtil.base64Decode(base64Data);
+ 
+         ContentVersion cv = new ContentVersion();
+         cv.Title = fileName;
+         cv.PathOnClient = '/' + fileName;
+         cv.VersionData = fileBody;
+         cv.IsMajorVersion = true;
+         String contentDocumentId = '';
+         if(!Test.isRunningTest()) { 
+             insert cv; 
+             contentDocumentId = [SELECT ContentDocumentId FROM ContentVersion WHERE Id = :cv.Id].ContentDocumentId;
+         }
+ 
+         Id accountId = [SELECT AccountId FROM User WHERE Id = :UserInfo.getUserId()].AccountId;
+         
+         // If the user does not have an associated account, CDL can not be created
+         if(accountId == null){ return cv.Id; }
+ 
+         ContentDocumentLink cdl = new ContentDocumentLink();
+         cdl.ContentDocumentId = contentDocumentId != '' ? contentDocumentId : null;
+         cdl.LinkedEntityId = accountId;
+ 
+         if(!Test.isRunningTest() && createDocumentLink) { insert cdl; }
+         
+         return cv.Id;
+     }
+
+
+    // Inserts a "File Upload Metrics" record with the provided parameters
+    @AuraEnabled
+    public static void insertFileUploadMetric(String documentId, String fileName, Integer fileSize, String userId, Integer fileUploadTime) {
+        //System.debug('uploadStartTime: ' + uploadStartTime);
+        insert new File_Upload_Metrics__c(
+            File_Name__c = fileName,
+            File_Size_KB__c = fileSize / 1024.0,
+            ContentDocument_Id__c = documentId,
+            Upload_Duration_Exact__c = fileUploadTime,
+            User__c = userId
+        );
+    }
+
+
+    // Retrieves document type names and translated descriptions
+   @AuraEnabled(cacheable=true)
+    public static List<Map<String, Object>> getDocumentTypeTranslations(String userLanguage) {
+        List<Map<String, Object>> result = new List<Map<String, Object>>();
+
+        List<DocumentType> docTypes = [SELECT Id,DeveloperName, MasterLabel, CreatedDate, Description FROM DocumentType];
+
+        for (DocumentType doc : docTypes) {
+            Map<String, Object> entry = new Map<String, Object>();
+            entry.put('id', doc.Id); // Pass Id to LW
+            entry.put('className','card-item');
+            entry.put('isSelected',false);
+
+            String labelName = doc.DeveloperName;
+            String labelDescription = doc.Description;
+            String translatedName = '';
+            String translatedDescription = '';
+            try {
+                translatedName = System.Label.get(null, labelName, userLanguage);
+                translatedDescription = System.Label.get(null, labelDescription, userLanguage);
+            } catch (Exception e) {
+                translatedDescription = labelDescription; // fallback to label name if translation fails
+                translatedName = labelName;
+            }
+            entry.put('name', translatedName);
+            entry.put('description', translatedDescription);
+            result.add(entry);
+        }
+        System.debug('result: ' + result);
+        
+        return result;
+    }
+}
