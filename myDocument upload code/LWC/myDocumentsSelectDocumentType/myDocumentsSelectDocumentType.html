@@ -1,0 +1,36 @@
+<template>
+     <lightning-card title="Select document type" class="my-document-selectType"  variant="narrow">
+      
+        <div if:true={documentTypes}>
+             <div  class="card-container">
+                 <template for:each={documentTypes} for:item="docType">
+                     <div key={docType.id} 
+                            class={docType.className}
+                            onclick={handleCardClick}
+                            data-id={docType.id}>
+                             <div class="card-document-type slds-p-left_medium">
+                                <input type="radio"
+                                    name="docType"
+                                    value={docType.name}
+                                    checked={docType.isSelected}
+                                    onchange={handleSelection}
+                                    id={docType.id} />
+                                <label for={docType.name}>{docType.name}</label>
+                                 <p class="slds-m-top_small desc-document-type">{docType.description}</p>
+                            </div>
+                    </div>
+            </template>
+             </div>
+        </div>
+
+        <template if:true={selectedDocumentType}>
+             <div class="slds-box slds-m-top_medium">
+                <h2 class="slds-text-heading_small">Selected Document Type</h2>
+                <p><strong>Name:</strong> {selectedDocumentType.name}</p>
+                <p><strong>Description:</strong> {selectedDocumentType.description}</p>
+            </div>
+        </template>
+     
+    </lightning-card>
+    
+</template>
