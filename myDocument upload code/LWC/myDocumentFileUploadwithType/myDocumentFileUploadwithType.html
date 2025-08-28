@@ -1,0 +1,53 @@
+<template>
+
+
+    <div class="file-upload-container">
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+
+                <span class="file-upload-mobile">
+                    <p>{label.FILE_SIZE_LIMIT_LABEL} {label.FILE_TYPES_LABEL}</p>
+                </span>
+                <span class="file-upload-desktop">
+                    <p>{label.FILE_SIZE_LIMIT_LABEL}</p>
+                    <p>{label.FILE_TYPES_LABEL}</p>
+                </span>
+
+            </lightning-layout-item>
+           
+        </lightning-layout>
+
+    </div>
+    
+    <template if:true={selectedDocument}>
+      
+            <h2>Choose {selectedDocument.name} file</h2>
+           <!--
+            <p><strong>Name:</strong> {selectedDocument.name}</p>
+            <p><strong>Description:</strong> {selectedDocument.description}</p>
+          -->
+       
+    </template>
+
+    <c-my-documents-custom-file-uploader></c-my-documents-custom-file-uploader>
+
+<!--
+    <lightning-file-upload
+        label="Upload Files"
+        name="fileUploader"
+        accept={acceptedFormats}
+        record-id={myRecordId} 
+        onchange={handleFileSelect}
+    >
+    </lightning-file-upload>
+     <template if:true={selectedFiles.length}>
+        <p>Files selected:</p>
+        <ul>
+            <template for:each={selectedFiles} for:item="file">
+                <li key={file.name}>{file.name} ({file.size} bytes)</li>
+            </template>
+        </ul>
+    </template>
+    -->
+</template>

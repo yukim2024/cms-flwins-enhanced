@@ -1,0 +1,54 @@
+.slds-file-selector {
+    border: 2px dashed #d8dde6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.slds-file-selector:hover {
+    background-color: #f4f6f9;
+}
+
+/* File list items */
+.slds-list__item {
+    border-bottom: 1px solid #d8dde6;
+    padding: 0.5rem 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* File name text */
+.slds-list__item span {
+    font-size: 0.875rem;
+}
+
+/* Progress bar styling */
+.slds-progress-bar {
+    height: 6px;
+    background-color: #f4f6f9;
+    border-radius: 0.25rem;
+    margin-top: 0.25rem;
+    overflow: hidden;
+}
+
+.slds-progress-bar__value {
+    height: 100%;
+    background-color: #1589ee; /* Salesforce blue */
+    transition: width 0.3s ease;
+}
+
+/* Remove button icon spacing */
+.slds-button_icon {
+    margin-left: 0.5rem;
+}
+
+/* Small adjustments for media and icon alignment */
+.slds-media__figure lightning-icon {
+    vertical-align: middle;
+}
+.slds-file-selector__input {
+    display: none;
+}

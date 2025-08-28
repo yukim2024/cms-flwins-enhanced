@@ -1,0 +1,61 @@
+<template>
+
+     <div class="slds-file-selector slds-file-selector_files"
+         ondragover={handleDragOver}
+         ondrop={handleDrop}>
+        <input type="file" id="fileInput" 
+               class="slds-file-selector__input"
+               onchange={handleFilesSelected} />
+        
+        <label class="slds-file-selector__body" for="fileInput">
+            <span class="slds-file-selector__button slds-button slds-button_neutral">
+                <lightning-icon icon-name="utility:upload" alternative-text="Upload"></lightning-icon>
+                &nbsp; Upload Files
+            </span>
+            <span class="slds-file-selector__text">or drag files here</span>
+        </label>
+    </div>
+
+     <template if:true={files.length}>
+        <ul class="slds-list_vertical slds-m-top_small">
+            <template for:each={files} for:item="file">
+                <li key={file.name} class="slds-list__item slds-hint-parent">
+                    <span>{file.name}</span>
+                    <button class="slds-button  slds-m-left_small"
+                            title="Remove"
+                            onclick={removeFile}
+                            data-name={file.name}>
+                        
+                        <span >Delete</span>
+                    </button>
+                </li>
+            </template>
+        </ul>
+        <!--
+        <button class="slds-button slds-button_brand slds-m-top_small" onclick={uploadFiles}>Upload</button>
+        -->
+    </template>
+    <!--
+    <div class="slds-box slds-theme_default">
+        <label class="slds-form-element__label" for="fileInput">Upload Files (or drop files)</label>
+        <input type="file" 
+               id="fileInput" 
+               multiple 
+               ondragover={handleDragOver} 
+               ondrop={handleDrop} 
+               onchange={handleFilesSelected} />
+
+        <template if:true={files.length}>
+            <ul>
+                <template for:each={files} for:item="file">
+                    <li key={file.name}>
+                        {file.name}
+                        <button type="button" onclick={removeFile} data-name={file.name}>Delete</button>
+                    </li>
+                </template>
+            </ul>
+            <button type="button" onclick={uploadFiles}>Upload</button>
+        </template>
+    </div>
+    -->
+</template>
