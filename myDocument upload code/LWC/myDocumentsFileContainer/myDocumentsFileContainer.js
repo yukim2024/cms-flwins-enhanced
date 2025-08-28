@@ -11,6 +11,7 @@ export default class MyDocumentsFileContainer extends LightningElement {
     showErrorModal = false;
     @track currentStep = 1;
     @track selectedCard = '';
+     @track isNextDisabled = false;
 
     get isStep1() {
         return this.currentStep === 1;
@@ -21,7 +22,7 @@ export default class MyDocumentsFileContainer extends LightningElement {
 
 
     handleDocTypeSelected(event) {
-        this.selectedDocType = event.detail;
+        this.selectedDocType = { ...event.detail }; 
     }
 
 
@@ -48,6 +49,11 @@ export default class MyDocumentsFileContainer extends LightningElement {
         if (this.currentStep < 2) {
             this.currentStep++;
         }*/
+    }
+
+    handleFileSelected(event) {
+        // Enable Next button if child has files
+        this.isNextDisabled = !event.detail.hasFiles;
     }
 
     handleErrorClose() {
