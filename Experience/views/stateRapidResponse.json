@@ -1,0 +1,298 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "e6c960bc-f1bb-433e-b4a3-cd0aac0a1dcb",
+  "label" : "State Rapid Response",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">State Rapid Response</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "6d9be68a-3c88-449f-9014-0a8b8f67b457",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "7652797c-9e86-4d33-ae97-5d789d91ca88",
+        "ht" : "c4688a1b-8b4d-4117-a9f1-8073bfb36795"
+      },
+      "renditions" : [ {
+        "id" : "7652797c-9e86-4d33-ae97-5d789d91ca88",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Respuesta rápida del estado</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "c4688a1b-8b4d-4117-a9f1-8073bfb36795",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Repons Rapid Eta a</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "24d7409b-f450-42a7-86d5-97f142c410b3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "96b21b7d-6525-45b4-bf43-c8b3bf382989",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "state-rapid-response",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "fec32d29-e800-4e1b-b9f8-df73c23e0f1a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MC23RUDOTCIVGOBLCSNPPDUGEIZM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "16395b65-fae1-47d5-9a92-6afa30d76c6d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e438e159-2122-4cae-a7ac-e4a50f7b96fc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f7d0af6c-d4b2-4059-8dfc-b1382db95821",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "b7ac3dea-7b92-453e-95c1-8139a56437c2",
+        "ht" : "d1731b3f-1477-405b-b2a4-15d3716bd3e5"
+      },
+      "renditions" : [ {
+        "id" : "b7ac3dea-7b92-453e-95c1-8139a56437c2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "d1731b3f-1477-405b-b2a4-15d3716bd3e5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "a6783524-9739-420d-b38e-50794fd9ba8b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ca3d36bf-e630-49a2-a4c5-72fb0dfa9933",
+        "ht" : "2b56e771-6e40-49e3-8449-ab55a3496aee"
+      },
+      "renditions" : [ {
+        "id" : "2b56e771-6e40-49e3-8449-ab55a3496aee",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ca3d36bf-e630-49a2-a4c5-72fb0dfa9933",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "1cef934e-d7b8-4c88-a23b-ceeb0e8d7868",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a1f2c92a-530b-4b42-b195-527c3805112d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s State Rapid Response Program helps workers and businesses navigate layoffs with job services, job fairs, training, and reemployment support.",
+        "title" : "FL WINS - State Rapid Response"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ff761610-917e-4865-a8ec-047ad8ac4066",
+      "renditionMap" : {
+        "es" : "63044762-8304-47b8-b11c-3de6e242bef2",
+        "ht" : "b03e061a-6072-4cda-ba86-b9f786cd5440"
+      },
+      "renditions" : [ {
+        "id" : "63044762-8304-47b8-b11c-3de6e242bef2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa de Respuesta Rápida Estatal de FloridaCommerce ayuda a que los trabajadores y las empresas se guíen ante los despidos con servicios laborales, ferias de empleo, capacitación y apoyo a la reinserción laboral.",
+            "title" : "FL WINS - Respuesta Rápida Estatal"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "b03e061a-6072-4cda-ba86-b9f786cd5440",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram Repons Rapid Eta FloridaCommerce la ede travayè ak biznis yo jere revokasyon travay, atravè sèvis travay, fowòm travay, fòmasyon, ak sipò pou reyanplwa.",
+            "title" : "FL WINS - Repons Rapid Eta a"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "9f9077c7-ddd0-42af-94d5-30cf62a0e8a1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-state-rapid-response"
+}

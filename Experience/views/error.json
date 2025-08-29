@@ -1,0 +1,70 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "622b2d2a-97a2-445d-aa90-d948d5dbcf13",
+  "label" : "Error",
+  "regions" : [ {
+    "id" : "70a59900-f48c-4a8e-9811-c72b3c3b5108",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style='text-align: center;'>Invalid Page</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "61034dbd-d137-46b8-bdda-657392bc9a07",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "535283cf-3a2b-40fb-b9dd-5a91a1ed008d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "907ec4a2-b5a5-424a-bf7f-a8e8ee10bcda",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FL WINS error. To resolve, refresh page, check URL, clear browser cache and cookies, or try another browser/device. ",
+        "title" : "FL WINS - Error Message"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "84bd12f9-cade-4ca8-8dd7-da71cf77e16b",
+      "renditionMap" : {
+        "es" : "3abfeb70-30b8-47f9-87f9-5a833d989ca6",
+        "ht" : "1b37b259-6ee2-4b54-a2bb-7fce4c72ec6f"
+      },
+      "renditions" : [ {
+        "id" : "3abfeb70-30b8-47f9-87f9-5a833d989ca6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Error de FL WINS. Para solucionarlo, actualice la página, compruebe la URL, limpie el caché y las cookies del navegador, o pruebe con otro navegador/dispositivo.",
+            "title" : "FL WINS - Mensaje de Error"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "1b37b259-6ee2-4b54-a2bb-7fce4c72ec6f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "FL WINS erè. Pou rezoud pwoblèm, aktyalize paj la, verifye URL la, siprime kache ak koukiz navigatè, oubyen eseye yon lòt navigatè/aparèy. ",
+            "title" : "FL WINS - Mesaj Erè"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "eccced2e-1499-4367-b8d2-16ab24000139",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

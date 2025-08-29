@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "588e6f52-0c9d-4deb-9ec4-243d80f05b1a",
+  "headMarkup" : "<!-- Notifications - Remove 'Mark all as read' -->\n<style> .trayMarkAllRead {\n    display: none !important;\n    }\n</style>\n<!-- End Notifications - Remove 'Mark all as read' -->\n\n\n <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-K4XGZV2HSL\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-K4XGZV2HSL');\n  </script>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5M27V5ZP');</script>\n<!-- End Google Tag Manager -->\n\n\n<link rel=\"stylesheet\" href=\"/flwins/s/sfsites/c/resource/flwinsGlobalCSSStyle_50\" />",
+  "id" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Starter Template",
+  "type" : "appPage"
+}

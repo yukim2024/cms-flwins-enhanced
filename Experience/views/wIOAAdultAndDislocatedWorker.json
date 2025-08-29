@@ -1,0 +1,294 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "7031fe64-10e8-4fcb-8fc2-ad0970d558c6",
+  "label" : "WIOA Adult and Dislocated Worker",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Workforce Innovation and Opportunity Act Adult and Dislocated Workers Program</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f3c5a938-2afd-4424-bb73-ae3f7c5cbcd0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "c0ef6856-6c1b-47cb-98e2-3ac9705ca375",
+        "ht" : "d7533a27-5f46-4104-8a2f-ff8657c9d534"
+      },
+      "renditions" : [ {
+        "id" : "c0ef6856-6c1b-47cb-98e2-3ac9705ca375",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Programa para Adultos y Trabajadores Despedidos de la Ley de Innovación y Oportunidad de Fuerza Laboral</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "d7533a27-5f46-4104-8a2f-ff8657c9d534",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Lwa sou Inovasyon ak Opòtinite Mendèv ak Pwogram gran moun ak Travayè ki an Boulvès</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "14b4690c-3ae3-4e06-9149-a5fe3fafd80d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "978c93bf-550a-4f0f-93e2-bd208e4eade2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "wioa-adult-program",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "7d140aec-a206-4c8f-98b4-1ce6d344d3a9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCXSNOK77IG5G5RALYZN7REV4EVM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "b752f34b-c235-49fe-88e2-4d86094b768b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f13da54-4899-4a01-bce7-3963f9fc37fd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "02e83e00-5f7c-4b28-a73d-dc718758ef26",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ea11c0d7-d2e0-4f5a-8188-d79d375b5302",
+        "ht" : "91abe79a-ba0a-4a0e-b164-98da170e8477"
+      },
+      "renditions" : [ {
+        "id" : "ea11c0d7-d2e0-4f5a-8188-d79d375b5302",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "91abe79a-ba0a-4a0e-b164-98da170e8477",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "bedeb33d-d27f-42e1-8871-13b0e5bc32d7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "0e644dee-8863-41d1-bdf4-68ebacf57a4e",
+        "ht" : "5fe3aad9-4463-4944-9a8d-fe1c041273b8"
+      },
+      "renditions" : [ {
+        "id" : "0e644dee-8863-41d1-bdf4-68ebacf57a4e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5fe3aad9-4463-4944-9a8d-fe1c041273b8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "d3699494-20d5-4ead-984a-05f5bbb1f524",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3b741e11-19a2-488e-8497-a05c86c71efd",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "The Adult and Dislocated Worker Program provides services to adults and dislocated workers including basic and individualized career services, training services, and more.",
+        "title" : "FL WINS - Workforce Innovation and Opportunity Act Adult and Dislocated Workers Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f9d8423c-49c2-40e2-be47-788d8ba02ced",
+      "renditionMap" : {
+        "es" : "5c648d17-adfd-4496-af53-04935e340ac4",
+        "ht" : "4460b831-d284-40c5-8ae6-0e94d1ce5ad2"
+      },
+      "renditions" : [ {
+        "id" : "5c648d17-adfd-4496-af53-04935e340ac4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa para Adultos y Trabajadores Desplazados proporciona servicios a adultos y trabajadores desplazados, e incluye servicios profesionales, servicios de capacitación, entre otros.",
+            "title" : "FL WINS - Programa para Adultos y Trabajadores Desplazados de la Ley de Innovación y Oportunidad de "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "4460b831-d284-40c5-8ae6-0e94d1ce5ad2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram pou Granmoun ak Travayè ki pèdi travay yo ofri sèvis pou granmoun ak travayè ki pèdi travay yo, tankou sèvis karyè debaz ak endividyèl, sèvis fòmasyon, ak anpil lòt.",
+            "title" : "FL WINS – Pwogram pou Travayè Granmoun ak Travayè ki pèdi travay yo dapre Lwa sou Inovasyon ak Opòti"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "d71ea45b-e23c-48e3-837c-6073513d0ffe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-wioa-adult-program"
+}

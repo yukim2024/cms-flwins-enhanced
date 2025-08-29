@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "4b37c5e1-6292-4892-a815-bd03a02e8d24",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "ff77a261-f9be-40a3-8978-81a225d86e56",
+  "label" : "Career Assistance",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-career-assistance",
+  "type" : "route",
+  "urlPrefix" : "career-assistance"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "103d3d36-526e-4220-b18f-7cf042ba6295",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "b633d7b4-a650-400d-8c7b-780d9441e30d",
+  "label" : "Intake Submitted",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-intake-submitted",
+  "type" : "route",
+  "urlPrefix" : "intake-submitted"
+}

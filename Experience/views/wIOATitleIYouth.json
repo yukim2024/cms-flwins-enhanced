@@ -1,0 +1,295 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "be41bb2a-fca5-42ab-9e92-04efa8710e02",
+  "label" : "WIOA Title I - Youth",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Workforce Innovation and Opportunity Act Youth Program</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "685f279f-6da3-44b4-9605-0a7ac1bca8f6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "e82ba879-22a5-460f-9d67-10ce8209e6da",
+        "ht" : "054e7c1f-9711-44a4-993d-f023f2d0e8f9"
+      },
+      "renditions" : [ {
+        "id" : "e82ba879-22a5-460f-9d67-10ce8209e6da",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Programa para Jóvenes de la Ley de Innovación y Oportunidad de Fuerza Laboral</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "054e7c1f-9711-44a4-993d-f023f2d0e8f9",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Lwa sou Pwogram Jèn Inovasyon ak Opòtinite Mendèv</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "643209b0-16d3-4a72-b50f-ea67705132a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3ea164c1-669c-4315-a8b6-0df1a99f50cb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "wioa-youth",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "281647c1-0ac2-43fa-ba3b-86bfac590044",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MC6ZYBDNCFXJBK5KFB6ZGSEXCSCU",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "5bf88c95-1f7a-4909-8b42-b42380d27823",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "34ac20f0-518a-4f0b-83b8-2964b3c06eee",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "55050365-3325-4ea9-ae28-032a6f655c31",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "0c64ce4e-48c3-4403-990d-1a77e0463558",
+        "ht" : "0e82bdae-dca1-495c-b58e-89afe70b488e"
+      },
+      "renditions" : [ {
+        "id" : "0e82bdae-dca1-495c-b58e-89afe70b488e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "0c64ce4e-48c3-4403-990d-1a77e0463558",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "26da6d40-2711-4f15-a39a-048ffe69508e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "8db6e63c-162f-4dea-ab8f-e9bcad505c71",
+        "ht" : "c0490338-d2d6-4325-8482-bc2c33546d8e"
+      },
+      "renditions" : [ {
+        "id" : "c0490338-d2d6-4325-8482-bc2c33546d8e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "8db6e63c-162f-4dea-ab8f-e9bcad505c71",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "513674a9-1653-4ab9-b15b-fc948a9b3e41",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "9fc87416-5087-4f27-9f8b-a8ad4bfbd5bc",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "The Workforce Innovation and Opportunity Act Youth Program provides education, training, and employment services to eligible youth who face barriers to employment. ",
+        "title" : "FL WINS - Workforce Innovation and Opportunity Act Youth Program"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7fe07dc8-650d-420a-a8d7-459064e75d23",
+      "renditionMap" : {
+        "es" : "bbf64ad4-3e34-4cec-bb0d-16eeff85aeeb",
+        "ht" : "5b75ed7d-f55a-4c19-abd6-4195f61690cc"
+      },
+      "renditions" : [ {
+        "id" : "bbf64ad4-3e34-4cec-bb0d-16eeff85aeeb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa para Jóvenes de la Ley de Innovación y Oportunidad de la Fuerza Laboral proporciona servicios de educación, capacitación y empleo a jóvenes elegibles que enfrentan barreras para el empleo.",
+            "title" : "FL WINS - Programa para Jóvenes de la Ley de Innovación y Oportunidad de la Fuerza Laboral"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5b75ed7d-f55a-4c19-abd6-4195f61690cc",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram Lwa Sou Pwogram Jèn Inovasyon ak Opòtinite Mendèv la bay sèvis edikasyon, fòmasyon ak anplwa pou jèn kalifye ki ap fè fas ak difikilte pou jwenn travay. ",
+            "title" : "FL WINS - Lwa Sou Pwogram Jèn Inovasyon ak Opòtinite Mendèv"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "99175bab-21ee-48e3-87fc-23a31f29a66c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-wioa-youth"
+}

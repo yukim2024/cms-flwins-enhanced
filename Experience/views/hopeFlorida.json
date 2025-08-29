@@ -1,0 +1,290 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "87714e64-4568-4e47-8984-abbcbc4dfd3e",
+  "label" : "Hope Florida",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "c4fa5b72-45d0-4be9-8aba-b0d38e713717",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "",
+        "ariaLevel" : "",
+        "customClass" : "",
+        "size" : "none",
+        "tag" : "H3 - Subsection Heading",
+        "text" : "Hope Florida"
+      },
+      "componentName" : "c:x7sExpHtmlHeadings",
+      "id" : "3217aecc-2696-483d-8dab-8ba9b31f6c42",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "d99e7e79-e8e2-4e31-989e-e9a328b5275e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "adb5df28-d684-4ba2-a13d-3dfb48b2d683",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "hope-florida",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "3598cf99-f323-4a77-babf-74eb8b6bd72c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "e0fc37e8-d3fc-4f43-b841-ec0fe229cab0",
+        "ht" : "ece168e2-4b86-4c66-8cd6-0a374477b4ac"
+      },
+      "renditions" : [ {
+        "id" : "e0fc37e8-d3fc-4f43-b841-ec0fe229cab0",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "es"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ece168e2-4b86-4c66-8cd6-0a374477b4ac",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "ht"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCVRRP2R6OJ5CGZD6PWV5LSUJWTQ",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "c7e4d5d5-c960-4271-bdcd-21b17ed1d900",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac22b43a-723e-4a07-ada4-bb3df3b73510",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "https://hopeflorida.com/",
+        "buttonsInSeparateRows" : false,
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Get Help",
+        "headlineSize" : "large",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Need help or know someone who does? Call in 833 GET HOPE to connect with a Hope Navigator today.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "0c70cb6b-0a64-4b67-af4c-1ac5d32d74db",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "4ac347e1-ca5f-42ab-9c59-c27f2529596a",
+        "ht" : "2e7dce62-2530-4c6a-a9b5-4151eccfb53d"
+      },
+      "renditions" : [ {
+        "id" : "4ac347e1-ca5f-42ab-9c59-c27f2529596a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Obtener ayuda",
+            "paragraph" : "¿Necesita ayuda o conoce a alguien en esa situación? Llame a (833) GET HOPE para comunicarse con un Navegador de la Esperanza hoy mismo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "2e7dce62-2530-4c6a-a9b5-4151eccfb53d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "headline" : "Jwenn èd",
+            "paragraph" : "Ou bezwen èd oswa èske w konnen yon moun ki bezwen? Rele (833) GET HOPE pou konekte ak yon Navigatè Hope jodi a."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h4>Hope Florida</h4>\n        </div>\n    </div>\n    <br/><br/>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h4 style=\"font-size: 18px\">833-GET-HOPE (833-438-4674)</h4>\n            <p style=\"font-size: 18px\">\n                <a href=\"https://HopeFlorida.com/\" target=\"_blank\">HopeFlorida.com</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "3af05453-8b78-4d55-8067-7ff81bfe23ea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fabcdba2-6102-4470-8b02-4b6dfd9d0cd3",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "75ce5511-7dba-4902-9806-aad226b2da79",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Hope Navigators are dedicated experts who help individuals overcome barriers to prosperity by listening, identifying goals, and devising plans for success. ",
+        "title" : "FL WINS - Hope Florida"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6ff7c87c-6904-4ea5-892b-847c2b848221",
+      "renditionMap" : {
+        "es" : "9b725b3e-859a-44c7-b83e-b986bc6cf6b6",
+        "ht" : "2d30bfe1-6076-4e64-b54c-a28df1319c8c"
+      },
+      "renditions" : [ {
+        "id" : "9b725b3e-859a-44c7-b83e-b986bc6cf6b6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Los Navegadores de la Esperanza (“Hope Navigators”) son expertos dedicados que ayudan a superar barreras a la prosperidad, al escuchar, identificar metas e idear planes para que alcance el éxito. "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "2d30bfe1-6076-4e64-b54c-a28df1319c8c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Navigatè Hope yo se ekspè devwe ki ede moun simonte obstak ki anpeche pwosperite lè yo koute, idantifye objektif, epi elabore yon plan pou reyisi. "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "bea8d8ab-8e20-4502-bf1e-dc21fb2cb0f9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-hope-florida"
+}

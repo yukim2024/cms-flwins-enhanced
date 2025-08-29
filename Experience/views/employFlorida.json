@@ -1,0 +1,296 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "14219fc3-cdad-401b-acb6-4cbf7067f7c3",
+  "label" : "Employ Florida",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Employ Florida</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f514c713-9b56-4468-8bdd-4bbfeb95ee6e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "a715827f-d889-4908-a01e-817cf7d8315e",
+        "ht" : "a6b0e410-fe64-4a5b-8f1b-29ac3e25834a"
+      },
+      "renditions" : [ {
+        "id" : "a715827f-d889-4908-a01e-817cf7d8315e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Employ Florida</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "a6b0e410-fe64-4a5b-8f1b-29ac3e25834a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Employ Florida</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "9c921a02-7709-4ac5-81bf-5dd6aa2541d3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "77fb5029-8144-4880-b481-778d4f3c3e79",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "employ-florida",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "77d2a06b-bd11-4399-b0c6-d6c48e794fe8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCAELGHILIQFERDONK672DHFVORM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "7a2477a1-a312-45f9-8ed4-c569dab0e45e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1e7b8111-a795-4158-93cf-f256c52fccc3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "c53aeaa2-a35b-45a8-b54d-c24bbe70333f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "687af9a5-9f9f-445f-a299-24234e09e46f",
+        "ht" : "15dc0546-1712-4ae5-9602-72fe38d6ac07"
+      },
+      "renditions" : [ {
+        "id" : "687af9a5-9f9f-445f-a299-24234e09e46f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "15dc0546-1712-4ae5-9602-72fe38d6ac07",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "b69de964-edff-4997-bfd7-471510e3c67b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "86c503a4-522b-4391-8d62-dcc838796c82",
+        "ht" : "32027ae2-3471-4879-a6c2-aa1a3b3304a3"
+      },
+      "renditions" : [ {
+        "id" : "86c503a4-522b-4391-8d62-dcc838796c82",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "32027ae2-3471-4879-a6c2-aa1a3b3304a3",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "cd1ca923-3093-4e9d-b039-9fa8e09f56be",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "9b5fe6ac-9093-46de-8cb5-6dfa087bc6bc",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Employ Florida is FloridaCommerce's labor exchange system that helps connect job seekers with employment opportunities and helps employers connect with jobseekers seeking employment.",
+        "title" : "FL WINS - Employ Florida"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "09fdcc5c-f62a-4278-ba1b-34a08e1ae87a",
+      "renditionMap" : {
+        "es" : "d0acfcd3-c84f-41bf-84fd-c97984d66ffd",
+        "ht" : "6529ed06-9658-4cb9-9082-d64e4499417c"
+      },
+      "renditions" : [ {
+        "id" : "d0acfcd3-c84f-41bf-84fd-c97984d66ffd",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Employ Florida es el sistema de intercambio laboral de FloridaCommerce que ayuda a conectar a personas que buscan empleo con oportunidades laborales y a que los empleadores se vinculen con ellas."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "6529ed06-9658-4cb9-9082-d64e4499417c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Employ Florida se sistèm echanj travay FloridaCommerce ki ede konekte moun kap chèche travay ak opòtinite travay epi ede anplwayè yo konekte ak moun kap chèche travay."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "f022d3a9-a7e1-4693-bca0-c89a66c23ee4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-employ-florida"
+}

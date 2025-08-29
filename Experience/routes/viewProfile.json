@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "aa9a0bc3-c384-4941-9d01-10065f6aec72",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "4eb6e195-61b6-4114-8bf5-87ef04830d2c",
+  "label" : "View Profile",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-view-profile",
+  "type" : "route",
+  "urlPrefix" : "view-profile"
+}

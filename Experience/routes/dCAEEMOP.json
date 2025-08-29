@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2a169043-4f04-479e-b3c1-9bfa28ab9e5b",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "1ce692bc-370d-47fc-826d-b4439a884bbd",
+  "label" : "DCAE - EMOP",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-dcae-emop",
+  "type" : "route",
+  "urlPrefix" : "dcae-emop"
+}

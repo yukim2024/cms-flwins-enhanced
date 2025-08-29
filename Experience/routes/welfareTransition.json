@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "78cfc394-e521-4063-b463-0a9defd74bfa",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "b28e18e9-d75e-4c27-95cb-1bcb928768c4",
+  "label" : "Welfare Transition",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-welfare-transition",
+  "type" : "route",
+  "urlPrefix" : "welfare-transition"
+}

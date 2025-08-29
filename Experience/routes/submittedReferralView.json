@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "46055974-93bc-4e97-9d0e-d264342a9c69",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "178b63f3-cc82-40ba-a05b-738a88e2febf",
+  "label" : "Submitted Referral View",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-submitted-referral-view",
+  "type" : "route",
+  "urlPrefix" : "submitted-referral-view"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "74c1da51-688d-4fe5-804f-966d204cb31e",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "045d26b7-d529-4e6e-b186-ffbd5529bfe0",
+  "label" : "Department of Children and Families",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-department-of-children-and-families",
+  "type" : "route",
+  "urlPrefix" : "department-of-children-and-families"
+}

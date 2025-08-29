@@ -1,0 +1,125 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "fbbd5f55-9816-498c-bd30-1a5d9fd2f970",
+  "label" : "Service Match",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "84a8d391-0ea2-47e1-8e3b-ba02df086d6a",
+          "columns" : [ {
+            "UUID" : "5b063157-ccd5-4b3a-b136-d766dedc9c11",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "84a8d391-0ea2-47e1-8e3b-ba02df086d6a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleAddMargin\"><h1 class = 'largeTitle'>Service Match</h1></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "464552d8-1a78-42e7-9d95-8951ae5f50ab",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "f86a3e10-b542-44a7-86a2-e8a993367c89",
+            "ht" : "af34ab4b-66a1-44fe-bfcd-023bef26e415"
+          },
+          "renditions" : [ {
+            "id" : "f86a3e10-b542-44a7-86a2-e8a993367c89",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div class=\"titleAddMargin\"><h1 class = 'largeTitle'>Emparejamiento de Servicios (Service Match)</h1></div>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "af34ab4b-66a1-44fe-bfcd-023bef26e415",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div class=\"titleAddMargin\"><h1 class = 'largeTitle'>Matche Sèvis</h1></div>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "Multi-Language",
+            "subType" : "ServiceMatch",
+            "theme" : "lightning",
+            "type" : "Service"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "98435d65-e044-413e-bf83-6317f49c23a3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5b063157-ccd5-4b3a-b136-d766dedc9c11",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d397d303-dade-4b6d-8b5e-244c2773a225",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Not sure what program or service you need? Visit the FL WINS Service Match to combine your goals and needs with state programs, services, and benefits.",
+        "title" : "FL WINS - Service Match"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b8bf5753-4081-4851-8967-0e0ec7f1a574",
+      "renditionMap" : {
+        "es" : "b374feb5-3ba4-4fa3-9ced-d7ba40127451",
+        "ht" : "1d703376-b2a4-44f8-b182-ce068cc3f4ce"
+      },
+      "renditions" : [ {
+        "id" : "b374feb5-3ba4-4fa3-9ced-d7ba40127451",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "¿No está seguro del programa o servicio que necesita? Visite Service Match de FL WINS para combinar sus metas y necesidades con programas, servicios y beneficios estatales."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "1d703376-b2a4-44f8-b182-ce068cc3f4ce",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Ou pa sèten ki pwogram oswa sèvis ou bezwen? Ale sou sit FL WINS Service Match la pou konbine objektif ak bezwen ou yo avèk pwogram nan, sèvis ak benefis leta a."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "61527d8f-e286-40a5-ae60-50a0f1c0275f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-service-match"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "4c7a0e80-3f75-4569-822f-7f4e5c92e937",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "65ccb97d-c427-427b-86b6-e199da5f7e64",
+  "label" : "Migrant and Seasonal Farmworker Services",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-migrant-and-seasonal-farmworker-services",
+  "type" : "route",
+  "urlPrefix" : "migrant-and-seasonal-farmworker-services"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "13e6a8b8-9374-4083-8d2c-819faffb6d3c",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "6fb768b3-5cf8-497d-aa01-656605ddbd5b",
+  "label" : "RESEA",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-resea",
+  "type" : "route",
+  "urlPrefix" : "resea"
+}

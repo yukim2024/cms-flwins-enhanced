@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e6c960bc-f1bb-433e-b4a3-cd0aac0a1dcb",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "d8daea1a-cf27-4ee8-80af-9db48f73ae77",
+  "label" : "State Rapid Response",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-state-rapid-response",
+  "type" : "route",
+  "urlPrefix" : "state-rapid-response"
+}

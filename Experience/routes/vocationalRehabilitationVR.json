@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "af5f4a6a-d1d2-4d5c-95ed-c6e6d6f8db2f",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "9c46348c-e3dd-4457-a54d-c2252ab40b68",
+  "label" : "Vocational Rehabilitation (VR)",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-vocational-rehabilitation",
+  "type" : "route",
+  "urlPrefix" : "vocational-rehabilitation"
+}

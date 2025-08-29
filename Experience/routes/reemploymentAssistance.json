@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "dbf6259e-3ef8-4ac7-a035-cbc72378b6ec",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "d8c0e07e-acd2-4523-a824-1d1d99a3a1e2",
+  "label" : "Reemployment Assistance",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-reemployment-assistance",
+  "type" : "route",
+  "urlPrefix" : "reemployment-assistance"
+}

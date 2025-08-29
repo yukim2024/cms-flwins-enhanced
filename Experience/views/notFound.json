@@ -1,0 +1,90 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8f4a6c09-3791-4fb9-8733-734115b785e9",
+  "label" : "Not Found",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "59851c2e-2ef3-400b-83af-b3cbf30e8d57",
+          "columns" : [ {
+            "UUID" : "48c32ca0-cbd2-4653-9191-7fba9faba29f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "59851c2e-2ef3-400b-83af-b3cbf30e8d57",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 20px; padding: 20px; font-family: Segoe UI, sans-serif; text-align: left;\">\n\n  <!-- Left Side: Text Content -->\n  <div style=\"flex: 1 1 300px; min-width: 260px;\">\n    <h2 style=\"font-size: 1px; color: #333333;\">Page Not Found</h2>\n    <br>\n    <p style=\"font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 10px;\">\n      <strong>Sorry, we can't seem to find the page you're looking for.</strong>\n    </p>\n    <p style=\"font-size: 16px; color: #333333; margin-bottom: 12px;\">\n      It might have been moved, deleted, or the URL could have been typed incorrectly. Here are some things you can try:\n    </p>\n    <div style=\"font-size: 14px; color: #333333; padding-left: 20px;\">\n      <p style=\"margin-bottom: 3px;\">• Double-check the URL for any mistakes.</p>\n      <p style=\"margin-bottom: 3px;\">• Refresh the page.</p>\n      <p>• Go back to the homepage and start from there.</p>\n    </div>\n  </div>\n\n  <!-- Right Side: Image -->\n  <div style=\"flex: 1 1 300px; min-width: 260px; text-align: center; margin-top: 20px;\">\n    <img src=\"/sfsites/c/resource/NotFound\" alt=\"Page Not Found Image\" style=\"max-width: 100%; height: auto; max-height: 300px;\" />\n  </div>\n\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "eea8c4b0-08bd-4dbd-a00b-4b90df738ec4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "f752ea8c-d3c3-47e8-bd3e-f25647918c8b",
+            "ht" : "6d705220-fab1-4a13-b749-0f1c8f72741d"
+          },
+          "renditions" : [ {
+            "id" : "f752ea8c-d3c3-47e8-bd3e-f25647918c8b",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div style=\"display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 20px; padding: 20px; font-family: Segoe UI, sans-serif; text-align: left;\">\n\n  <!-- Left Side: Text Content -->\n  <div style=\"flex: 1 1 300px; min-width: 260px;\">\n    <h2 style=\"font-size: 1px; color: #333333;\">No se encontró la página</h2>\n    <br>\n    <p style=\"font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 10px;\">\n      <strong>Lo sentimos, no podemos encontrar la página que busca.</strong>\n    </p>\n    <p style=\"font-size: 16px; color: #333333; margin-bottom: 12px;\">\n      Puede que haya sido movida, eliminada o que la URL se haya escrito de forma incorrecta. Puede intentar alguna de estas acciones:\n    </p>\n    <div style=\"font-size: 14px; color: #333333; padding-left: 20px;\">\n      <p style=\"margin-bottom: 3px;\">• Comprobar que la URL no contenga errores.</p>\n      <p style=\"margin-bottom: 3px;\">• Actualizar la página.</p>\n      <p>• Volver a la página de inicio y comenzar desde allí.</p>\n    </div>\n  </div>\n\n  <!-- Right Side: Image -->\n  <div style=\"flex: 1 1 300px; min-width: 260px; text-align: center; margin-top: 20px;\">\n    <img src=\"/sfsites/c/resource/NotFound\" alt=\"Page Not Found Image\" style=\"max-width: 100%; height: auto; max-height: 300px;\" />\n  </div>\n\n</div>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "6d705220-fab1-4a13-b749-0f1c8f72741d",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div style=\"display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 20px; padding: 20px; font-family: Segoe UI, sans-serif; text-align: left;\">\n\n  <!-- Left Side: Text Content -->\n  <div style=\"flex: 1 1 300px; min-width: 260px;\">\n    <h2 style=\"font-size: 1px; color: #333333;\">Nou Pa Jwenn Paj La</h2>\n    <br>\n    <p style=\"font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 10px;\">\n      <strong>Nou regrèt, nou pa sanble kapab jwenn paj w ap chèche a.</strong>\n    </p>\n    <p style=\"font-size: 16px; color: #333333; margin-bottom: 12px;\">\n      Li ta ka te deplase, efase, oswa URL la ta ka te tape mal. Men kèk bagay ou ka eseye:\n    </p>\n    <div style=\"font-size: 14px; color: #333333; padding-left: 20px;\">\n      <p style=\"margin-bottom: 3px;\">• Verifye URL la ankò pou wè si li pa gen erè.</p>\n      <p style=\"margin-bottom: 3px;\">• Aktyalize paj la.</p>\n      <p>• Ale sou paj akèy la epi kòmanse la.</p>\n    </div>\n  </div>\n\n  <!-- Right Side: Image -->\n  <div style=\"flex: 1 1 300px; min-width: 260px; text-align: center; margin-top: 20px;\">\n    <img src=\"/sfsites/c/resource/NotFound\" alt=\"Page Not Found Image\" style=\"max-width: 100%; height: auto; max-height: 300px;\" />\n  </div>\n\n</div>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "48c32ca0-cbd2-4653-9191-7fba9faba29f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "87079740-ead7-4413-aff1-e84402a0b79c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Not Found"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5db277b6-8472-44bb-8301-60039dcb4cbc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3a83623-99ce-47d7-8772-9b6eba716889",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-not-found"
+}

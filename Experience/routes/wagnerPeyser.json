@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "86432e68-f25d-4cc0-ab36-ee3ae1ecb117",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "cc05dcc4-8763-4244-987d-fa5d5ab04c93",
+  "label" : "Wagner-Peyser",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-wagner-peyser",
+  "type" : "route",
+  "urlPrefix" : "wagner-peyser"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3e4f83f7-4081-4bd7-9db2-676a08a009d5",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "6c10ed41-daa3-4a7a-a969-15e3b1090d2c",
+  "label" : "FloridaCommerce",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-floridacommerce",
+  "type" : "route",
+  "urlPrefix" : "floridacommerce"
+}

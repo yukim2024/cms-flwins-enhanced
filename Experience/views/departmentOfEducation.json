@@ -1,0 +1,286 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "f6c0d1f7-71f9-4895-8d6d-fc6bcd3b0983",
+  "label" : "Department of Education",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img src=\"/sfsites/c/resource/1722331066000/DOELogo\" alt=\"Florida Department of Education Logo\" style=\"width:100%; max-width:313px;\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d5f16884-41b2-4167-aa60-70bb1ffaa832",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3672bcd-d670-441e-8328-17152bf7b722",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "d49748b6-a5df-481c-9ba7-2216041735a4",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MC4DZVXSWF2RD2RD3IR5AITO4BUM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\",\"isPx\":false},\"borderTopRightRadius\":{\"value\":\"0\",\"isPx\":false},\"borderBottomRightRadius\":{\"value\":\"0\",\"isPx\":false},\"borderBottomLeftRadius\":{\"value\":\"0\",\"isPx\":false}}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"20\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"20\",\"isPx\":true}}",
+              "imageUrl" : "{!CurrentItem.bannerImage.url}",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : "363",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : true,
+              "showExcerpt" : true,
+              "showEyebrow" : true,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : true,
+              "showFlag" : true,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "8a9deb7e-e7f7-4608-9d32-662170b95dee",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "23c0b7ab-ffe5-446d-a4c8-d09cfa73828d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonText" : "View agency services",
+        "buttonUrl" : "service-catalog",
+        "buttonUrlParams" : "agency=doe",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-programs-and-services",
+        "darkText" : true,
+        "headline" : "Programs & services",
+        "headlineSize" : "medium",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "FDOE provides a wide range of education and rehabilitation services to Floridians to advance their education and help prepare them for the workforce.",
+        "subHeadlineSize" : "small",
+        "subHeadlineTag" : "h3",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "1b1e5f4d-aff1-46b5-8705-7b2c2695fbb5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "b4e47baa-4567-4579-afd1-5370c53587bc",
+        "ht" : "bb08a14f-389f-49e6-823e-7bb906a83eff"
+      },
+      "renditions" : [ {
+        "id" : "bb08a14f-389f-49e6-823e-7bb906a83eff",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sèvis ajans yo",
+            "buttonUrlParams" : "agency=doe",
+            "headline" : "Pwogram ak sèvis",
+            "paragraph" : "FDOE ofri yon pakèt sèvis edikasyon ak reyabilitasyon pou Floridyen yo pou pouswiv etid yo epi ede prepare yo pou mache travay la."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "b4e47baa-4567-4579-afd1-5370c53587bc",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver los servicios de la agencia",
+            "buttonUrlParams" : "agency=doe",
+            "headline" : "Programas y servicios",
+            "paragraph" : "El Departamento de Educación de Florida (FDOE por sus siglas en inglés) ofrece una amplia gama de servicios de educación y rehabilitación a los floridanos para avanzar en su educación y ayudar a prepararlos para unirse a la fuerza laboral. "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonClass" : "button-white",
+        "buttonIcon" : "utility:new_window",
+        "buttonIconPosition" : "right",
+        "buttonText" : "View agency website",
+        "buttonUrl" : "https://www.fldoe.org/",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-website",
+        "darkText" : true,
+        "headline" : "",
+        "headlineSize" : "small",
+        "headlineTag" : "h4",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Interested in learning more about the Florida Department of Education?",
+        "subHeadlineSize" : "small",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "8cfaa409-26e1-4116-a9e6-7a6698e6547c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "be72b3af-02c2-4efd-a264-62a4f8b11972",
+        "ht" : "83ae12b5-1266-4fe5-8ff9-075ea5726129"
+      },
+      "renditions" : [ {
+        "id" : "be72b3af-02c2-4efd-a264-62a4f8b11972",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver el sitio web de la agencia",
+            "paragraph" : "¿Interesado en conocer más acerca del Departamento de Educación de Florida?"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "83ae12b5-1266-4fe5-8ff9-075ea5726129",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sitwèb ajans",
+            "paragraph" : "Ou enterese aprann plis sou Depatman Edikasyon Florida?"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Office of the Commissioner</h2>\n            <p style=\"font-size: 18px\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Contact Us</h2>\n            <p style=\"font-size: 18px\">\n                Email: <a style=\"color:#4b5563\" href=\"mailto:Commissioner@fldoe.org\">Commissioner@fldoe.org</a><br/>\n                Phone: <a style=\"color:#4b5563\" href=\"tel:8502450505\">850-245-0505</a><br/>\n                Fax: 850-245-9667<br/>\n            </p>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e60e2c27-8c96-499c-b830-4c7c8006c994",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "0d7806f8-6648-48a8-b5d4-fd02cc234900",
+        "ht" : "dba1efbb-1bcf-4d4f-9e09-4c85dd6b66f8"
+      },
+      "renditions" : [ {
+        "id" : "0d7806f8-6648-48a8-b5d4-fd02cc234900",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Oficina del Administrador</h2>\n            <p style=\"font-size: 18px\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Comuníquese con nosotros</h2>\n            <p style=\"font-size: 18px\">\n                Correo electrónico: <a style=\"color:#4b5563\" href=\"mailto:Commissioner@fldoe.org\">Commissioner@fldoe.org</a><br/>\n                Teléfono: <a style=\"color:#4b5563\" href=\"tel:8502450505\">850-245-0505</a><br/>\n                Fax: 850-245-9667<br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "dba1efbb-1bcf-4d4f-9e09-4c85dd6b66f8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Biwo Komisyonè a</h2>\n            <p style=\"font-size: 18px\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Kontakte Nou</h2>\n            <p style=\"font-size: 18px\">\n                Imèl: <a style=\"color:#4b5563\" href=\"mailto:Commissioner@fldoe.org\">Commissioner@fldoe.org</a><br/>\n                Telefòn: <a style=\"color:#4b5563\" href=\"tel:8502450505\">850-245-0505</a><br/>\n                Faks: 850-245-9667<br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "d6599794-df69-4e7c-9597-4e2e29fa85c7",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "55898b5f-2b9a-461c-951e-52e067bb4811",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FDOE is a Workforce Partner of the FL WINS Program, an innovative, consumer-first workforce development Program, providing Floridians with improved access to many workforce programs and educational opportunities.",
+        "title" : "Florida Department of Education"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1bac2a15-1c25-42d8-9c36-ffea768cb5f3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "acf94ec6-1e00-4945-b84e-35a76d27e132",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-department-of-education"
+}

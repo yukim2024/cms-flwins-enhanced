@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "5b934671-079f-486f-b288-50b7c3bdfce9",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "fe5cbfb5-babb-490b-9313-b1be25d3e0c6",
+  "label" : "SNAP",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-snap",
+  "type" : "route",
+  "urlPrefix" : "snap"
+}

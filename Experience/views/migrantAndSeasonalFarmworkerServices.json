@@ -1,0 +1,295 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "4c7a0e80-3f75-4569-822f-7f4e5c92e937",
+  "label" : "Migrant and Seasonal Farmworker Services",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Migrant and Seasonal Farmworker Services (MSFW)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "373d8441-6458-4b14-ba5d-1d8a1be408a3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f70b3a0e-9038-401c-86d8-d088799b6db6",
+        "ht" : "f6ef40e0-cd9b-4ef3-a8a2-cfd524b5b042"
+      },
+      "renditions" : [ {
+        "id" : "f70b3a0e-9038-401c-86d8-d088799b6db6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Servicios de Trabajadores Agrícolas Migrantes y de Temporada (MSFW)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f6ef40e0-cd9b-4ef3-a8a2-cfd524b5b042",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Sèvis Migran ak Travayè Sezonye agrikòl (MSFW)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "4d2c2439-8a11-4791-97e0-789b9e6926a1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1ed68853-84f1-4006-acd9-e725bfdecf00",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "migrant-and-seasonal-farmworker-services",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "f3d36145-9927-4d26-a8c8-52b9c2d76b0c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCI3Z6ID5PTZGRRHM7Y2JLHAKBRE",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "08d05152-083f-4249-861a-5e2e6028d1b8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3590b2d-08ed-45df-b83b-6569ff65428b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "a366327a-8525-488b-9c2f-9f69f30d3d5d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ac3d4124-4621-4e5b-8600-44cce8aa39ed",
+        "ht" : "57da4db9-898e-4994-bf7b-2eaec96d8a12"
+      },
+      "renditions" : [ {
+        "id" : "ac3d4124-4621-4e5b-8600-44cce8aa39ed",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "57da4db9-898e-4994-bf7b-2eaec96d8a12",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "877a3c54-cd9d-46ab-b2fd-ef5e4e1460ea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "5a4211c7-e5de-4d0a-9447-739c5689b74c",
+        "ht" : "a578ce97-8729-415d-b058-061a666153ab"
+      },
+      "renditions" : [ {
+        "id" : "a578ce97-8729-415d-b058-061a666153ab",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5a4211c7-e5de-4d0a-9447-739c5689b74c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "3f67a26f-34d3-42be-8b97-f71dcfb8775c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "245d2a7c-ab5c-4bec-b907-3619539c4881",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s MSFW Services provides job search support, outreach services, and other resources for migrant and seasonal farmworkers.",
+        "title" : "FL WINS - Migrant and Seasonal Farmworker Services (MSFW)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b067310d-38f2-43ca-ac1e-d19db2dc9bc9",
+      "renditionMap" : {
+        "es" : "aac311c5-8cb5-40f1-9389-9a78fb972313",
+        "ht" : "b22d819e-02b3-4b36-81c8-4b77561d059e"
+      },
+      "renditions" : [ {
+        "id" : "aac311c5-8cb5-40f1-9389-9a78fb972313",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Los Servicios MSFW de FloridaCommerce ofrecen apoyo para la búsqueda de empleo, servicios sociales y otros recursos para trabajadores agrícolas migrantes y de temporada.",
+            "title" : "FL WINS - Servicios de Trabajadores Agrícolas Migrantes y de Temporada (MSFW)"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "b22d819e-02b3-4b36-81c8-4b77561d059e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Sèvis MSFW FloridaCommerce yo bay sipò pou rechèch travay, sèvis pou kontakte moun, ak lòt resous pou travayè agrikòl migran ak sezonye yo.",
+            "title" : "FL WINS - Sèvis Migran ak Travayè Sezonye Agrikòl (Migrant and Seasonal Farmworker Services, MSFW)"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "4ae6eac1-97c7-461c-b0d1-6b82ef78e5b6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-migrant-and-seasonal-farmworker-services"
+}

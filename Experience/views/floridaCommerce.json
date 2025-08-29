@@ -1,0 +1,307 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "3e4f83f7-4081-4bd7-9db2-676a08a009d5",
+  "label" : "FloridaCommerce",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img src=\"/sfsites/c/resource/1722331066000/FloridaCommerceLogo\" alt=\"FloridaCommerce Logo\" style=\"width:100%; max-width:600px;\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f772c830-f8be-49fd-be21-cee21e645af7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "341211c9-a1a9-4da0-b304-b1345d2a196b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "8770113a-353d-47fa-aa03-58b8545fa6d6",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCE3TH3SHCGJCNLOB2HMW4QBQT4M",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"20\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"20\",\"isPx\":true}}",
+              "imageUrl" : "{!CurrentItem.bannerImage.url}",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : "363",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : true,
+              "showExcerpt" : true,
+              "showEyebrow" : true,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : true,
+              "showFlag" : true,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "f993db08-b423-4111-a875-711fb514ce05",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "87b501dd-95c5-44fd-ac3b-95cc25c3756c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonText" : "View agency services",
+        "buttonUrl" : "service-catalog",
+        "buttonUrlParams" : "agency=flc",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-programs-and-services",
+        "darkText" : true,
+        "headline" : "Programs & services",
+        "headlineSize" : "medium",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "FloridaCommerce offers many programs and services that can assist Floridians in economic opportunities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h3",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "286f28f6-de6d-45bd-bc22-ba0aeb966502",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "8e9f49f8-23d3-4c24-a3fb-33b92b2576b8",
+        "ht" : "ef1dc63d-4cae-48f6-84b4-e415651e1370"
+      },
+      "renditions" : [ {
+        "id" : "8e9f49f8-23d3-4c24-a3fb-33b92b2576b8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver los servicios de la agencia",
+            "buttonUrlParams" : "agency=flc",
+            "headline" : "Programas y servicios",
+            "paragraph" : "FloridaCommerce ofrece numerosos programas y servicios que pueden ayudar a los floridanos a aprovechar oportunidades económicas"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ef1dc63d-4cae-48f6-84b4-e415651e1370",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sèvis ajans yo",
+            "buttonUrlParams" : "agency=flc",
+            "headline" : "Pwogram ak sèvis",
+            "paragraph" : "FloridaCommerce ofri anpil pwogram ak sèvis ki kapab asiste moun Florida nan opòtinite ekonomik yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonClass" : "button-white",
+        "buttonIcon" : "utility:new_window",
+        "buttonIconPosition" : "right",
+        "buttonText" : "View agency website",
+        "buttonUrl" : "https://www.floridajobs.org/",
+        "buttonsInSeparateRows" : false,
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-website",
+        "darkText" : true,
+        "headline" : "",
+        "headlineSize" : "small",
+        "headlineTag" : "h4",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Interested in learning more about FloridaCommerce?",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "3d0dd284-f9f3-4e0e-9b09-1646ad976ab4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "81949a33-9c5d-46a3-9b7f-a0f62a4bef82",
+        "ht" : "16a25b3f-3bb2-497f-a964-8ee355e74fd6"
+      },
+      "renditions" : [ {
+        "id" : "81949a33-9c5d-46a3-9b7f-a0f62a4bef82",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver el sitio web de la agencia",
+            "paragraph" : "¿Interesado en conocer más acerca de FloridaCommerce?"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "16a25b3f-3bb2-497f-a964-8ee355e74fd6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sitwèb ajans",
+            "paragraph" : "Ou enterese aprann plis sou FloridaCommerce?"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Contact Us</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://lcd.floridajobs.org/CareerSource/CareerCenterList\" target=\"_blank\">Career Center List</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "ca1b4d4c-9014-48cf-b658-c451d331b1a6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "8453c8f9-547b-4787-8486-63a60100b1d6",
+        "ht" : "e866a776-11f0-491c-8f56-d33b727e7135"
+      },
+      "renditions" : [ {
+        "id" : "e866a776-11f0-491c-8f56-d33b727e7135",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Kontakte Nou</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://lcd.floridajobs.org/CareerSource/CareerCenterList\" target=\"_blank\">Lis Sant Karyè</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "8453c8f9-547b-4787-8486-63a60100b1d6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n           <h2 class=\"smallTitle\">Contáctenos</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://lcd.floridajobs.org/CareerSource/CareerCenterList\" target=\"_blank\">Lista de Centros de orientación profesional</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "40d29f60-5aeb-4fcd-8f44-fcb0287fb935",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a699ae83-560f-4bf1-98d6-8e6d4cc40ede",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce is the state’s principal agency responsible for promoting economic opportunities for Floridians. Please review the programs and resources offered by FloridaCommerce.",
+        "title" : "FL WINS - FloridaCommerce"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "10451997-a3d0-453d-b9ec-bf70302f8f85",
+      "renditionMap" : {
+        "es" : "424de836-683a-40b9-b8d4-7c795503fb53",
+        "ht" : "04dfd358-329f-4267-85a6-6127c65c4019"
+      },
+      "renditions" : [ {
+        "id" : "424de836-683a-40b9-b8d4-7c795503fb53",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "FloridaCommerce es la principal agencia estatal responsable de promover oportunidades económicas para los floridanos. Revise los programas y recursos que ofrece FloridaCommerce."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "04dfd358-329f-4267-85a6-6127c65c4019",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "FloridaCommerce se ajans prensipal leta a ki responsab pou ankouraje opòtinite ekonomik pou Floridyen yo. Tanpri konsilte pwogram ak resous FloridaCommerce ofri yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "98f641aa-9253-467e-b19f-2857abb0ea4f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-floridacommerce"
+}

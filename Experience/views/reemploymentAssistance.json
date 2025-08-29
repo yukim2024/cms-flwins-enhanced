@@ -1,0 +1,443 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "dbf6259e-3ef8-4ac7-a035-cbc72378b6ec",
+  "label" : "Reemployment Assistance",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Reemployment Assistance</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "cec5e072-7d49-4f5d-9e90-b54643a13fd8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f4344e14-b436-480f-bbf1-f2cacd796b0c",
+        "ht" : "2ab19bac-0fb2-48a8-b04d-6aaa150358c9"
+      },
+      "renditions" : [ {
+        "id" : "2ab19bac-0fb2-48a8-b04d-6aaa150358c9",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistans Reyanplwa</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f4344e14-b436-480f-bbf1-f2cacd796b0c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistencia para la Reinserción Laboral</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "2827ea47-cf2c-4727-a5d0-c07c94c5fd61",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "68ed7654-ad1a-4553-a9c0-1f46cb380249",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "reemployment-assistance",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "72bcb649-bb09-416b-8623-1013fb5cd6f6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ed1b9488-2a4a-4c41-9624-6dd53e4888c8"
+      },
+      "renditions" : [ {
+        "id" : "ed1b9488-2a4a-4c41-9624-6dd53e4888c8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "es_US"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCR5BWTIMLRFAVTBWRY2IEOGMSIY",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "b8cc57d8-5178-4e8e-8c5d-52eeb2a40b1f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aa5135ac-bb1c-44d9-97d1-f7bbf00d103e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#FFFFFF",
+        "button2Text" : "Sign in",
+        "button2Url" : "login",
+        "buttonClass" : "button-black",
+        "buttonClass2" : "",
+        "buttonSpacing" : "medium",
+        "buttonText" : "Create account",
+        "buttonUrl" : "login",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "nextStepDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "darkText" : true,
+        "headline" : "Ready to take the next step?",
+        "headlineSize" : "small",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "none",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Connect to this program faster with a FL WINS account!",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "xx-small"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "56c86208-05e8-4a25-95de-4ccac4d4a5ef",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "79d1ee38-1354-4a5a-b38d-93caec6f4829",
+        "ht" : "27977a58-b651-4350-8907-3228701d99c1"
+      },
+      "renditions" : [ {
+        "id" : "27977a58-b651-4350-8907-3228701d99c1",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "button2Text" : "Konekte",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "button-white",
+            "buttonText" : "Kreye kont",
+            "column1Class" : "display-flex",
+            "column2Class" : "display-flex",
+            "column3Class" : "display-flex",
+            "headline" : "Èske w pare pou w franchi pwochen etap la?",
+            "paragraph" : "Konekte nan pwogram sa a pi vit ak yon kont FL WINS!"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "79d1ee38-1354-4a5a-b38d-93caec6f4829",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "button2Text" : "Iniciar sesión",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "button-white",
+            "buttonClass2_1" : "",
+            "buttonClass2_2" : "",
+            "buttonSpacing" : "medium",
+            "buttonText" : "Crear una cuenta",
+            "column1Class" : "",
+            "customClassName" : "",
+            "headline" : "¿Listo para el próximo paso?",
+            "paragraph" : "¡Conéctese más rápidamente a este programa con una cuenta FL WINS!"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#FFFFFF",
+        "button2Icon" : "",
+        "button2IconPosition" : "",
+        "button2Text" : "",
+        "button2Url" : "",
+        "buttonClass" : "button-black",
+        "buttonClass2" : "",
+        "buttonSpacing" : "large",
+        "buttonText" : "Start my registration intake",
+        "buttonUrl" : "referralintake",
+        "buttonUrlParams" : "c__progCode=RA",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "nextStepDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "darkText" : true,
+        "headline" : "Ready to take the next step?",
+        "headlineSize" : "small",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "none",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Yes! Please send my information to FloridaCommerce.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "xx-small"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "77cd273e-9a74-449f-91a4-1395e98136cd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "d7641566-8472-4463-9c82-0674fdc9d4cb",
+        "ht" : "74964dde-3d1d-48ea-bfe4-accbf899c83f"
+      },
+      "renditions" : [ {
+        "id" : "74964dde-3d1d-48ea-bfe4-accbf899c83f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Kòmanse aplikasyon enskripsyon m nan",
+            "headline" : "Èske w pare pou w franchi pwochen etap la?",
+            "paragraph" : "Wi! Tanpri voye enfòmasyon mwen bay FloridaCommerce."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "d7641566-8472-4463-9c82-0674fdc9d4cb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Comenzar mi solicitud de admisión de registro",
+            "headline" : "¿Listo para el próximo paso?",
+            "paragraph" : "Sí. Por favor, enviar mi información a FloridaCommerce."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5ae3871f-9443-4ad4-8cd0-65182ff65461",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "2f4db4be-2927-45fc-82b5-794d638e7001",
+        "ht" : "0445f4ab-ce2e-4054-98fe-4ce471f56b7f"
+      },
+      "renditions" : [ {
+        "id" : "0445f4ab-ce2e-4054-98fe-4ce471f56b7f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "2f4db4be-2927-45fc-82b5-794d638e7001",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "95a962d9-1e16-41a9-8b19-51e7dea47c71",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ffb80752-b3f3-4bcc-83f9-ecbe4491abbf",
+        "ht" : "cb938101-ae0d-4d06-868e-5c5996c3c299"
+      },
+      "renditions" : [ {
+        "id" : "ffb80752-b3f3-4bcc-83f9-ecbe4491abbf",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "column1Class" : "serviceDepartmentDiv",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "cb938101-ae0d-4d06-868e-5c5996c3c299",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "77e94ef8-8504-4a76-9d0a-09f51c5a50bc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "aa33b85e-7fee-4814-9ce5-6cff9673ca92",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s Reemployment Assistance Program provides temporary wage replacement benefits to eligible individuals. Log on to Reconnect to apply, request payment, and more.",
+        "title" : "FL WINS - Reemployment Assistance"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "01323c56-cc89-4852-b28a-e8a3a010df5b",
+      "renditionMap" : {
+        "es" : "e0932118-eafe-4f2a-9f11-38b017ad2ff2",
+        "ht" : "9e643a49-704c-4b3c-bf44-3e3a8d7432de"
+      },
+      "renditions" : [ {
+        "id" : "e0932118-eafe-4f2a-9f11-38b017ad2ff2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa de Asistencia para la Reinserción Laboral de FloridaCommerce proporciona beneficios de sustitución salarial temporales para personas elegibles. Regístrese en Reconectar para hacer su solicitud, pedir un pago y más.",
+            "title" : "FL WINS - Asistencia para la Reinserción Laboral"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "9e643a49-704c-4b3c-bf44-3e3a8d7432de",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram Asistans Reyanplwa FloridaCommerce la ofri benefis ranplasman salè tanporè pou moun ki kalifye. Konekte sou Reconnect pou aplike, fè demann pou peman, ak anpil lòt.",
+            "title" : "FL WINS - Asistans Reyanplwa"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "873b3c95-2f2d-4eb5-ab40-e02fd6b98ec7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-reemployment-assistance"
+}

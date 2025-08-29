@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "da76675f-556d-431d-9332-75d2c2dd6729",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "77cd273e-9a74-449f-91a4-1395e98136cd",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Reemployment_Assistance_IBM_Banner_1_Component",
+  "id" : "f56e1d1a-d228-4441-a771-0cc1e246c78e",
+  "type" : "experienceVariation"
+}

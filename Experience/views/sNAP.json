@@ -1,0 +1,318 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "5b934671-079f-486f-b288-50b7c3bdfce9",
+  "label" : "SNAP",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Supplemental Nutrition Assistance Program (SNAP)</h1>\n  <p class=\"serviceAgenciesName\">The Florida Department of Children and Families</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5224ed8d-c40b-4abd-a558-4b8e4b8e6abc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "ht" : "2de4e357-42a7-46c2-b85a-9f4af2868108"
+      },
+      "renditions" : [ {
+        "id" : "2de4e357-42a7-46c2-b85a-9f4af2868108",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Pwogram Asistans Nitrisyon Siplemantè (SNAP)</h1>\n  <p class=\"serviceAgenciesName\">Depatman Timoun ak Fanmi Florid</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "09d960cb-aac4-4982-ad34-2150fc45fff5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4c936d27-1a90-48ed-ade1-16046413b69e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "snap",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "7027a701-ce48-4789-94c4-59a0cc666948",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "27330536-021a-4241-bf48-d1e3a8104842",
+        "ht" : "4ce7522a-e9a3-4168-bf24-39342da5a2da"
+      },
+      "renditions" : [ {
+        "id" : "4ce7522a-e9a3-4168-bf24-39342da5a2da",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "ht"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "27330536-021a-4241-bf48-d1e3a8104842",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "es"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCHRDTZMPWCVHT3PRRW2GKBBGUIM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "f43a80ce-f073-45b7-a17f-3b9184b7a4e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6705bc1c-3990-433c-b057-d7bbcbf42228",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "ae85aa28-ec54-4a70-8657-de2dff3539ab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "c7d174d2-a766-491d-8f9c-0794fd2eeaf9",
+        "ht" : "5fd573ed-2127-4836-b814-63b9e3599250"
+      },
+      "renditions" : [ {
+        "id" : "c7d174d2-a766-491d-8f9c-0794fd2eeaf9",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5fd573ed-2127-4836-b814-63b9e3599250",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè kap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "Department of Children and Families Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "department-of-children-and-families",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Department of Children and Families",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "The Department works in partnership with local communities to protect the vulnerable, promote strong and economically self-sufficient families, and advance personal and family recovery and resiliency.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "128dd9c7-893b-481b-81c0-6975d3af8811",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "e6cddc18-c8a2-4fd7-a650-b452e401aa09",
+        "ht" : "8467a998-a003-43c4-8784-528c7de09230"
+      },
+      "renditions" : [ {
+        "id" : "e6cddc18-c8a2-4fd7-a650-b452e401aa09",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Departamento de Niños y Familias de Florida",
+            "paragraph" : "El Departamento trabaja en colaboración con las comunidades locales para proteger a los más vulnerables, promover familias sólidas y económicamente autosuficientes y fomentar la recuperación y resiliencia personal y familiar."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "8467a998-a003-43c4-8784-528c7de09230",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headline" : "Depatman Timoun ak Fanmi Florid",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "Depatman an ap travay an patenarya ak kominote lokal yo pou pwoteje fanmi ki vilnerab yo, ankouraje fanmi ki fò, otonòm sou plan ekonomik, epi avanse rekiperasyon ak rezilyans pèsonèl ak fanmi."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Department of Children and Families office locations</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Department of Children & Families Headquarters</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f9d56a03-47ab-4dfb-a447-6e2e039ae666",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "5e633ef1-b898-4fdc-8dc6-1de519f765fd",
+        "ht" : "dfc00142-db4c-4969-b94e-d20081941d46"
+      },
+      "renditions" : [ {
+        "id" : "5e633ef1-b898-4fdc-8dc6-1de519f765fd",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Ubicaciones de oficinas del Departamento de Niños y Familias de Florida</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Oficinas centrales del Departamento de Niños y Familias de Florida</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "dfc00142-db4c-4969-b94e-d20081941d46",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Adrès biwo Depatman Timoun ak Fanmi Florid yo</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Katye Jeneral Depatman Timoun ak Fanmi Florid</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "a70d314d-fc9f-4389-866b-a6ca1da19bd7",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "5be96745-2e32-438c-bdf4-d800bd75a87b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "SNAP provides nutritional support for low-income seniors, people with disabilities living on fixed incomes, and other individuals and families with low incomes.",
+        "title" : "Supplemental Nutrition Assistance Program (SNAP)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f092b906-2b8b-46b1-abb0-e92cea9b6ed3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fa47cbb-6845-4b25-b068-029ec5cf9373",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-snap"
+}

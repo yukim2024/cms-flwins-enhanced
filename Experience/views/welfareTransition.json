@@ -1,0 +1,298 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "78cfc394-e521-4063-b463-0a9defd74bfa",
+  "label" : "welfare-transition",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Welfare Transition (WT)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "33e34512-4956-4dfa-a0e9-0e1e6f965e9f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "e10b69a1-d7b0-4a47-86b4-94e10e814b35",
+        "ht" : "afa929bd-43c8-4a09-8a8d-77428d7e4619"
+      },
+      "renditions" : [ {
+        "id" : "afa929bd-43c8-4a09-8a8d-77428d7e4619",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Tranzisyon Asistans Sosyal(WT)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "e10b69a1-d7b0-4a47-86b4-94e10e814b35",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Transición de la Asistencia Social (WT)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "dff732c4-c45a-4f7d-a6c1-4faaaf1e4020",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "275ba38f-f50e-4048-819d-c375d00ccdac",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "welfare-transition",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "d02ed1e9-fc30-45fb-b4d1-635f617eaa15",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MC4A7Z6P65QBFEFBSWQDGBIAKJZM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "6406822c-b37d-4e57-85c0-8d2de79baad5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "80aebcd1-e90a-4487-a008-ff8bf5515614",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "635ca10c-309b-4d16-84c0-c55cc6655402",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f7582627-1752-4b85-90af-40596e7de6fd",
+        "ht" : "a4e562d6-6b49-4032-9366-69e3726a10d5"
+      },
+      "renditions" : [ {
+        "id" : "f7582627-1752-4b85-90af-40596e7de6fd",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h4>Agencia asociada proveedora del servicio</h4><br>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "a4e562d6-6b49-4032-9366-69e3726a10d5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè kap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "5cef44e4-fc81-4de5-8a22-171e9b64fd2b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "111d5d14-987c-48fd-94b4-c4d9b37ea728",
+        "ht" : "245fcd41-1a20-4b19-9220-12bb6defd4d7"
+      },
+      "renditions" : [ {
+        "id" : "111d5d14-987c-48fd-94b4-c4d9b37ea728",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "245fcd41-1a20-4b19-9220-12bb6defd4d7",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "cd360605-7127-4781-8ba9-d8bad32b3d91",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "bab7e96c-6ffc-461a-8701-9fd59da91312",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Florida's Welfare Transition Program enables welfare recipients to move from welfare to work.The goal of the Welfare Transition Program is to help participants find work.",
+        "title" : "FL WINS - Welfare Transition (WT)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4764ed64-1d71-44bd-aef6-a9dc2814388c",
+      "renditionMap" : {
+        "es" : "6ded9f06-437f-42c6-84be-d1fa4eedce7d",
+        "ht" : "4fd35c18-9c60-4bb8-8826-aa52dc38d9b2"
+      },
+      "renditions" : [ {
+        "id" : "6ded9f06-437f-42c6-84be-d1fa4eedce7d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa Welfare Transition de Florida hace posible que sus destinatarios hagan la transición desde la asistencia social a desempeñar un empleo. La meta del programa es ayudar a los participantes hallar trabajo.",
+            "title" : "FL WINS - Welfare Transition (WT)"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "4fd35c18-9c60-4bb8-8826-aa52dc38d9b2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram Tranzisyon Byennèt Sosyal Florid la pèmèt moun kap resevwa byennèt sosyal yo soti nan byennèt sosyal pou ale travay. Objektif Pwogram Tranzisyon Byennèt Sosyal la se pou ede patisipan yo jwenn travay.",
+            "title" : "FL WINS - Tranzisyon Byennèt Sosyal (WT)"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "44f8f8e8-4daa-4cfb-aa21-489a411c781b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-welfare-transition"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "fd9959d9-8600-458b-a85c-859162a86909",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "c23fb76c-8417-4f84-ae21-9a2d54b4a652",
+  "label" : "My Documents test",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-my-documents-test",
+  "type" : "route",
+  "urlPrefix" : "my-documents-test"
+}

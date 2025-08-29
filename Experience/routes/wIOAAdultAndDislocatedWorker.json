@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7031fe64-10e8-4fcb-8fc2-ad0970d558c6",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "49bba46b-c681-4468-a018-fa64d2fb1473",
+  "label" : "WIOA Adult and Dislocated Worker",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-wioa-adult-program",
+  "type" : "route",
+  "urlPrefix" : "wioa-adult-program"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "edcc2198-deb3-4f0b-9b50-aae5720b3f3e",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "bd4384d1-5d01-4a88-8102-3d59850408d2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_IBM_Home_Page_Profile_Completion_Component",
+  "id" : "6a39f5ea-bd13-4b64-b550-15eb3b52f651",
+  "type" : "experienceVariation"
+}

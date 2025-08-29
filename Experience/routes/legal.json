@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "5489e306-82a6-4d43-b9fa-8ce47728b0b8",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "50808bdb-a4f0-4652-9166-93246a95d43f",
+  "label" : "Legal",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-legal",
+  "type" : "route",
+  "urlPrefix" : "legal"
+}

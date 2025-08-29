@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "13a20b4d-5845-4a7f-94e2-4a34fa87365c",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "6ce7766d-1a86-4769-a395-aacf2dc64fca",
+  "label" : "DEL - School Readiness",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-del-school-readiness",
+  "type" : "route",
+  "urlPrefix" : "del-school-readiness"
+}

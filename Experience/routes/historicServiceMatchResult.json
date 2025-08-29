@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2688778f-9743-482e-ac24-dad825585319",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "48444902-2db3-4d93-9246-741dc17b32bc",
+  "label" : "Historic Service Match Result",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-historic-service-match-result",
+  "type" : "route",
+  "urlPrefix" : "historic-service-match-result"
+}

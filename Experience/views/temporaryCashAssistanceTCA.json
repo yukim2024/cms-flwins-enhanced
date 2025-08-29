@@ -1,0 +1,324 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "987e316c-00f7-42e7-a34e-461069f0f8f1",
+  "label" : "Temporary Cash Assistance (TCA)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Temporary Cash Assistance (TCA)</h1>\n  <p class=\"serviceAgenciesName\">The Florida Department of Children and Families</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "33260912-ad8b-44b1-9280-a07a4e91160d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ceb8e11c-2b40-42e8-8f4a-206312f9c62e",
+        "ht" : "fed02646-e60a-4596-8df2-476d7e9c1916"
+      },
+      "renditions" : [ {
+        "id" : "ceb8e11c-2b40-42e8-8f4a-206312f9c62e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistencia Financiera Temporal (TCA)</h1>\n  <p class=\"serviceAgenciesName\">Departamento de Niños y Familias de Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "fed02646-e60a-4596-8df2-476d7e9c1916",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistans Kash Tanporè (TCA)</h1>\n  <p class=\"serviceAgenciesName\">Depatman Timoun ak Fanmi Florid</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "1bf091d9-7dd8-4200-baca-b29082f2bd15",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c917ba56-e2fe-456c-ad98-25a0b9b3f80d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "temporary-cash-assistance",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "570bee5e-d876-4b15-9d5a-02e3581a1ed5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "3ca0077c-881e-4429-a005-dda6c5c00411",
+        "ht" : "fb0c203a-6105-4001-8d4e-35e8a6790ced"
+      },
+      "renditions" : [ {
+        "id" : "3ca0077c-881e-4429-a005-dda6c5c00411",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "es"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "fb0c203a-6105-4001-8d4e-35e8a6790ced",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "language" : "ht"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCZTPOBRZ7SBAQPC7EMEOXG7P26Q",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "2bca43c5-c738-49cc-8b88-1a2e51f6c913",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "12db8282-0649-4820-b877-b61e5aeac41a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "00fefc6e-0180-4bec-8621-9949e1a78e88",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "6d950101-a545-4e0a-ba6b-09ca5c4f9384",
+        "ht" : "48cabf40-2e94-4351-9a93-734d890e1bbf"
+      },
+      "renditions" : [ {
+        "id" : "6d950101-a545-4e0a-ba6b-09ca5c4f9384",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "48cabf40-2e94-4351-9a93-734d890e1bbf",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "Department of Children and Families Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "department-of-children-and-families",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Department of Children and Families",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "The Department works in partnership with local communities to protect the vulnerable, promote strong and economically self-sufficient families, and advance personal and family recovery and resiliency.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "09ac1275-4902-42f9-9fee-970a43c334fa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "1f187982-0897-4714-9057-da660704525c",
+        "ht" : "ea915f73-70c2-4ac4-911a-aa55f77a93e3"
+      },
+      "renditions" : [ {
+        "id" : "1f187982-0897-4714-9057-da660704525c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Departamento de Niños y Familias de Florida",
+            "paragraph" : "El Departamento trabaja en colaboración con las comunidades locales para proteger a los más vulnerables, promover familias sólidas y económicamente autosuficientes y fomentar la recuperación y resiliencia personal y familiar."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ea915f73-70c2-4ac4-911a-aa55f77a93e3",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "headline" : "Depatman Timoun ak Fanmi Florid",
+            "paragraph" : "Depatman an ap travay an patenarya ak kominote lokal yo pou pwoteje fanmi ki vilnerab yo, ankouraje fanmi ki fò, otonòm sou plan ekonomik, epi avanse rekiperasyon ak rezilyans pèsonèl ak fanmi."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Department of Children and Families office locations</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Department of Children & Families Headquarters</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "299deccb-79d9-4195-9939-7b221488a4a7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "86552f49-8efd-4208-8f10-e03b61279f35",
+        "ht" : "85a3cb24-5ba0-4fa8-9a25-1a998dd4f7f7"
+      },
+      "renditions" : [ {
+        "id" : "86552f49-8efd-4208-8f10-e03b61279f35",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Ubicaciones de oficinas del Departamento de Niños y Familias de Florida</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Oficinas centrales del Departamento de Niños y Familias de Florida</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "85a3cb24-5ba0-4fa8-9a25-1a998dd4f7f7",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Adrès biwo Depatman Timoun ak Fanmi Florid yo</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Katye Jeneral Depatman Timoun ak Fanmi Florid</h3>\n            <p class=\"agenciesAddress\">\n               2415 North Monroe Street<br/>\n                Suite 400<br/>\n                Tallahassee, Florida 32303\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "27a3f7c6-1199-4d62-ba3b-fcc18541c123",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "59385525-bec2-4a61-afb2-5507030a6531",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "The TCA program provides cash assistance to families with children under the age of 18 or under age 19 if full time secondary (high school) school students.",
+        "title" : "Temporary Cash Assistance (TCA)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "93fd412f-ee86-4d58-8c5a-d4a83cf30824",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8080a255-f91b-4104-97b1-cd59a64c3186",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-temporary-cash-assistance"
+}

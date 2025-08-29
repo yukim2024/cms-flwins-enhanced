@@ -1,0 +1,295 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "b1bc3b8c-01f8-481b-9240-387ba40d05ba",
+  "label" : "Trade Adjustment Assistance (TAA)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Trade Adjustment Assistance (TAA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "49b541a5-d830-4743-8972-e542153caeb0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "a080b2b7-947e-4787-9c47-01c6d9948faf",
+        "ht" : "f4e16ce5-356c-4b7b-82d8-c67955a7f707"
+      },
+      "renditions" : [ {
+        "id" : "a080b2b7-947e-4787-9c47-01c6d9948faf",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistencia de Ajuste Comercial (TAA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f4e16ce5-356c-4b7b-82d8-c67955a7f707",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistans Ajisteman Metye (TAA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "407831e1-fed9-4943-a2a8-dd8dbd74ba23",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "78e8ba29-8c72-47cf-bb11-58400d18b75f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "trade-adjustment-assistance",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "947ca4d1-8129-4e65-aec3-43f478d54b72",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCQBY67KSTW5CYVH7XIOFQAK6F4U",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "4a1bdba4-d88f-4757-8dd7-61d6213161ce",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c41f5921-4527-4704-a17e-97b6e3e4531e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "4845aa06-414c-4788-b02c-348b6b0be917",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "bb6ffe96-c959-49ba-a2c3-20a660fefc5a",
+        "ht" : "b98d758b-2036-480e-bc02-60f79bbe9500"
+      },
+      "renditions" : [ {
+        "id" : "b98d758b-2036-480e-bc02-60f79bbe9500",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "bb6ffe96-c959-49ba-a2c3-20a660fefc5a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "9b0c81a5-9a9d-47ed-b571-dfbd1c0aa307",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "9d39ac96-ed00-41b4-9f4d-e81d13c51f8d",
+        "ht" : "5040b65c-6c96-4cbc-867b-eb2fea321d0d"
+      },
+      "renditions" : [ {
+        "id" : "9d39ac96-ed00-41b4-9f4d-e81d13c51f8d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5040b65c-6c96-4cbc-867b-eb2fea321d0d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "3a485f6a-57aa-47be-99da-c3a47b7df67b",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "34e60f01-78c8-4840-8008-d899cd75c50c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s Trade Adjustment Assistance Program provides help to workers who have lost their jobs or are at risk of losing their jobs due to foreign trade or competition.",
+        "title" : "FL WINS -Trade Adjustment Assistance (TAA)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ad659aaf-b98e-4add-bda1-d9f82dcc6035",
+      "renditionMap" : {
+        "es" : "b328fda7-e3a2-46cf-b111-0c68ec0b96b9",
+        "ht" : "ce398e3b-0efc-4342-b75d-ce1337e7907a"
+      },
+      "renditions" : [ {
+        "id" : "b328fda7-e3a2-46cf-b111-0c68ec0b96b9",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa de Asistencia de Ajuste Comercial de FloridaCommerce ofrece ayuda a los trabajadores que han perdido sus empleos o están en riesgo de perderlos debido al comercio exterior o la competencia.",
+            "title" : "FL WINS - Asistencia de Ajuste Comercial (TAA)"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ce398e3b-0efc-4342-b75d-ce1337e7907a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram Asistans Ajisteman Metye FloridaCommerce la bay sipò pou travayè ki pèdi travay yo oswa ki riske pèdi li akòz komès oswa konpetisyon etranje.",
+            "title" : "FL WINS - Asistans Ajisteman Metye (TAA)"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "3a33b040-ebc9-4333-9063-71946536b469",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-trade-adjustment-assistance-taa"
+}
