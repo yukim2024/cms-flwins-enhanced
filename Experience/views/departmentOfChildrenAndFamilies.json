@@ -1,0 +1,286 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "74c1da51-688d-4fe5-804f-966d204cb31e",
+  "label" : "Department of Children and Families",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img src=\"/sfsites/c/resource/1722331066000/DCFLogo\" alt=\"Florida Department of Children and Families Logo\" style=\"width:100%; max-width:461px;\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f4d87794-e0a0-41e9-b5a9-24f928e4fbc1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1b1d1129-ab70-4da5-ba2c-fce4e1781fcc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "27be880f-72fc-46a2-ad66-516026b365ae",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCZBD5SQSMNZELPMS27MGRGV76SY",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"20\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"20\",\"isPx\":true}}",
+              "imageUrl" : "{!CurrentItem.bannerImage.url}",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : "363",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : true,
+              "showExcerpt" : true,
+              "showEyebrow" : true,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : true,
+              "showFlag" : true,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "91d267d7-2841-4ef6-b85a-2cd7faab36b2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "02925ad5-198f-4899-abcf-62239c5b50dc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonText" : "View agency services",
+        "buttonUrl" : "service-catalog",
+        "buttonUrlParams" : "agency=dcf",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-programs-and-services",
+        "darkText" : true,
+        "headline" : "Programs & services",
+        "headlineSize" : "medium",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Department of Children and Families offers many programs and services that can assist Floridians in economic opportunities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h3",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "b17edb3c-4dc9-43c1-a699-81b2a7031e27",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "6888a5e9-f9f1-49d1-a7a5-3ef2a9c445cd",
+        "ht" : "513acc8d-7bb9-41c3-a696-5f9ea5daf123"
+      },
+      "renditions" : [ {
+        "id" : "513acc8d-7bb9-41c3-a696-5f9ea5daf123",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sèvis ajans yo",
+            "buttonUrlParams" : "agency=dcf",
+            "headline" : "Pwogram ak sèvis",
+            "paragraph" : "Depatman Timoun ak Fanmi ofri anpil pwogram ak sèvis ki kapab asiste moun Florida nan opòtinite ekonomik."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "6888a5e9-f9f1-49d1-a7a5-3ef2a9c445cd",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver los servicios de la agencia",
+            "buttonUrlParams" : "agency=dcf",
+            "headline" : "Programas y servicios",
+            "paragraph" : "El Departamento de Niños y Familias ofrece numerosos programas y servicios que pueden ayudar a los floridanos a aprovechar oportunidades económicas"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonClass" : "button-white",
+        "buttonIcon" : "utility:new_window",
+        "buttonIconPosition" : "right",
+        "buttonText" : "View agency website",
+        "buttonUrl" : "https://www.myflfamilies.com/",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-website",
+        "darkText" : true,
+        "headline" : "",
+        "headlineSize" : "small",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Interested in learning more about Department of Children and Families?",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "e69c725e-b19c-4ae0-94ce-98685698e11d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "adf58d90-7a0a-49f4-8dfa-cda4513dacb2",
+        "ht" : "b91c9ce7-a438-47b8-bccf-77375e151825"
+      },
+      "renditions" : [ {
+        "id" : "b91c9ce7-a438-47b8-bccf-77375e151825",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sitwèb ajans",
+            "paragraph" : "Ou enterese aprann plis sou Depatman Timoun ak Fanmi Florida?"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "adf58d90-7a0a-49f4-8dfa-cda4513dacb2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver el sitio web de la agencia",
+            "paragraph" : "¿Interesado en conocer más acerca del Departamento de Niños y Familias?"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Contact Us</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Community Partner Search</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Family Resource Centers | Florida DCF</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "7ed1ee50-98c8-4714-9098-1c47754afbdb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "339993bf-25a3-4f45-ba8f-9b3fa06de079",
+        "ht" : "da79d434-8ade-4628-8299-d23b996dd984"
+      },
+      "renditions" : [ {
+        "id" : "339993bf-25a3-4f45-ba8f-9b3fa06de079",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Contáctenos</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Búsqueda de Socios Comunitarios</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Centros de Recursos para la Familia | Florida DCF</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "da79d434-8ade-4628-8299-d23b996dd984",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h2 class=\"smallTitle\">Kontakte Nou</h2>\n            <p style=\"font-size: 18px\">\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Rechèch Patnè Kominotè</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://access-web.dcf.state.fl.us/CPSLookup/search.aspx\" target=\"_blank\">Sant Resous Fanmi | Florida DCF</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e6d1573c-bd95-4627-a035-d00336b622bc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "da38e29f-9ca3-4035-a112-7cdd4f50ce35",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Find government assistance and services in the state of Florida for children, families, seniors and people with disabilities.",
+        "title" : "Florida Department of Children and Families"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "de291092-4ee1-4c96-9c60-43486bcf2102",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "19d19b3c-a689-426a-a069-e26ff384e97a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-department-of-children-and-families"
+}

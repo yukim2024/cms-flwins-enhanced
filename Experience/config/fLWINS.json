@@ -1,0 +1,54 @@
+{
+  "forgotPasswordRouteId" : "9cbc61ec-e853-4db3-b743-a7cff0f12cff",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "45ebf8d3-b770-4d59-aa91-331c30b513ab",
+  "mainAppPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "d463d412-d49d-4a6e-822e-25437fad6c7f",
+  "trustedSitesForScript" : [ {
+    "id" : "3f1728df-ecdb-47be-b19a-c51ce074ad6c",
+    "isActive" : true,
+    "trustedSiteName" : "Google Tag Manager",
+    "trustedSiteUrl" : "https://www.googletagmanager.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "16b7cd33-2011-414a-8629-007c66b3fea5",
+    "isActive" : true,
+    "trustedSiteName" : "Google Analytics",
+    "trustedSiteUrl" : "https://www.google-analytics.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "794e0567-564d-49fb-8c14-7c071c75fd1f",
+    "isActive" : true,
+    "trustedSiteName" : "GoogleAnalyticsAdwords",
+    "trustedSiteUrl" : "https://stats.g.doubleclick.net",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "c50355fd-7c36-4b92-af9a-4c947b0d6580",
+    "isActive" : true,
+    "trustedSiteName" : "GoogleTagManagerDebug",
+    "trustedSiteUrl" : "https://tagmanager.google.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "9c6aba61-480a-46ae-ae3f-1766bcc9c4b3",
+    "isActive" : true,
+    "trustedSiteName" : "www.googletagmanager.com",
+    "trustedSiteUrl" : "https://www.googletagmanager.com/gtag/js",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "63de1ab9-bc7c-4e77-825e-46ddd1f0d8aa",
+    "isActive" : true,
+    "trustedSiteName" : "LogoTemp",
+    "trustedSiteUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Florida_State_Seminoles_logo.svg/400px-Florida_State_Seminoles_logo.svg.png",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "47e45afd-adef-47b5-909a-ce856ff6ec05",
+    "isActive" : true,
+    "trustedSiteName" : "Temppppp",
+    "trustedSiteUrl" : "https://flcommercewins--flwinsdev2.sandbox.my.salesforce.com/",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

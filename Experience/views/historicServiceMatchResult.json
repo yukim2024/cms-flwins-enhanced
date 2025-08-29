@@ -1,0 +1,134 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2688778f-9743-482e-ac24-dad825585319",
+  "label" : "Historic Service Match Result",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "5fdffbf6-abd8-44cd-87ef-1f6747035a7f",
+          "columns" : [ {
+            "UUID" : "2f26c8d7-1fe0-4927-a3c6-b2646c69bb18",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5fdffbf6-abd8-44cd-87ef-1f6747035a7f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:serviceMatchResult",
+          "id" : "723fd567-8900-484a-b98d-84e43d3a1eea",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p>Service Match Input</p>\n<br/>\n<h2>Recommendations based on:</h2>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "a5e202ec-0d34-4329-b269-c04c3befea16",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "d8cdae78-988c-44b2-9063-5d23ccccf9f5",
+            "ht" : "1dc00273-164c-4b16-a951-52dfb6b78e6e"
+          },
+          "renditions" : [ {
+            "id" : "1dc00273-164c-4b16-a951-52dfb6b78e6e",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<p>Antre Asosye sèvis</p>\n<br/>\n<h2>Rekòmandasyon ki baze sou:</h2>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "d8cdae78-988c-44b2-9063-5d23ccccf9f5",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<p>Entrada de Coincidencia de Servicios</p>\n<br/>\n<h2>Recomendaciones basadas en:</h2>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "Multi-Language",
+            "subType" : "ReadOnly",
+            "theme" : "lightning",
+            "type" : "Service"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "8dc90615-380f-4216-a9cd-d885326d25d7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2f26c8d7-1fe0-4927-a3c6-b2646c69bb18",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bf0d74c4-66bf-40ac-b0b7-bc32c15237e4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "This page connects you with a previous match of your needs and goals with state programs and resources, revolutionizing your journey to self-sufficiency.",
+        "title" : "FL WINS - Historic Service Match Result"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1438fda2-a6c6-4848-90ae-b8b355e7c49f",
+      "renditionMap" : {
+        "es" : "a1da6d2d-a3d2-4a64-b347-4b1d47f6a923",
+        "ht" : "170763a8-9efc-46b3-94b7-ca54cd5bbc49"
+      },
+      "renditions" : [ {
+        "id" : "a1da6d2d-a3d2-4a64-b347-4b1d47f6a923",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Esta página le conecta con un emparejamiento previo de sus necesidades y objetivos con programas y recursos estatales, revolucionando su trayecto hacia la autosuficiencia.",
+            "title" : "FL WINS - Historial de Resultados de Service Match"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "170763a8-9efc-46b3-94b7-ca54cd5bbc49",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Paj sa a konekte w ak yon korespondans ki te deja fèt ant bezwen e objektif ou yo avèk pwogram ak resous leta yo, kap revolisyone pakou w pou vin endepandan.",
+            "title" : "FL WINS - Rezilta Istorik Service Match"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "53686736-3128-42ab-8965-858ecc8e5770",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-historic-service-match-result"
+}

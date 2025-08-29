@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f6c0d1f7-71f9-4895-8d6d-fc6bcd3b0983",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "b79b4968-4454-401b-8494-e8f5b30fd66f",
+  "label" : "Florida Department of Education",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-department-of-education",
+  "type" : "route",
+  "urlPrefix" : "department-of-education"
+}

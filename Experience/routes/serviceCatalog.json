@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "893097e3-f9db-4bde-ba31-1f3272397455",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "3393b8d6-a64e-4eab-880e-57e6c3596f69",
+  "label" : "Service Catalog",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-service-catalog",
+  "type" : "route",
+  "urlPrefix" : "service-catalog"
+}

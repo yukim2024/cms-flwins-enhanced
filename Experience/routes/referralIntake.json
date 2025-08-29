@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a0346ce8-e807-4775-aa68-29ebccaab825",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "400495b0-e96b-4eb6-a355-29a7203ccaec",
+  "label" : "referralIntake",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-referralintake",
+  "type" : "route",
+  "urlPrefix" : "referralintake"
+}

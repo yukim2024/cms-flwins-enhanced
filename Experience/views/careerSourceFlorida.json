@@ -1,0 +1,284 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "d273c4ee-a23c-4efe-8c75-659e15fafea5",
+  "label" : "CareerSource Florida",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img src=\"/sfsites/c/resource/1722331066000/CareerSourceLogo\" alt=\"CareerSource Florida Logo\" style=\"width:100%; max-width:245px;\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d57bb4c0-6eb2-4a63-bfd1-2949aa108a79",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d24454f-8017-4442-988c-50e0ce058091",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e9f55661-a4ae-4188-b6ca-2518d0bf56ef",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCSGO2DCODGFBA3JS3BFTFCP7SDU",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 253, 253)",
+              "componentBorderStyles" : "",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"20\",\"isPx\":true},\"borderTopRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomRightRadius\":{\"value\":\"20\",\"isPx\":true},\"borderBottomLeftRadius\":{\"value\":\"20\",\"isPx\":true}}",
+              "imageUrl" : "{!CurrentItem.bannerImage.url}",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : "363",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : true,
+              "showExcerpt" : true,
+              "showEyebrow" : true,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : true,
+              "showFlag" : true,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "5b7661f8-f359-4f0f-a6e4-747b99382045",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4665dead-4f71-4929-9179-6b8eb4caa397",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonText" : "View agency services",
+        "buttonUrl" : "service-catalog",
+        "buttonUrlParams" : "agency=cs",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-programs-and-services",
+        "darkText" : true,
+        "headline" : "Programs & services",
+        "headlineSize" : "medium",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "CareerSource Florida offers many programs and services that can assist Floridians in career advancement opportunities",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h3",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "4e782a88-0703-4ea1-adbe-664f8df3c486",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "2ace43eb-cdcd-40e6-b24b-aae8f7ad6eed",
+        "ht" : "2ca52afb-d7de-4a8b-a954-489e9ff69a9d"
+      },
+      "renditions" : [ {
+        "id" : "2ace43eb-cdcd-40e6-b24b-aae8f7ad6eed",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver los servicios de la agencia",
+            "headline" : "Programas y servicios",
+            "paragraph" : "CareerSource Florida ofrece numerosos programas y servicios que pueden ayudar a los floridanos a aprovechar oportunidades de desarrollo profesional."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "2ca52afb-d7de-4a8b-a954-489e9ff69a9d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sèvis ajans yo",
+            "headline" : "Pwogram ak sèvis",
+            "paragraph" : "CareerSource Florida ofri anpil pwogram ak sèvis ki kapab asiste moun Florida nan opòtinite avansman karyè yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#ffffff",
+        "buttonClass" : "button-white",
+        "buttonIcon" : "utility:new_window",
+        "buttonIconPosition" : "right",
+        "buttonText" : "View agency website",
+        "buttonUrl" : "https://careersourceflorida.com/",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "partner-website",
+        "darkText" : true,
+        "headline" : "",
+        "headlineSize" : "small",
+        "headlineTag" : "h4",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Interested in learning more about CareerSource Florida?",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "7f75b79d-b73d-42aa-b6ce-f7d4d37ef859",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "30e1a93e-430a-433b-8865-45d892647381",
+        "ht" : "5809e11c-6cdf-49b0-a7c4-b11a4d3a4d07"
+      },
+      "renditions" : [ {
+        "id" : "30e1a93e-430a-433b-8865-45d892647381",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Ver el sitio web de la agencia",
+            "paragraph" : "¿Interesado en conocer más acerca de CareerSource Florida?"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5809e11c-6cdf-49b0-a7c4-b11a4d3a4d07",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Gade sitwèb ajans",
+            "paragraph" : "Ou enterese aprann plis sou CareerSource Florida?"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">CareerSource Florida</h2>\n            <p style=\"font-size: 18px\">\n                2308 Killearn Center Blvd, Suite 101<br/>\n                Tallahassee, FL 32309<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">Contact Us</h2>\n            <p style=\"font-size: 18px; word-break: break-word;\">\n                Email: <a style=\"color:#4b5563\" href=\"mailto:info@careersourceflorida.com\">info@careersourceflorida.com</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://careersourceflorida.com/career-services/your-local-team/\" target=\"_blank\">Find your local team</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5ab497ea-b16c-42ce-b4cf-bae292bbc23a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "8de3ac81-1f34-470a-bbb2-4b58b7cb6b17",
+        "ht" : "7a1c2515-92e4-4330-b839-cc84a6d2869f"
+      },
+      "renditions" : [ {
+        "id" : "7a1c2515-92e4-4330-b839-cc84a6d2869f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">CareerSource Florida</h2>\n            <p style=\"font-size: 18px\">\n                2308 Killearn Center Blvd, Suite 101<br/>\n                Tallahassee, FL 32309<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">Kontakte Nou</h2>\n            <p style=\"font-size: 18px; word-break: break-word;\">\n                Imèl: <a style=\"color:#4b5563\" href=\"mailto:info@careersourceflorida.com\">info@careersourceflorida.com</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://careersourceflorida.com/career-services/your-local-team/\" target=\"_blank\">Jwenn Ekip Lokal ou a</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "8de3ac81-1f34-470a-bbb2-4b58b7cb6b17",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"max-width: 400px; font-size: 0.9em; color: #4b5563; display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">CareerSource Florida</h2>\n            <p style=\"font-size: 18px\">\n                2308 Killearn Center Blvd, Suite 101<br/>\n                Tallahassee, FL 32309<br/><br/>\n            </p>\n        </div>\n    </div>\n\n    <div style=\"display: flex;\">\n        <div style=\"flex: 0 0 20px; margin-right: 10px;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/email_open_60.png\" alt=\"Email Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 1;\">\n            <h2 class=\"smallTitle\">Contáctenos</h2>\n            <p style=\"font-size: 18px; word-break: break-word;\">\n                Correo electrónico: <a style=\"color:#4b5563\" href=\"mailto:info@careersourceflorida.com\">info@careersourceflorida.com</a><br/>\n                <a style=\"color:#4b5563\" href=\"https://careersourceflorida.com/career-services/your-local-team/\" target=\"_blank\">Encuentre su equipo local</a><br/>\n            </p>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "a4684f09-974d-4c77-90eb-1790bc54c7af",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "7c3bc58d-1176-404a-8cad-1afe2bd7b235",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "CareerSource Florida is a Workforce Partner of the FL WINS Program, an innovative, consumer-first workforce development Program, providing Floridians with improved access to many workforce programs.",
+        "title" : "CareerSource Florida"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f00a34b2-3483-4410-a0e8-b32de1b88245",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "110aea45-e2e4-4d2e-b848-c286d1e31897",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-careersource-florida"
+}

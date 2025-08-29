@@ -1,0 +1,295 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "9ca2e88f-27cc-4466-a2ef-340e4461eb2a",
+  "label" : "SNAP Employment and Training",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Supplemental Nutrition Assistance Program (SNAP) Employment and Training (E&T)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "eed5d8e6-f899-4531-9249-c31dcce80560",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "cad403fb-61ca-4705-93b5-b90b42afa81b",
+        "ht" : "88303318-edaa-408c-9a92-b0c1d9559a7a"
+      },
+      "renditions" : [ {
+        "id" : "cad403fb-61ca-4705-93b5-b90b42afa81b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Servicio de Empleo y Capacitación (E&T) del Programa de Asistencia de Nutrición Suplementaria (SNAP)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "88303318-edaa-408c-9a92-b0c1d9559a7a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Supplemental Nutrition Assistance Program (SNAP) Employment and Training (E&T)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "717ee4b3-4b42-4d92-9017-9427b1a13460",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "748251c3-04c0-4f6f-a7ee-5fa87b987b92",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "snap-employment-training",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "1df532c4-f05b-4fb4-a721-5466995dfdaa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCONFQZQFXLNFUJGDB7IDB2E3PMQ",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "4437bd84-5e33-475c-b050-7eb7d82ac7cb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "92051de8-75b6-4b41-959c-3d8d83fd9bfa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "b211707e-04ba-4e88-a000-f22e56533ce6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "b1463d44-b6a4-483b-9e0b-3dc950a126cb",
+        "ht" : "bcd36dac-3d1c-430c-a682-7899b8f272fb"
+      },
+      "renditions" : [ {
+        "id" : "bcd36dac-3d1c-430c-a682-7899b8f272fb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "b1463d44-b6a4-483b-9e0b-3dc950a126cb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "c1acd330-cb3a-4fe6-b138-78d30f3fe6b3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "1a0a00f9-4c0e-400f-958b-b9f7282ee4fb",
+        "ht" : "d8a8b84b-6422-43f2-a454-27aae15dc58e"
+      },
+      "renditions" : [ {
+        "id" : "d8a8b84b-6422-43f2-a454-27aae15dc58e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "1a0a00f9-4c0e-400f-958b-b9f7282ee4fb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e187d12c-7290-4603-aa29-12a3ecdbf7e4",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "292325a9-b21a-436d-a0d6-6ef067b00461",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s SNAP E&T program helps individuals receiving food assistance register/participate in work activities like supervised job search, training, and education.",
+        "title" : "FL WINS - Supplemental Nutrition Assistance Program (SNAP) Employment and Training (E&T)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3addaecd-3bd8-43e4-a843-b0e61fa0025f",
+      "renditionMap" : {
+        "es" : "bb7866f3-22bd-4aac-839e-84534583e445",
+        "ht" : "3cae7ca9-06eb-4bca-b3f2-b5d231c0525d"
+      },
+      "renditions" : [ {
+        "id" : "bb7866f3-22bd-4aac-839e-84534583e445",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El programa SNAP E&T de FloridaCommerce ayuda a quienes estén recibiendo asistencia alimentaria a que se registren/participen en actividades laborales como búsqueda de empleo, capacitación y educación.",
+            "title" : "FL WINS - Servicio de Empleo y Capacitación (E&T) del Programa de Asistencia de Nutrición Suplementa"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "3cae7ca9-06eb-4bca-b3f2-b5d231c0525d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram SNAP E&T FloridaCommerce la ede moun k ap resevwa asistans manje enskri/patisipe nan aktivite travay tankou rechèch travay sipèvize, fòmasyon ak edikasyon.",
+            "title" : "FL WINS - Pwogram Asistans Nitrisyonèl Siplemantè (SNAP) Anplwa ak Fòmasyon (E&T)"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e4f68951-e3ba-4126-a7fa-67ff663b01b8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-snap-employment-training"
+}

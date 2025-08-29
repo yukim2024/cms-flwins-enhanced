@@ -1,0 +1,68 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "103d3d36-526e-4220-b18f-7cf042ba6295",
+  "label" : "Intake Submitted",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f98dfc34-53de-4ece-9a30-4fb17a1b6a68",
+          "columns" : [ {
+            "UUID" : "ebe254f7-72bc-4aeb-9963-acd5289d9885",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f98dfc34-53de-4ece-9a30-4fb17a1b6a68",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:submissionPage",
+          "id" : "4ad3d533-ba2b-49ff-b634-1028bb42d694",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ebe254f7-72bc-4aeb-9963-acd5289d9885",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b97997b4-44e7-4f97-af8f-68a58e3ed5af",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Intake Submitted"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "860fb82d-657a-4036-8725-c2d17821d377",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2a5a6ebc-b9ef-4587-978f-fc61bc074c25",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-intake-submitted"
+}

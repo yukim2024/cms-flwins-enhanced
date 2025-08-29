@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "b518b440-3d9b-445c-a1f4-258b175058c5",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2a182311-a2c9-4f5f-aa4c-53d6f1090285",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Vocational_Rehabilitation_VR_IBM_Banner_Component",
+  "id" : "7cadec96-5516-4f6c-8a0e-4df4f237d4a4",
+  "type" : "experienceVariation"
+}

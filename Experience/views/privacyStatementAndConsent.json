@@ -1,0 +1,202 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4b776318-b7b3-4e5f-9a8a-e9bcde8bb2ea",
+  "label" : "Privacy Statement and Consent",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "exactSize" : "67px",
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "54291896-5ca1-4a59-82fe-9e7d045d0d47",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "",
+        "ariaLevel" : "1",
+        "customClass" : "privacyHeader",
+        "size" : "none",
+        "tag" : "H3 - Subsection Heading",
+        "text" : "FL WINS Privacy Statement and Consent to Data Sharing"
+      },
+      "componentName" : "c:x7sExpHtmlHeadings",
+      "id" : "10b309f3-55c3-4da7-b8e5-7fdd64ade01c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f16f1501-d6d3-4b4a-80f5-b61bb805460e",
+        "ht" : "9f60e7ef-b005-498f-a415-f19824c0ac61"
+      },
+      "renditions" : [ {
+        "id" : "f16f1501-d6d3-4b4a-80f5-b61bb805460e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "text" : "Declaración de privacidad y consentimiento para el uso compartido de datos"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "9f60e7ef-b005-498f-a415-f19824c0ac61",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "text" : "Deklarasyon Konfidansyalite ak Konsantman pou Pataje Done"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "8a52ae1c-0e79-4965-8bae-ab9b2bbb12c4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCO3ULWS5WZVHQPI4AKK327WD4QY",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgba(212, 212, 212, 0)",
+              "componentBorderStyles" : "",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "left",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "acd252c7-789b-49b8-b009-e300e6baf691",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c0559f8b-dd32-4dbb-a558-69e0b6d71001",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f41c2152-4db5-4d81-87d7-82cbb8fe62de",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Learn how FL WINS shares your information across state agencies to enhance your service experience, while protecting your privacy and adhering to state and federal laws.",
+        "title" : "FL WINS - Understanding Information Sharing & Privacy"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e6e75736-a244-45df-be7b-a0758ee2c23f",
+      "renditionMap" : {
+        "es" : "bf055b06-6f68-488a-9912-3871916df010",
+        "ht" : "e7933bf3-1052-45b3-b865-4688575ec487"
+      },
+      "renditions" : [ {
+        "id" : "bf055b06-6f68-488a-9912-3871916df010",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Conozca la manera como FL WINS comparte su información con otras agencias estatales para mejorar su experiencia de servicio, a la vez que protege su privacidad y cumple las leyes estatales y federales.",
+            "title" : "FL WINS - Comprender el Uso Compartido de la Información y la Privacidad"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "e7933bf3-1052-45b3-b865-4688575ec487",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Aprann kijan FL WINS pataje enfòmasyon ou yo atravè ajans leta yo pou amelyore eksperyans sèvis ou, pandan y ap pwoteje vi prive ou epi respekte lwa leta ak federal yo.",
+            "title" : "FL WINS - Konprann Pataj Enfòmasyon ak Konfidansyalite"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "79b44713-d067-427c-b11b-767739c25867",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-privacy-statement-and-consent"
+}

@@ -1,0 +1,295 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "13e6a8b8-9374-4083-8d2c-819faffb6d3c",
+  "label" : "RESEA",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Reemployment Services and Eligibility Assessment (RESEA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Florida Department of Commerce)</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d4f408ca-9139-4d26-8421-d3399725a737",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "1cb37e15-498b-410f-a562-4e7e6be46fdd",
+        "ht" : "45bf3b46-58cd-47f8-9d22-640d13ba6710"
+      },
+      "renditions" : [ {
+        "id" : "1cb37e15-498b-410f-a562-4e7e6be46fdd",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Servicios de Reempleo y Evaluación de Elegibilidad (RESEA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Departamento de Comercio de Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "45bf3b46-58cd-47f8-9d22-640d13ba6710",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Asistans Reyanplwa ak Evalyasyon Kalifikasyon (RESEA)</h1>\n  <p class=\"serviceAgenciesName\">FloridaCommerce (Depatman Komès Florida)</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "3d76fc9d-5d2d-4c6f-8eff-82f9fab1ded0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f0b5028b-08ba-42f0-be48-e752a32c6e89",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "resea",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "a1122f8d-295f-4f06-a546-97f8fdba2a8f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCC3QIAUKTHZDYLLVGA2STB2HBKM",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "7118e341-9b18-431a-ae49-8db138e63ac3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f8f79eea-556f-4cde-87d4-eda072f84a77",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "2f5f90ea-7b5a-4fc7-8437-179a59621d91",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "54641301-867c-4f5d-878b-5741e830a308",
+        "ht" : "04a58849-c88b-46a8-aba4-a4f4f1dade27"
+      },
+      "renditions" : [ {
+        "id" : "54641301-867c-4f5d-878b-5741e830a308",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "04a58849-c88b-46a8-aba4-a4f4f1dade27",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "FloridaCommerce Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "floridacommerce",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "FloridaCommerce",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "In collaboration with our partners, FloridaCommerce assists the Governor in advancing Florida’s economy by championing the state’s economic development vision and by administering state and federal programs and initiatives to help visitors, citizens, businesses, and communities.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "ea333359-11ab-4527-a02d-4c78c939f3c6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "c16b9909-aaa5-447a-9d5c-5ee83d0c923e",
+        "ht" : "ee5fe3a6-46ab-42cf-97fa-4c1860aabca6"
+      },
+      "renditions" : [ {
+        "id" : "c16b9909-aaa5-447a-9d5c-5ee83d0c923e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "paragraph" : "En colaboración con nuestros socios, FloridaCommerce ayuda al Gobernador a impulsar la economía de Florida al defender la visión de desarrollo económico del estado y administrar programas e iniciativas estatales y federales para ayudar a visitantes, ciudadanos, empresas y comunidades. "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ee5fe3a6-46ab-42cf-97fa-4c1860aabca6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "paragraph" : "An kolaborasyon ak patnè nou yo, FloridaCommerce ap asiste Gouvènè a fè avanse ekonomi Florida a pandan l ap defann vizyon ekonomik eta a epi nan administre pwogram ak inisyativ federal ak eta a pou ede vizityè, sitwayen, biznis ak kominote yo."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "c58ea81c-f73c-4384-9df1-d33ad24a7fe2",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "2d2c1dd7-815a-4296-8ded-233b8a9b4ee3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FloridaCommerce’s RESEA Program addresses individual reemployment needs of Reemployment Assistance claimants. The Program's purpose is to improve employment outcomes of claimants.",
+        "title" : "FL WINS - Reemployment Services and Eligibility Assessment (RESEA) "
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7d9fb23b-6e70-4d9e-b973-5672424b14c1",
+      "renditionMap" : {
+        "es" : "536b5dbc-57e7-491e-834e-f20ddccaa24e",
+        "ht" : "716911dd-7b35-41ab-a0b5-0e6cc8a96fd1"
+      },
+      "renditions" : [ {
+        "id" : "536b5dbc-57e7-491e-834e-f20ddccaa24e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "El Programa RESEA de FloridaCommerce aborda las necesidades de reinserción laboral individuales de los solicitantes de Asistencia para la Reinserción Laboral. El propósito del Programa es mejorar los resultados de empleo de los solicitantes.",
+            "title" : "FL WINS - Servicios de Reinserción Laboral y Evaluación de Elegibilidad (RESEA)"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "716911dd-7b35-41ab-a0b5-0e6cc8a96fd1",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Pwogram RESEA FloridaCommerce lan adrese bezwen endividyèl moun kap resevwa Asistans Reyanplwa yo pou ede yo retounen travay. Objektif Pwogram nan se amelyore rezilta pwofesyonèl reklaman yo.",
+            "title" : "FL WINS - Sèvis Reyanplwa ak Evalyasyon Elijibilite (RESEA) "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e1d0a004-0d36-467c-8c8a-35c3969d64c2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-resea"
+}

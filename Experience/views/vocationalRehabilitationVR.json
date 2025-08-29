@@ -1,0 +1,451 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "af5f4a6a-d1d2-4d5c-95ed-c6e6d6f8db2f",
+  "label" : "Vocational Rehabilitation (VR)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Vocational Rehabilitation (VR)</h1>\n  <p class=\"serviceAgenciesName\">Florida Department of Education</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d699da91-6d01-44ac-a4c8-979d9db53587",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ab3334b4-e442-4ce3-b496-a10570a0df55",
+        "ht" : "7972483e-2f36-46e4-bcbf-3e017c7530ba"
+      },
+      "renditions" : [ {
+        "id" : "7972483e-2f36-46e4-bcbf-3e017c7530ba",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Reyabilitasyon Pwofesyonèl (VR)</h1>\n  <p class=\"serviceAgenciesName\">Depatman Edikasyon Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ab3334b4-e442-4ce3-b496-a10570a0df55",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Rehabilitación Profesional (VR)</h1>\n  <p class=\"serviceAgenciesName\">Departamento de Educación de Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "cc185fef-8184-4039-96cf-158280b2b09c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "12c982e7-71df-44fa-9a9d-09462b27dda0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "vocational-rehabilitation",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "ddab9c0e-9a9e-4eec-affe-3bd595527d03",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCK2FVNMZ7UFH6ZBMB4G54HOVWC4",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "bb818824-9ddc-4ba7-b844-e121d54bcf7c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fbed844-9440-4a0b-ae99-69e667e4ca0b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#FFFFFF",
+        "button2Text" : "Sign in",
+        "button2Url" : "login",
+        "buttonClass" : "button-black",
+        "buttonClass2" : "button-white",
+        "buttonSpacing" : "medium",
+        "buttonText" : "Create account",
+        "buttonUrl" : "login",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "nextStepDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "darkText" : true,
+        "headline" : "Ready to take the next step?",
+        "headlineSize" : "small",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "none",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Connect to this program faster with a FL WINS account!",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "xx-small"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "2a182311-a2c9-4f5f-aa4c-53d6f1090285",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "82c0f7bc-73f6-458d-a7e6-ba609d164f2e",
+        "ht" : "852924db-4d51-4323-b2e6-e8e2e87416a4"
+      },
+      "renditions" : [ {
+        "id" : "82c0f7bc-73f6-458d-a7e6-ba609d164f2e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "button2Text" : "Iniciar sesión",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "button-white",
+            "buttonClass2_1" : "",
+            "buttonClass2_2" : "",
+            "buttonSpacing" : "medium",
+            "buttonText" : "Crear una cuenta",
+            "column1Class" : "nextStepDiv",
+            "customClassName" : "",
+            "headline" : "¿Listo para el próximo paso?",
+            "headlineSize" : "small",
+            "headlineTag" : "h2",
+            "paragraph" : "¡Conéctese con este programa más rápido con una cuenta FL WINS!"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "852924db-4d51-4323-b2e6-e8e2e87416a4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "button2Text" : "Konekte",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "button-white",
+            "buttonText" : "Kreye kont",
+            "column1Class" : "nextStepDiv",
+            "column2Class" : "display-flex",
+            "column3Class" : "display-flex",
+            "headline" : "Èske w pare pou w franchi pwochen etap la?",
+            "headlineSize" : "small",
+            "headlineTag" : "h2",
+            "paragraph" : "Konekte nan pwogram sa a pi vit ak yon kont FL WINS!"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#FFFFFF",
+        "button2Icon" : "",
+        "button2IconPosition" : "",
+        "button2Text" : "",
+        "button2Url" : "",
+        "buttonClass" : "button-black",
+        "buttonClass2" : "",
+        "buttonSpacing" : "large",
+        "buttonText" : "Start my registration intake",
+        "buttonUrl" : "referralintake",
+        "buttonUrlParams" : "c__progCode=VR",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "nextStepDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "darkText" : true,
+        "headline" : "Ready to take the next step?",
+        "headlineSize" : "small",
+        "headlineTag" : "h2",
+        "horizontalPadding" : "none",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Yes! Please send my information to FloridaCommerce.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "xx-small"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "7a68debd-0b78-4857-a22c-d472d0a793a5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "00634b6d-d52c-4c44-b367-6752f6176d47",
+        "ht" : "f9158a66-059c-40e2-afa5-f2c417de45c6"
+      },
+      "renditions" : [ {
+        "id" : "00634b6d-d52c-4c44-b367-6752f6176d47",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Comenzar mi solicitud de admisión de registro",
+            "column1Class" : "nextStepDiv",
+            "headline" : "¿Listo para el próximo paso?",
+            "headlineTag" : "h2",
+            "paragraph" : "Sí. Por favor, enviar mi información a FloridaCommerce."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f9158a66-059c-40e2-afa5-f2c417de45c6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Kòmanse aplikasyon enskripsyon m nan",
+            "column1Class" : "nextStepDiv",
+            "headline" : "Èske w pare pou w franchi pwochen etap la?",
+            "headlineSize" : "small",
+            "headlineTag" : "h2",
+            "paragraph" : "Wi! Tanpri voye enfòmasyon mwen bay FloridaCommerce."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:paperFormDownload",
+      "id" : "85a0c6b3-8d01-462b-96f4-3033e17fbf55",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "94403134-19f4-49f0-9911-d18e99e30dea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f49b9b9e-0f29-45d6-b01d-153f68a1f1a4",
+        "ht" : "5a2dfe6e-ebe6-479e-8d74-02c9985eeb09"
+      },
+      "renditions" : [ {
+        "id" : "f49b9b9e-0f29-45d6-b01d-153f68a1f1a4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5a2dfe6e-ebe6-479e-8d74-02c9985eeb09",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "Florida Department of Education Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "department-of-education",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Florida Department of Education",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "FDOE provides a wide range of education and rehabilitation services to Floridians to advance their education and help prepare them for the workforce.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "48a9cb58-b41b-4db6-95a6-82d39104da64",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "5fce69b3-20c7-4fee-af5c-16d98dbefbd2",
+        "ht" : "f27611db-d512-45ea-8717-ef29a7f77971"
+      },
+      "renditions" : [ {
+        "id" : "5fce69b3-20c7-4fee-af5c-16d98dbefbd2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Departamento de Educación de Florida",
+            "paragraph" : "El Departamento de Educación de Florida (FDOE por sus siglas en inglés) ofrece una amplia gama de servicios de educación y rehabilitación a los floridanos para avanzar en su educación y ayudar a prepararlos para unirse a la fuerza laboral. "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f27611db-d512-45ea-8717-ef29a7f77971",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "headline" : "Depatman Edikasyon Florida",
+            "paragraph" : "FDOE ofri yon pakèt sèvis edikasyon ak reyabilitasyon pou Floridyen yo pou pouswiv etid yo epi ede prepare yo pou mache travay la. "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2  class=\"smallTitle\">Florida Department of Education office locations</h2>\n        </div>\n    </div>\n    \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n             <h3 class=\"smallTitle\">Florida Department of Education Headquarters</h3>\n             <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://www.rehabworks.org/contact/area-offices.html\" class=\"locationLink\">See a list of locations</a>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "0fd730e1-3950-4633-a1a6-a5ccd8141d7f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "65d8c0e9-d908-42e0-ac19-6c82328aa488",
+        "ht" : "ea626d32-9b9a-44bc-a546-f19f9f2021fb"
+      },
+      "renditions" : [ {
+        "id" : "65d8c0e9-d908-42e0-ac19-6c82328aa488",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2  class=\"smallTitle\">Ubicaciones de oficinas del Departamento de Educación de Florida</h2>\n        </div>\n    </div>\n    \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n             <h3 class=\"smallTitle\">Oficinas centrales del Departamento de Educación de Florida</h3>\n             <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://www.rehabworks.org/contact/area-offices.html\" class=\"locationLink\">Ver un listado de ubicaciones</a>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ea626d32-9b9a-44bc-a546-f19f9f2021fb",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2  class=\"smallTitle\">Adrès biwo Depatman Edikasyon Florida yo</h2>\n        </div>\n    </div>\n    \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n             <h3 class=\"smallTitle\">Katye Jeneral Depatman Edikasyon Florida</h3>\n             <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://www.rehabworks.org/contact/area-offices.html\" class=\"locationLink\">Gade yon lis adrès</a>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "0026c8b5-e214-43cd-8505-6c09e09d7caf",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "2796aa4f-8742-45bc-b130-ec8dc309a053",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Vocational Rehabilitation (VR) is a federal-state program that helps adults and youth with disabilities prepare for, get, enhance or keep a job.",
+        "title" : "Vocational Rehabilitation (VR)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1eaf1e1c-a015-4bb9-a6bf-8ad411d44003",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0f2597c2-7845-4f49-b4a0-4b591901925d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-vocational-rehabilitation"
+}

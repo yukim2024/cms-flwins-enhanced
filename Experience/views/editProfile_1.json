@@ -1,0 +1,54 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "fa8a41a0-7671-4608-ad5b-4fd03fb2fa11",
+  "label" : "EditProfile",
+  "regions" : [ {
+    "id" : "78e03c57-60c7-41a5-92fc-cc6784c9477e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "Multi-Language",
+        "subType" : "WorkEducation",
+        "theme" : "lightning",
+        "type" : "Intake"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "221fb9e3-73a5-4d2b-a10f-0353cbcc6e1a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b01044ec-580b-402d-a4fd-882fee79d0b7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b107cc8d-4705-48f0-95d2-ca11372bc59c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EditProfile"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8cf7ca5d-3126-44ef-9130-538d05152fd2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2f9de047-72de-49d4-bcd3-05d53244a776",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-editprofile"
+}

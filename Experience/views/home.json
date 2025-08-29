@@ -1,0 +1,2480 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "c:X7S_Theme_HomePage_Layout",
+  "dataProviders" : [ ],
+  "id" : "75324961-2002-49b6-9392-701bd96a9e22",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "be4596a2-2d20-4ca5-a806-371238a3d102",
+          "columns" : [ {
+            "UUID" : "bbbe3b71-c328-4b93-8db0-e6d549f4fdd1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "be4596a2-2d20-4ca5-a806-371238a3d102",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "daysSinceUpdate" : 1
+          },
+          "componentName" : "c:homePageProfileToast",
+          "id" : "0ce4a12f-31e4-4103-97e5-8a6d71569560",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bbbe3b71-c328-4b93-8db0-e6d549f4fdd1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "7270f659-d88f-4aa1-b602-e0f71d1398fa",
+          "columns" : [ {
+            "UUID" : "67562d1a-f56d-4521-b6b6-96a5ab715f7a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "3a781719-479e-464f-9d26-12ce4b4e710e",
+            "columnKey" : "9e504",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 218
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7270f659-d88f-4aa1-b602-e0f71d1398fa",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 class=\"hero\">Skill up for a <span class=\"fontColorSky30\">better future.</span></h1>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "bea9364e-daf7-4b35-add2-dcf0dc86c458",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "84a39735-8cf6-4f1b-99fd-5236909b5d48",
+            "ht" : "4c755f8a-da98-4ab9-8c2e-e36bc068e71e"
+          },
+          "renditions" : [ {
+            "id" : "84a39735-8cf6-4f1b-99fd-5236909b5d48",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<h1 class=\"hero\">Amplíe sus habilidades para un <span class=\"fontColorSky30\">mejor futuro.</span></h1>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "4c755f8a-da98-4ab9-8c2e-e36bc068e71e",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<h1 class=\"hero\">Devlope konpetans ou pou yon <span class=\"fontColorSky30\">avni miyò.</span></h1>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"homeDiv_margin-y-small\">\n    <h2>Discover services and support to learn in-demand skills and grow your career. Allowing the Program to understand your specific needs and find other services that may be suitable for you.\n    </h2>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "317b59bc-ff61-4753-b8fc-01b175cf75db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "8e26cb45-ed7b-4e50-bd63-57f9fa922a2d",
+            "ht" : "b7087090-df6e-44a9-9a3c-4a819b97f4f0"
+          },
+          "renditions" : [ {
+            "id" : "8e26cb45-ed7b-4e50-bd63-57f9fa922a2d",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div class=\"homeDiv_margin-y-small\"><h2>Descubra los servicios y el apoyo disponibles para que aprenda habilidades en demanda y se desarrolle profesionalmente. Al permitir que el Programa comprenda sus necesidades específicas y encuentre otros servicios que puedan ser adecuados para usted.</h2>\n</div>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "b7087090-df6e-44a9-9a3c-4a819b97f4f0",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<div class=\"homeDiv_margin-y-small\">\n    <h2>Dekouvri sèvis ak sipò pou aprann konpetans ki an demann epi grandi karyè ou. Pèmèt Pwogram nan konprann bezwen espesifik ou epi jwenn lòt sèvis ki gendwa apwopriye pou ou.\n    </h2>\n</div>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:homePageProfileCompletion",
+          "id" : "bd4384d1-5d01-4a88-8102-3d59850408d2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "",
+            "button2Text2" : "Sign In",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "",
+            "buttonClass2_1" : "button-white",
+            "buttonSpacing" : "large",
+            "buttonText" : "Create account",
+            "buttonText2" : "Sign in",
+            "buttonText3" : "",
+            "buttonUrl" : "login",
+            "buttonUrl2" : "login",
+            "buttonUrlParams" : "",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "HPcreateAccountBtn",
+            "column2Class" : "HPSignInBtn",
+            "column3Class" : "HPSignInBtn",
+            "columns" : "2",
+            "container" : "x-large",
+            "customClassName" : "HPTopSecondSection",
+            "darkText" : false,
+            "headline" : "",
+            "headline3" : "",
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Are you new?",
+            "paragraph2" : "Already have an account?",
+            "paragraph3" : "",
+            "subHeadline" : "",
+            "subHeadline3" : "",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h2",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "large"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "680bbbaa-aed9-4cf0-a161-db0e47fc67ac",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "576ffbc3-d27d-4c55-a504-95dc46b4e600",
+            "ht" : "7dc6bb9d-4f04-4730-b27b-2a6efdbaef30"
+          },
+          "renditions" : [ {
+            "id" : "576ffbc3-d27d-4c55-a504-95dc46b4e600",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Crear una cuenta",
+                "buttonText2" : "Iniciar sesión",
+                "buttonUrl" : "login",
+                "column1Class" : "HPcreateAccountBtn",
+                "column2Class" : "HPSignInBtn",
+                "column3Class" : "HPButton3",
+                "paragraph" : "¿Es usted nuevo?",
+                "paragraph2" : "¿Ya tiene una cuenta?"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "7dc6bb9d-4f04-4730-b27b-2a6efdbaef30",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Kreye kont",
+                "buttonText2" : "Konekte",
+                "buttonUrl" : "login",
+                "column1Class" : "HPcreateAccountBtn",
+                "column2Class" : "HPSignInBtn",
+                "column3Class" : "HPButton3",
+                "customClassName" : "HPTopSecondSection",
+                "paragraph" : "Èske ou nouvo?",
+                "paragraph2" : "Ou deja gen yon kont?"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "67562d1a-f56d-4521-b6b6-96a5ab715f7a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : {
+          "ht" : "41d11757-68a8-4167-a385-0d306b8e3d69"
+        },
+        "renditions" : [ {
+          "id" : "41d11757-68a8-4167-a385-0d306b8e3d69",
+          "renditionValue" : {
+            "regionLabel" : "Column 1"
+          },
+          "type" : "renditionComponent"
+        } ],
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MCOZ3SGEITLRBI5IUTACMXN7YWAA",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "4:3",
+                  "bannerHeight" : "400",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "90",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "{!CurrentItem.altText}",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : "{!CurrentItem.altText}"
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "9b06fa19-8fb0-4308-adbd-9e6c31a2fe7a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "small" : "b4a9be7d-c6e1-45ab-ad15-78a49b6fd6b2"
+          },
+          "renditions" : [ {
+            "id" : "b4a9be7d-c6e1-45ab-ad15-78a49b6fd6b2",
+            "renditionValue" : {
+              "isVisible" : true
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "3a781719-479e-464f-9d26-12ce4b4e710e",
+        "regionLabel" : "Column 2",
+        "regionName" : "9e504",
+        "renditionMap" : {
+          "ht" : "81bfb365-6d52-4ca7-813f-073416ec8e65"
+        },
+        "renditions" : [ {
+          "id" : "81bfb365-6d52-4ca7-813f-073416ec8e65",
+          "renditionValue" : {
+            "regionLabel" : "Column 2"
+          },
+          "type" : "renditionComponent"
+        } ],
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "c1c8ac99-af51-4951-ba1a-726adc250fdb"
+      },
+      "renditions" : [ {
+        "id" : "c1c8ac99-af51-4951-ba1a-726adc250fdb",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1546c37e-7853-499d-be7c-9030b5282f36",
+          "columns" : [ {
+            "UUID" : "9bb215ad-6570-4c63-a24c-10c4e13a0bf1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1546c37e-7853-499d-be7c-9030b5282f36",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "xx-small (.25rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "1265f8b3-f02a-4280-bb5c-ffd263d572b4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9bb215ad-6570-4c63-a24c-10c4e13a0bf1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1722585f-725d-4945-9d17-b288913ad460",
+          "columns" : [ {
+            "UUID" : "0f0ab0f8-081a-418f-b93a-3bfc0a32c14d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1722585f-725d-4945-9d17-b288913ad460",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:programOverviewTileList",
+          "id" : "cdd1bfee-e407-4e68-b294-e0ab2a58e45a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0f0ab0f8-081a-418f-b93a-3bfc0a32c14d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(210,234,245)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2b91d216-e2a7-48fa-b585-edc96084ef63",
+          "columns" : [ {
+            "UUID" : "456bbffd-c5ca-4f34-b237-44e014896a0c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d521c79f-6363-4502-bcee-70f79bc758ac",
+            "columnKey" : "ec94c",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2ad12b99-ad12-48cf-857f-506ca01620c0",
+            "columnKey" : "971b7",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2b91d216-e2a7-48fa-b585-edc96084ef63",
+      "regions" : [ {
+        "id" : "456bbffd-c5ca-4f34-b237-44e014896a0c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "medium (1rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "991d6397-01e0-40b8-a215-c97327f858dd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "center",
+            "customClass" : "section",
+            "size" : "large",
+            "tag" : "H2 - Section Heading",
+            "text" : "Start your journey with three simple steps."
+          },
+          "componentName" : "c:x7sExpHtmlHeadings",
+          "id" : "ac583720-645a-4480-bfdf-4b5558165e9e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "eb158c35-849b-4a7f-8872-a9976562e172",
+            "ht" : "6d07c8e8-d696-49cf-93d2-26d1e2650e5e"
+          },
+          "renditions" : [ {
+            "id" : "eb158c35-849b-4a7f-8872-a9976562e172",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "\t Comience su trayecto con tres simples pasos."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "6d07c8e8-d696-49cf-93d2-26d1e2650e5e",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Kòmanse vwayaj ou nan twa etap senp."
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "d521c79f-6363-4502-bcee-70f79bc758ac",
+        "regionLabel" : "Column 2",
+        "regionName" : "ec94c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "2ad12b99-ad12-48cf-857f-506ca01620c0",
+        "regionLabel" : "Column 3",
+        "regionName" : "971b7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(210,234,245)",
+        "backgroundOverlay" : "rgb(210, 234, 245)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "1fa15ed1-fdcd-4d58-9e08-e725c10317bc",
+          "columns" : [ {
+            "UUID" : "e7a315b5-6a4c-44c7-8dee-9434e05a26fd",
+            "columnKey" : "44eaf",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1655e2e2-1796-4519-b800-430c6ddcf050",
+            "columnKey" : "da324",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "da645786-936e-4ff1-9252-93992034e91a",
+            "columnKey" : "4b56d",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1fa15ed1-fdcd-4d58-9e08-e725c10317bc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "#FFFFFFFF",
+            "buttonClass" : "button-white",
+            "buttonSpacing" : "large",
+            "buttonText" : "Create Account",
+            "buttonText2" : "",
+            "buttonUrl" : "login",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : true,
+            "column1Class" : "homeJourney",
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "steps",
+            "darkText" : false,
+            "fixed" : false,
+            "headline" : "1",
+            "headline2" : "",
+            "headline3" : "3",
+            "headlineSize" : "small",
+            "headlineTag" : "p",
+            "horizontalPadding" : "none",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "The more we know about you, your situation, and your goals, the better we will be able to match you with services that will be most beneficial to you.",
+            "paragraph2" : "",
+            "paragraph3" : "Submit registration intake form to easily connect with services and resources provided by our partner agencies. Our network of partner agencies is dedicated to helping you acquire new skills and grow your career.",
+            "subHeadline" : "Tell us about your goals, interests, and challenges",
+            "subHeadline2" : "",
+            "subHeadline3" : "Connect with servie-providing agencies.",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h3",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "cff0b794-4186-4764-b2e2-8c56aa2d4cd6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "41bfbdb3-0906-4fd3-a791-d2592fcd562c",
+            "ht" : "0866ce51-1632-4ed4-b016-ca5add892b17"
+          },
+          "renditions" : [ {
+            "id" : "41bfbdb3-0906-4fd3-a791-d2592fcd562c",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Crear una cuenta",
+                "buttonUrl" : "login",
+                "paragraph" : "Mientras más sepamos sobre usted, su situación y sus objetivos, mejor podremos emparejarlo con servicios que lo beneficien de la mejor manera.",
+                "subHeadline" : "Cuéntenos sus metas, intereses y retos."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "0866ce51-1632-4ed4-b016-ca5add892b17",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Kreye kont",
+                "buttonUrl" : "login",
+                "paragraph" : "Plis nou konnen sou ou, sitiyasyon ou, ak objektif ou yo, pi byen nou ka asosye ou ak sèvis ki pral pi benefik pou ou a.",
+                "subHeadline" : "Pale nou de objektif ou, enterè ou ak defi ou yo"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "#FFFFFFFF",
+            "buttonClass" : "button-white",
+            "buttonSpacing" : "large",
+            "buttonText" : "Build your profile",
+            "buttonText2" : "",
+            "buttonUrl" : "edit-profile",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "homeJourney",
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "steps",
+            "darkText" : false,
+            "fixed" : false,
+            "headline" : "1",
+            "headline2" : "",
+            "headline3" : "3",
+            "headlineSize" : "small",
+            "headlineTag" : "p",
+            "horizontalPadding" : "none",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "The more we know about you, your situation, and your goals, the better we will be able to match you with services that will be most beneficial to you.",
+            "paragraph2" : "",
+            "paragraph3" : "Submit registration intake form to easily connect with services and resources provided by our partner agencies. Our network of partner agencies is dedicated to helping you acquire new skills and grow your career.",
+            "subHeadline" : "Tell us about your goals, interests, and challenges",
+            "subHeadline2" : "",
+            "subHeadline3" : "Connect with servie-providing agencies.",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h3",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "3bfa271a-88c0-4d5a-9f27-382145f86ab9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "2da42e1e-a554-4b5d-8932-c26be3280860",
+            "ht" : "b51f4ec6-5c38-43fd-8816-425a7c4be821"
+          },
+          "renditions" : [ {
+            "id" : "2da42e1e-a554-4b5d-8932-c26be3280860",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Desarrolle su perfil",
+                "paragraph" : "Mientras más sepamos sobre usted, su situación y sus objetivos, mejor podremos emparejarlo con servicios que lo beneficien de la mejor manera.",
+                "subHeadline" : "Cuéntenos sus metas, intereses y retos."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "b51f4ec6-5c38-43fd-8816-425a7c4be821",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Kreye pwofil ou",
+                "paragraph" : "Plis nou konnen sou ou, sitiyasyon ou, ak objektif ou yo, pi byen nou ka asosye ou ak sèvis ki pral pi benefik pou ou a.",
+                "subHeadline" : "Pale nou de objektif ou, enterè ou ak defi ou yo"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "medium (1rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "84db7644-5b6f-41ec-bcb8-beab91dc2464",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e7a315b5-6a4c-44c7-8dee-9434e05a26fd",
+        "regionLabel" : "Column 1",
+        "regionName" : "44eaf",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "#FFFFFFFF",
+            "buttonClass" : "button-white",
+            "buttonSpacing" : "large",
+            "buttonText" : "Match with Services",
+            "buttonText2" : "",
+            "buttonUrl" : "service-match",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : true,
+            "column1Class" : "homeJourney",
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "steps",
+            "darkText" : false,
+            "headline" : "2",
+            "headline2" : "",
+            "headline3" : "3",
+            "headlineSize" : "small",
+            "headlineTag" : "p",
+            "horizontalPadding" : "none",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Browse all the services and programs provided by our partner agencies, or let our smart match guide you toward the ones we recommend just for you.                         ",
+            "paragraph2" : "",
+            "paragraph3" : "Submit registration intake form to easily connect with services and resources provided by our partner agencies. Our network of partner agencies is dedicated to helping you acquire new skills and grow your career.",
+            "subHeadline" : "Match with career-building services for you",
+            "subHeadline2" : "",
+            "subHeadline3" : "Connect with servie-providing agencies.",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h3",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "0781825c-19b2-4188-b168-6cbc096edc14",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "4d780da4-925a-4ad7-a9ba-e279bdf061fa",
+            "ht" : "ffc73bb9-c959-4263-8484-adfce3507a31"
+          },
+          "renditions" : [ {
+            "id" : "4d780da4-925a-4ad7-a9ba-e279bdf061fa",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Encontrar servicios",
+                "paragraph" : "Navegue por todos los servicios y programas que ofrecen nuestras agencias asociadas o deje que nuestra guía de orientación inteligente encuentre los que recomendamos para usted.",
+                "subHeadline" : "Encontrar los servicios de desarrollo profesional óptimos para usted"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "ffc73bb9-c959-4263-8484-adfce3507a31",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Asosye ak sèvis yo",
+                "paragraph" : "Fè rechèch sou tout sèvis ak pwogram ajans patnè nou yo ofri, oswa kite gid asosye entèlijan nou an gide ou sou sa nou rekòmande espesyalman pou ou a.",
+                "subHeadline" : "Asosye ak sèvis k ap devlope karyè w"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "medium (1rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "ea3e600e-9daf-404c-821b-13f3ff7ecdd4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1655e2e2-1796-4519-b800-430c6ddcf050",
+        "regionLabel" : "Column 2",
+        "regionName" : "da324",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "#FFFFFFFF",
+            "buttonClass" : "",
+            "buttonSpacing" : "large",
+            "buttonText" : "",
+            "buttonText2" : "",
+            "buttonUrl" : "",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "homeJourney",
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "steps",
+            "darkText" : false,
+            "headline" : "3",
+            "headline2" : "",
+            "headline3" : "",
+            "headlineSize" : "small",
+            "headlineTag" : "p",
+            "horizontalPadding" : "none",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Submit the registration intake form to easily connect with services and resources provided by our partner agencies. Our network of partner agencies is dedicated to helping you acquire new skills and grow your future. ",
+            "paragraph2" : "",
+            "paragraph3" : "",
+            "subHeadline" : "Connect with service-providing agencies",
+            "subHeadline2" : "",
+            "subHeadline3" : "",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h3",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "1f2ad154-72a2-4dda-a353-4e2fc4585e02",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "ebdf239e-3c56-460d-b0fc-56147fa0d4d2",
+            "ht" : "17ec6708-131d-4915-937b-7fa2fcf957fc"
+          },
+          "renditions" : [ {
+            "id" : "ebdf239e-3c56-460d-b0fc-56147fa0d4d2",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Envíe el formulario de admisión de registro para conectarse fácilmente con los servicios y recursos que ofrecen nuestras agencias asociadas. Nuestra red de agencias asociadas se dedica a ayudarle a adquirir nuevas habilidades y a desarrollar su futuro.",
+                "subHeadline" : "Conéctese con agencias que ofrecen servicios"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "17ec6708-131d-4915-937b-7fa2fcf957fc",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Soumèt fòmilè enskripsyon an pou fasil konekte ak sèvis ak resous ajans patnè nou yo bay yo. Rezo ajans patnè nou yo dedye pou  ede ou akeri nouvo konpetans ak grandi karyè ou.",
+                "subHeadline" : "Konekte ak ajans ki bay sèvis yo"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "medium (1rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "dec47c84-7c04-4ef6-b339-5e6f0778af43",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "da645786-936e-4ff1-9252-93992034e91a",
+        "regionLabel" : "Column 3",
+        "regionName" : "4b56d",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "dd41ab2d-57d5-4633-bac0-628d53bdbeae",
+          "columns" : [ {
+            "UUID" : "d371cdef-7af6-41c8-b674-fdc04c318887",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "dd41ab2d-57d5-4633-bac0-628d53bdbeae",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "small (.75rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "bcb606cb-6014-4873-9c70-fad2a575936b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d371cdef-7af6-41c8-b674-fdc04c318887",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "31b32d1f-91bb-481c-8ffa-46cc82764d8a",
+          "columns" : [ {
+            "UUID" : "bf578d61-34b8-44e4-a749-11dbbab0d792",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0041479b-9468-4ae4-9f5e-21f042bca8f0",
+            "columnKey" : "f3e8d",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "31b32d1f-91bb-481c-8ffa-46cc82764d8a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MCFJURTD52NRB2BG6JBIGGHGOATQ",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "4:3",
+                  "bannerHeight" : "526",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "90",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "{!CurrentItem.title}",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "40f1dffd-665a-4aa0-b00f-9614d946e368",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bf578d61-34b8-44e4-a749-11dbbab0d792",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Services</h2>\n<h3 class=\"section\">Overcome Challenges</h3>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "63f607c5-f549-44e8-9385-16a89c69407f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "edf68fd7-46e7-449d-99b0-a702db67008e",
+            "ht" : "ec8ded57-cc1c-4ca8-9895-99dd785cab55"
+          },
+          "renditions" : [ {
+            "id" : "edf68fd7-46e7-449d-99b0-a702db67008e",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<h2>Servicios</h2>\n<h3 class=\"section\">Superar los retos</h3>"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "ec8ded57-cc1c-4ca8-9895-99dd785cab55",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "richTextValue" : "<h2>Sèvis yo</h2>\n<h3 class=\"section\">Simonte defi</h3>"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "",
+            "buttonSpacing" : "large",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "",
+            "darkText" : false,
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Our programs are tailored to both your goals and your situation. No matter what challenges and opportunities you face, we’re here to help you succeed.",
+            "paragraph2" : "Match with workforce training and educational programs to gain skills for high-demand jobs in Florida.",
+            "subHeadline" : "",
+            "subHeadline2" : "Training",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h2",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "none"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "81eb4aa2-8641-4ccf-bbb1-9eee2b8e8352",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "d0748014-594f-4571-bf4a-a0e4055155a8",
+            "ht" : "1ef5e328-f2e1-4171-be68-8e3dd8e65f43"
+          },
+          "renditions" : [ {
+            "id" : "d0748014-594f-4571-bf4a-a0e4055155a8",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Nuestros programas se adaptan tanto a sus objetivos como a su situación. No importan los retos y las oportunidades a los que se enfrente, estamos para ayudarle a lograr sus metas."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "1ef5e328-f2e1-4171-be68-8e3dd8e65f43",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Pwogram nou yo pwepare espesyalman pou objektif ak sitiyasyon ou. Kèlkeswa defi ak opòtinite w ap fè fas, nou la pou ede ou reyisi."
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "",
+            "buttonSpacing" : "large",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "half-width",
+            "column2Class" : "half-width",
+            "columns" : "2",
+            "container" : "x-large",
+            "customClassName" : "mini-banner-left-button overcome-challenges-section",
+            "darkText" : false,
+            "headlineSize" : "large",
+            "headlineTag" : "h2",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Access job search and career counseling services that help you achieve your employment goals. ",
+            "paragraph2" : "Match with workforce training and educational programs to gain skills for high-demand jobs in Florida.",
+            "subHeadline" : "Job and Career Counseling",
+            "subHeadline2" : "Training",
+            "subHeadlineSize" : "small",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "none"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "bd77627e-0219-4fdd-b627-fcc05d926c36",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "03c45bf5-f690-4481-80db-e862f76c9d05",
+            "ht" : "2de4a9c7-5044-43dc-808d-07d5f236bc82"
+          },
+          "renditions" : [ {
+            "id" : "03c45bf5-f690-4481-80db-e862f76c9d05",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Puede acceder a servicios de orientación profesional y búsqueda de empleo que le ayuden a lograr sus objetivos en este ámbito.",
+                "paragraph2" : "Encuentre los programas educacionales y la capacitación laboral para desarrollar habilidades de trabajo de alta demanda en Florida.",
+                "subHeadline" : "Orientación profesional y de empleo",
+                "subHeadline2" : "Capacitación"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "2de4a9c7-5044-43dc-808d-07d5f236bc82",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "paragraph" : "Aksè sèvis rechèch travay ak konsèy karyè k ap ede ou reyalize objektif travay ou.",
+                "paragraph2" : "Asosye ak fòmasyon travay ak pwogram edikasyon pou jwenn konpetans pou travay ki gen anpil demann nan Florid.",
+                "subHeadline" : "Konsèy sou Travay ak Karyè",
+                "subHeadline2" : "Fòmasyon"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "",
+            "buttonClass" : "button-white",
+            "buttonSpacing" : "large",
+            "buttonText" : "Browse all services",
+            "buttonUrl" : "service-catalog",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "half-width",
+            "column2Class" : "desktop-blue-background-text",
+            "columns" : "2",
+            "container" : "x-large",
+            "customClassName" : "mini-banner-left-button overcome-challenges-section",
+            "darkText" : false,
+            "headline2" : "",
+            "headlineSize" : "small",
+            "headlineTag" : "h2",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Unlock your potential with job placement and professional independence services aligned with your variable abilities.",
+            "paragraph2" : "32+ services and benefits designed for Floridians like you",
+            "subHeadline" : "Disability Assistive Services",
+            "subHeadline2" : "",
+            "subHeadlineSize" : "small",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "none"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "27bf8364-dadb-4a75-9445-a7c0d962b0a2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "7700ec88-ed6a-4a0e-b2ee-7152ca05e7e3",
+            "ht" : "c762a0dd-3f93-448b-99cc-d0f358008b1f"
+          },
+          "renditions" : [ {
+            "id" : "7700ec88-ed6a-4a0e-b2ee-7152ca05e7e3",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Buscar todos los servicios",
+                "buttonUrl" : "service-catalog",
+                "headlineTag" : "h4",
+                "paragraph" : "Libere su potencial con servicios de independencia profesional e inserción laboral alineados con sus capacidades variables.",
+                "paragraph2" : "¡Más de 32 servicios y beneficios diseñados para floridanos como usted!",
+                "subHeadline" : "Servicios de Asistencia por Discapacidad",
+                "subHeadlineTag" : "h4"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "c762a0dd-3f93-448b-99cc-d0f358008b1f",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Rechèch tout sèvis yo",
+                "buttonUrl" : "service-catalog",
+                "paragraph" : "Debloke potansyèl ou ak sèvis plasman travay ak endepandans pwofesyonèl ki adapte ak kapasite ou.",
+                "paragraph2" : "32+ sèvis ak benefis ki fèt pou Floridyen tankou ou!",
+                "subHeadline" : "Sèvis Asistans pou Andikap"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "removeSpacing" : false,
+            "showBorder" : false,
+            "size" : "medium (1rem)"
+          },
+          "componentName" : "c:x7sExpSpacer",
+          "id" : "e33ddedf-2d45-4352-85cf-f426a8bb3852",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0041479b-9468-4ae4-9f5e-21f042bca8f0",
+        "regionLabel" : "Column 2",
+        "regionName" : "f3e8d",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "a77a8f10-cc07-4a2b-ad6c-1f068dfd4d56"
+      },
+      "renditions" : [ {
+        "id" : "a77a8f10-cc07-4a2b-ad6c-1f068dfd4d56",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "3be93b77-7393-4d6c-a1c5-c381cad30ecc",
+          "columns" : [ {
+            "UUID" : "e9f38a3c-169a-4641-a9e5-4108c23bbbdd",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9f431e6d-5d0f-475d-87f4-0d41a28be40c",
+            "columnKey" : "c6a7c",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3be93b77-7393-4d6c-a1c5-c381cad30ecc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "#ffffff",
+            "buttonClass" : "button-black",
+            "buttonSpacing" : "medium",
+            "buttonText" : "Start your Service Match!",
+            "buttonText2" : "",
+            "buttonUrl" : "service-match",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "service-match-home-page-banner",
+            "darkText" : false,
+            "headline" : "Service Match",
+            "headline2" : "",
+            "headline3" : "3",
+            "headlineSize" : "large",
+            "headlineTag" : "h2",
+            "horizontalPadding" : "large",
+            "imageType" : "CMS Image",
+            "overlayOpacity" : "0",
+            "paragraph" : "Service Match looks at all of your information, including your unique situation and goals, and recommends services that can help you achieve your goals!",
+            "paragraph2" : "",
+            "paragraph3" : "Submit registration intake form to easily connect with services and resources provided by our partner agencies. Our network of partner agencies is dedicated to helping you acquire new skills and grow your career.",
+            "subHeadline" : "",
+            "subHeadline2" : "",
+            "subHeadline3" : "Connect with servie-providing agencies.",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h2",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "large"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "f314aa00-0960-44d2-b438-9a20fde58257",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "3f56aec4-a339-4c97-8434-ba9f37aec8f7",
+            "ht" : "15ec9f96-59c9-4d41-8513-fee2e6a0e82b"
+          },
+          "renditions" : [ {
+            "id" : "3f56aec4-a339-4c97-8434-ba9f37aec8f7",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "¡Inicie su sesión en Service Match!",
+                "headline" : "Emparejamiento de Servicios",
+                "paragraph" : "¡Service Match analiza toda su información, incluida su situación específica y sus objetivos , y recomienda servicios que pueden ayudarle a lograrlos!",
+                "subHeadline" : ""
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "15ec9f96-59c9-4d41-8513-fee2e6a0e82b",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Kòmanse asosye sèvis ou a!",
+                "headline" : "Asosye Sèvis",
+                "paragraph" : "Asosye Sèvis analize tout enfòmasyon ou yo, ki gen ladan sitiyasyon inik ou ak objektif ou yo, epi rekòmande sèvis ki ka ede ou reyalize objektif ou yo!",
+                "subHeadline" : ""
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "e9f38a3c-169a-4641-a9e5-4108c23bbbdd",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MCBIVTI6EEYFH3LM6NCLMWY4O6CE",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "4:3",
+                  "bannerHeight" : "316",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "100",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "{!CurrentItem.altText}",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "94a65c6f-6039-432c-b55f-f736b3da5be0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9f431e6d-5d0f-475d-87f4-0d41a28be40c",
+        "regionLabel" : "Column 2",
+        "regionName" : "c6a7c",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f8298035-e8f0-4d93-837e-bebd3a1038a5",
+          "columns" : [ {
+            "UUID" : "b952026e-3ea1-41aa-ba33-663e307d08bf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f8298035-e8f0-4d93-837e-bebd3a1038a5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "center",
+            "customClass" : "slds-text-body_regular, slds-m-bottom_large, slds-m-top_large",
+            "size" : "none",
+            "tag" : "H2 - Section Heading",
+            "text" : "Workforce Partners"
+          },
+          "componentName" : "c:x7sExpHtmlHeadings",
+          "id" : "e34f73af-3148-4da1-b19c-e7df5845f01d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "cde92173-26fa-4580-a342-d66ddc54179c",
+            "ht" : "41f8c697-be67-4bc8-a449-a6d8ad3a3947"
+          },
+          "renditions" : [ {
+            "id" : "cde92173-26fa-4580-a342-d66ddc54179c",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Socios de gestión laboral"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "41f8c697-be67-4bc8-a449-a6d8ad3a3947",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Patnè Mendèv"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "b952026e-3ea1-41aa-ba33-663e307d08bf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "5d3921d9-25ca-40f9-8ee7-77d2c6c915ed",
+          "columns" : [ {
+            "UUID" : "0be437d2-f146-4a6c-80a0-5ea43cccf832",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "1",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "783f400d-bd29-450d-9edb-018252afcad0",
+            "columnKey" : "ec94c",
+            "columnName" : "Column 2",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "10472a21-ffe4-4d09-8543-54fb471f865c",
+            "columnKey" : "971b7",
+            "columnName" : "Column 3",
+            "columnWidth" : "1",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5d3921d9-25ca-40f9-8ee7-77d2c6c915ed",
+      "regions" : [ {
+        "id" : "0be437d2-f146-4a6c-80a0-5ea43cccf832",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "center",
+            "customClass" : "slds-text-body_regular, slds-p-bottom_x-small",
+            "size" : "large",
+            "tag" : "H3 - Subsection Heading",
+            "text" : "Agencies Dedicated to your Success"
+          },
+          "componentName" : "c:x7sExpHtmlHeadings",
+          "id" : "c69c6009-c423-430d-a9b5-75607f2630e8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "0deedce6-15ec-45d8-9ae8-bb61a1ace9bc",
+            "ht" : "2f0623bf-75ff-4823-9fdf-e214cde7d9c9"
+          },
+          "renditions" : [ {
+            "id" : "0deedce6-15ec-45d8-9ae8-bb61a1ace9bc",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Agencias dedicadas a su éxito"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "2f0623bf-75ff-4823-9fdf-e214cde7d9c9",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Ajans ki dedye a reyisit ou"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "783f400d-bd29-450d-9edb-018252afcad0",
+        "regionLabel" : "Column 2",
+        "regionName" : "ec94c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "10472a21-ffe4-4d09-8543-54fb471f865c",
+        "regionLabel" : "Column 3",
+        "regionName" : "971b7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "fe5a55e6-c8e3-4493-8578-6e8b7a749e20",
+          "columns" : [ {
+            "UUID" : "f75fea56-5328-4c76-9b8e-470c5dd07781",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "207b14c0-81a4-4b02-bd0d-6681a28d34c4",
+            "columnKey" : "21bd2",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fe5a55e6-c8e3-4493-8578-6e8b7a749e20",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "ariaLabel" : "FloridaCommerce Learn more",
+            "ariaLabel2" : "FloridaCommerce Browse services",
+            "backgroundColor" : "",
+            "backgroundImage" : "/flwins/s/sfsites/c/resource/1722331066000/FloridaCommerceLogo",
+            "button2Icon" : "utility:chevronright",
+            "button2IconPosition" : "right",
+            "button2Text" : "Browse services",
+            "button2Url" : "service-catalog",
+            "button2UrlParams" : "agency=flc",
+            "buttonClass" : "button-white",
+            "buttonClass2" : "button-text",
+            "buttonIcon" : "",
+            "buttonIconPosition" : "",
+            "buttonSpacing" : "large",
+            "buttonText" : "Learn more",
+            "buttonText2" : "",
+            "buttonUrl" : "floridacommerce",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "contentId" : "MC6SJJOTTWWVHIDNDTKCHMMNN2NE",
+            "customClassName" : "department-banner",
+            "darkText" : false,
+            "fixed" : false,
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "Image Reference",
+            "overlayOpacity" : "0",
+            "paragraph" : "We foster economic growth and workforce development by providing career assistance, business support, and resources for job seekers. ",
+            "subHeadline" : "FloridaCommerce",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "88fc5876-5e77-46a7-8a7e-44a94c6c7832",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "c524d4fc-c63a-419b-a6af-183309eee1ba",
+            "ht" : "3ff74bf4-9430-424b-823e-b6792b438c7d"
+          },
+          "renditions" : [ {
+            "id" : "c524d4fc-c63a-419b-a6af-183309eee1ba",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "FloridaCommerce Más información",
+                "ariaLabel2" : "FloridaCommerce Buscar servicios",
+                "button2Text" : "Buscar servicios",
+                "button2UrlParams" : "agency=flc",
+                "buttonText" : "Más información",
+                "paragraph" : "Fomentamos el crecimiento económico y el desarrollo de la fuerza laboral al ofrecer asistencia para la carrera profesional, apoyo a las empresas y recursos para quienes buscan empleo."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "3ff74bf4-9430-424b-823e-b6792b438c7d",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "FloridaCommerce Aprann plis",
+                "ariaLabel2" : "FloridaCommerce Navige Sèvis yo",
+                "button2Text" : "Navige Sèvis yo",
+                "button2UrlParams" : "agency=flc",
+                "buttonText" : "Aprann plis",
+                "paragraph" : "Nou ankouraje kwasans ekonomik ak devlopman mendèv pou sa nou bay asistans karyè, sipò biznis ak resous pou moun k ap chèche travay."
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "f75fea56-5328-4c76-9b8e-470c5dd07781",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "ariaLabel" : "Florida Department of Education Learn More",
+            "ariaLabel2" : "Florida Department of Education Browse services",
+            "backgroundColor" : "",
+            "backgroundImage" : "/flwins/s/sfsites/c/resource/1722331066000/DOELogo",
+            "button2Icon" : "utility:chevronright",
+            "button2IconPosition" : "right",
+            "button2Text" : "Browse services",
+            "button2Text2" : "",
+            "button2Url" : "service-catalog",
+            "button2Url2" : "",
+            "button2UrlParams" : "agency=doe",
+            "buttonClass" : "button-white",
+            "buttonClass2" : "button-text",
+            "buttonSpacing" : "large",
+            "buttonText" : "Learn more",
+            "buttonUrl" : "department-of-education",
+            "buttonUrlParams" : "",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "contentId" : "MCQEQVGAJAQNBX7PCH5EP7U2WHHY",
+            "customClassName" : "department-banner",
+            "darkText" : false,
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "Image Reference",
+            "overlayOpacity" : "0",
+            "paragraph" : "We aim to deliver a quality workforce education through a network of providers including public school districts, technical colleges, and our 28 Florida State Colleges.",
+            "subHeadline" : "Florida Department of Education",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "7442af28-96cd-4538-83ab-66583ab5801d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "71671ad4-50ba-4020-a552-935f4cae2980",
+            "ht" : "afaaa2b7-b847-4c11-ad4f-b63b53fd3183"
+          },
+          "renditions" : [ {
+            "id" : "71671ad4-50ba-4020-a552-935f4cae2980",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "Departamento de Educación de Florida Más información",
+                "ariaLabel2" : "Florida Department of Education Buscar servicios",
+                "button2Text" : "Buscar servicios",
+                "button2UrlParams" : "agency=doe",
+                "buttonText" : "Más información",
+                "paragraph" : "Nuestro objetivo es ofrecer una educación de calidad para la fuerza laboral a través de una red de proveedores, incluyendo distritos escolares públicos, institutos técnicos y nuestras 28 Universidades Estatales de Florida.",
+                "subHeadline" : "Departamento de Educación de Florida"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "afaaa2b7-b847-4c11-ad4f-b63b53fd3183",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "Depatman Edikasyon Florida Aprann plis",
+                "ariaLabel2" : "Depatman Edikasyon Florid Navige Sèvis yo",
+                "button2Text" : "Navige Sèvis yo",
+                "button2UrlParams" : "agency=doe",
+                "buttonText" : "Aprann plis",
+                "paragraph" : "Nou vize bay yon bon kalite edikasyon mendèv atravè yon rezo founisè ki gen ladan distri lekòl piblik yo, kolèj teknik, ak 28 kolèj Eta Florid nou yo.",
+                "subHeadline" : "Depatman Edikasyon Florid"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "207b14c0-81a4-4b02-bd0d-6681a28d34c4",
+        "regionLabel" : "Column 2",
+        "regionName" : "21bd2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "300771cd-2caf-464d-be41-2ac600e13af7",
+          "columns" : [ {
+            "UUID" : "7b98d4b5-f8da-44dd-ad69-06f32c47f42a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9622d4b1-a876-46fc-9424-a7cb687ec804",
+            "columnKey" : "8cc86",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "300771cd-2caf-464d-be41-2ac600e13af7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "ariaLabel" : "Florida Department of Children and Families Learn more",
+            "ariaLabel2" : "Florida Department of Children and Families Browse services",
+            "backgroundColor" : "#ffffff",
+            "backgroundImage" : "/flwins/s/sfsites/c/resource/1722331066000/DCFLogo",
+            "button2Icon" : "utility:chevronright",
+            "button2IconPosition" : "right",
+            "button2Text" : "Browse services",
+            "button2Url" : "service-catalog",
+            "button2UrlParams" : "agency=dcf",
+            "buttonClass" : "button-white",
+            "buttonClass2" : "button-text",
+            "buttonSpacing" : "large",
+            "buttonText" : "Learn more ",
+            "buttonUrl" : "department-of-children-and-families",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "contentId" : "MCLRVTWZXCN5CEXNVCHRRZBBQ5BI",
+            "customClassName" : "department-banner",
+            "darkText" : false,
+            "headline" : "",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "horizontalPadding" : "large",
+            "imageType" : "Image Reference",
+            "overlayOpacity" : "0",
+            "paragraph" : "We provide social services and support programs, including child welfare, mental health services, and assistance with food, housing, and financial aid, to promote the well-being of families and vulnerable individuals.",
+            "subHeadline" : "Florida Department of Children and Families",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "c55eb453-06a4-495b-aad8-84e7a869027c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "8125938c-41bd-4a12-8b9d-1a5d4201b17a",
+            "ht" : "13400a2e-1d67-4b45-931c-ca70c31d4696"
+          },
+          "renditions" : [ {
+            "id" : "8125938c-41bd-4a12-8b9d-1a5d4201b17a",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "Departamento de Niños y Familias de Florida Más información",
+                "ariaLabel2" : "Departamento de Niños y Familias de Florida Buscar servicios",
+                "button2Text" : "Buscar servicios",
+                "button2UrlParams" : "agency=dcf",
+                "buttonText" : "Más información",
+                "paragraph" : "Ofrecemos servicios sociales y programas de apoyo, entre ellos bienestar de la infancia, servicios de salud mental y asistencia alimentaria, de la vivienda y financiera, para promover el bienestar de las familias y personas vulnerables.",
+                "subHeadline" : "Departamento de Niños y Familias de Florida"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "13400a2e-1d67-4b45-931c-ca70c31d4696",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "Depatman Timoun ak Fanmi Florid Aprann plis",
+                "ariaLabel2" : "Depatman Timoun ak Fanmi Florid Navige Sèvis yo",
+                "button2Text" : "Navige Sèvis yo",
+                "button2UrlParams" : "agency=dcf",
+                "buttonText" : "Aprann plis",
+                "paragraph" : "Nou bay sèvis sosyal ak pwogram sipò, ki gen ladan byennèt timoun, sèvis sante mantal, ak asistans manje, lojman, ak èd finansye, pou ankouraje byennèt fanmi ak moun ki vilnerab.",
+                "subHeadline" : "Depatman Timoun ak Fanmi Florid"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "7b98d4b5-f8da-44dd-ad69-06f32c47f42a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "ariaLabel" : "CareerSource Florida Learn more",
+            "ariaLabel2" : "CareerSource Florida Browse services",
+            "backgroundColor" : "#fffffff",
+            "backgroundImage" : "/flwins/s/sfsites/c/resource/1722331066000/CareerSourceLogo",
+            "button2Icon" : "utility:chevronright",
+            "button2IconPosition" : "right",
+            "button2Text" : "Browse services",
+            "button2Url" : "service-catalog",
+            "button2UrlParams" : "agency=cs",
+            "buttonClass" : "button-white",
+            "buttonClass2" : "button-text",
+            "buttonSpacing" : "large",
+            "buttonText" : "Learn more",
+            "buttonUrl" : "careersource-florida",
+            "buttonsInSeparateRows" : false,
+            "columns" : "1",
+            "container" : "x-large",
+            "contentId" : "MC5UGRV7XDLJH7LHLKGLJPRXTDIY",
+            "customClassName" : "department-banner",
+            "darkText" : false,
+            "headline" : "",
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "Image Reference",
+            "overlayOpacity" : "0",
+            "paragraph" : "We are the state's workforce network, connecting job seekers with employment opportunities and providing businesses with resources for recruiting, training, and retaining skilled workers to strengthen Florida’s economy.",
+            "subHeadline" : "CareerSource Florida",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h4",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "medium"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "e3b9d8fe-451b-46a5-a839-19de7fcae1ab",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "c3398ac3-fc2e-44ff-a1af-7fb991b0f29c",
+            "ht" : "ef54f22b-2510-44f4-a251-d50ac1cf320f"
+          },
+          "renditions" : [ {
+            "id" : "c3398ac3-fc2e-44ff-a1af-7fb991b0f29c",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "CareerSource Florida Más información",
+                "ariaLabel2" : "CareerSource Florida Buscar servicios",
+                "button2Text" : "Buscar servicios",
+                "buttonText" : "Más información",
+                "paragraph" : "Somos la red laboral del estado, que conecta a quienes buscan empleo con oportunidades laborales y ofrece a las empresas recursos para el reclutamiento, la capacitación y la retención de trabajadores calificados para fortalecer la economía de Florida."
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "ef54f22b-2510-44f4-a251-d50ac1cf320f",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "ariaLabel" : "CareerSource Florida Aprann plis",
+                "ariaLabel2" : "CareerSource Florida Navige Sèvis yo",
+                "button2Text" : "Navige Sèvis yo",
+                "buttonText" : "Aprann plis",
+                "paragraph" : "Nou se rezo mendèv Eta a, konekte moun k ap chèche travay ak opòtinite travay ak bay biznis yo resous pou rekrite, fòme ak kenbe travayè kalifye pou ranfòse ekonomi Florid la.",
+                "subHeadline" : "CareerSource Florida"
+              }
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "9622d4b1-a876-46fc-9424-a7cb687ec804",
+        "regionLabel" : "Column 2",
+        "regionName" : "8cc86",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 75,
+        "sectionConfig" : {
+          "UUID" : "60127335-6787-4c35-9400-d721d71ea2ab",
+          "columns" : [ {
+            "UUID" : "4aa61300-7bd9-465e-924a-b2b167326bdf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9fd85ada-f471-4df9-816a-9b37ef28d44c",
+            "columnKey" : "81a27",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "60127335-6787-4c35-9400-d721d71ea2ab",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "align" : "left",
+            "customClass" : "",
+            "size" : "large",
+            "tag" : "H2 - Section Heading",
+            "text" : "The more we get to know you, the more we can help!"
+          },
+          "componentName" : "c:x7sExpHtmlHeadings",
+          "id" : "5202849c-98e3-4451-9085-ce3c47b3c514",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "8768e154-e1f8-4de6-876a-95ccaf719c2f",
+            "ht" : "e2131b9d-936f-4e4d-91e1-137a950fe4d7",
+            "small" : "2df05b53-0442-4271-8c11-8a3f5f3ad1ed"
+          },
+          "renditions" : [ {
+            "id" : "8768e154-e1f8-4de6-876a-95ccaf719c2f",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "¡Mientras más lo conozcamos, más le podremos ayudar!"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "e2131b9d-936f-4e4d-91e1-137a950fe4d7",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "text" : "Plis nou konnen ou, plis nou ka ede!"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "2df05b53-0442-4271-8c11-8a3f5f3ad1ed",
+            "renditionValue" : {
+              "isVisible" : false
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "ariaLabel" : "",
+            "ariaLabel3" : "",
+            "backgroundColor" : "",
+            "button2Text" : "",
+            "button2Text3" : "",
+            "buttonClass" : "button-black",
+            "buttonClass2" : "",
+            "buttonClass2_1" : "button-white",
+            "buttonClass2_2" : "",
+            "buttonSpacing" : "large",
+            "buttonText" : "Create account",
+            "buttonText2" : "Sign in",
+            "buttonText3" : "",
+            "buttonUrl" : "login",
+            "buttonUrl2" : "login",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "HPcreateAccountBtn",
+            "column2Class" : "HPSignInBtn",
+            "columns" : "2",
+            "container" : "x-large",
+            "customClassName" : "HPTheMoreSection",
+            "darkText" : false,
+            "headline" : "",
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "Are you new?",
+            "paragraph2" : "Already have an account?",
+            "paragraph3" : "",
+            "subHeadline" : "",
+            "subHeadline3" : "",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h2",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "large"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "6a2269c2-29ef-42b3-a57b-d36161af0dc3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "cdce46b6-cd43-4302-b6f5-9f482b03c71e",
+            "ht" : "8ff01409-f75a-49a7-aa3a-c6db6ed710f9",
+            "small" : "48adf67a-e57d-4e43-b96e-e54d766fbea6"
+          },
+          "renditions" : [ {
+            "id" : "cdce46b6-cd43-4302-b6f5-9f482b03c71e",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Crear una cuenta",
+                "buttonText2" : "Iniciar sesión",
+                "buttonUrl" : "login",
+                "paragraph" : "¿Es usted nuevo?",
+                "paragraph2" : "¿Ya tiene una cuenta?"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "8ff01409-f75a-49a7-aa3a-c6db6ed710f9",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Kreye kont",
+                "buttonText2" : "Konekte",
+                "buttonUrl" : "login",
+                "paragraph" : "Èske ou nouvo?",
+                "paragraph2" : "Ou deja gen yon kont?"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "48adf67a-e57d-4e43-b96e-e54d766fbea6",
+            "renditionValue" : {
+              "isVisible" : false
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "align" : "left",
+            "backgroundColor" : "",
+            "buttonClass" : "button-text",
+            "buttonClass2" : "",
+            "buttonSpacing" : "large",
+            "buttonText" : "How will we use your information >",
+            "buttonText2" : "",
+            "buttonUrl" : "privacy-statement-and-consent",
+            "buttonUrl2" : "",
+            "buttonsInSeparateRows" : false,
+            "column1Class" : "howWillweuse",
+            "columns" : "1",
+            "container" : "x-large",
+            "customClassName" : "",
+            "darkText" : false,
+            "headline" : "",
+            "headlineSize" : "large",
+            "headlineTag" : "h1",
+            "horizontalPadding" : "large",
+            "imageType" : "None",
+            "overlayOpacity" : "0",
+            "paragraph" : "",
+            "paragraph2" : "",
+            "subHeadline" : "",
+            "subHeadlineSize" : "medium",
+            "subHeadlineTag" : "h2",
+            "verticalAlignment" : "Top",
+            "verticalPadding" : "none"
+          },
+          "componentName" : "c:x7sExpBanner",
+          "id" : "525c3073-8f92-49f0-8c89-a317e37c5af9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "es" : "8874e09c-96e5-4e97-b600-114910942e74",
+            "ht" : "907a7d0d-b1f6-465b-84c7-1f953aaa8b52",
+            "small" : "df6bc43a-b003-4eff-b008-83651b5c78ab"
+          },
+          "renditions" : [ {
+            "id" : "8874e09c-96e5-4e97-b600-114910942e74",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "¿Cómo usaremos su información?"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "907a7d0d-b1f6-465b-84c7-1f953aaa8b52",
+            "renditionValue" : {
+              "componentAttributes" : {
+                "buttonText" : "Ki jan nou pral itilize enfòmasyon ou yo?"
+              }
+            },
+            "type" : "renditionComponent"
+          }, {
+            "id" : "df6bc43a-b003-4eff-b008-83651b5c78ab",
+            "renditionValue" : {
+              "isVisible" : false
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "4aa61300-7bd9-465e-924a-b2b167326bdf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MCD7FXF27SZJHQ3LXL5YCCY3XVIQ",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : "454",
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "100",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "{!CurrentItem.altText}",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0)",
+                  "showButton" : false,
+                  "showCaption" : false,
+                  "showDateTime" : false,
+                  "showEyebrow" : false,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : false,
+                  "showMetadata1" : false,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : false,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : false,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "c5d830e8-6555-4e29-8f21-9d365260237b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : {
+            "small" : "eb9e00c7-89b0-4fbe-8593-19f1b6409915"
+          },
+          "renditions" : [ {
+            "id" : "eb9e00c7-89b0-4fbe-8593-19f1b6409915",
+            "renditionValue" : {
+              "isVisible" : false
+            },
+            "type" : "renditionComponent"
+          } ],
+          "type" : "component"
+        } ],
+        "id" : "9fd85ada-f471-4df9-816a-9b37ef28d44c",
+        "regionLabel" : "Column 2",
+        "regionName" : "81a27",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "ca766733-d69f-44ea-bc8d-28ae942d6e8a"
+      },
+      "renditions" : [ {
+        "id" : "ca766733-d69f-44ea-bc8d-28ae942d6e8a",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "b5c268fd-6f19-4e57-acef-6f85ef2d4dc8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FL WINS streamlines access to workforce programs and services for Floridians, improving efficiency and access. Explore resources and get started.",
+        "title" : "FL WINS - Home Page"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "28323957-fd08-4627-a51e-aad2f0c8c5bb",
+      "renditionMap" : {
+        "es" : "4b9c4ad4-f2c1-423e-9c96-2537345437cc",
+        "ht" : "327b449d-975e-4514-94c6-53c18f1716c5"
+      },
+      "renditions" : [ {
+        "id" : "4b9c4ad4-f2c1-423e-9c96-2537345437cc",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "FL WINS simplifica el acceso a programas y servicios laborales para los floridanos, mejorando la eficiencia y el acceso. Explore recursos y comience su búsqueda.",
+            "title" : "FL WINS - Página de Inicio"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "327b449d-975e-4514-94c6-53c18f1716c5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "FL WINS senplifye aksè a pwogram ak sèvis mendèv pou Floridyen yo, sa ki amelyore efikasite ak aksè. Eksplore resous yo epi kòmanse.",
+            "title" : "FL WINS - Paj Akèy"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "19031bdc-7567-4392-9578-b8202b608001",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "18c642a0-9956-41ef-bdce-45ef47174628",
+    "regionName" : "section_1",
+    "type" : "region"
+  }, {
+    "id" : "1217dd07-4d9e-4dc2-8422-a9ef5f2f9767",
+    "regionName" : "section_2",
+    "type" : "region"
+  }, {
+    "id" : "5d56db9a-1fcd-48ab-8bb2-fa578413a686",
+    "regionName" : "section_3",
+    "type" : "region"
+  }, {
+    "id" : "83fa63aa-2bdc-4702-be91-c78ff9294d6f",
+    "regionName" : "section_4",
+    "type" : "region"
+  }, {
+    "id" : "12c560e3-9f11-4eed-9563-006ca7ea9305",
+    "regionName" : "section_5",
+    "type" : "region"
+  }, {
+    "id" : "54997291-f74f-4070-b402-79c362212a46",
+    "regionName" : "section_6",
+    "type" : "region"
+  }, {
+    "id" : "6dbaf7dc-8aa0-43ed-8573-3d9ebea6e0ff",
+    "regionName" : "full_1",
+    "type" : "region"
+  }, {
+    "id" : "c5278ff0-6a44-4886-be2f-08a62b4b3864",
+    "regionName" : "middleColumn_1",
+    "type" : "region"
+  }, {
+    "id" : "ac719436-62d2-4b38-90cc-8f0c12b340bf",
+    "regionName" : "leftColumn_1",
+    "type" : "region"
+  }, {
+    "id" : "5c51d60f-e17b-4c97-9a37-3a21bebad0a6",
+    "regionName" : "rightColumn_1",
+    "type" : "region"
+  }, {
+    "id" : "f20aa984-303c-40ca-ae14-bb6071fee889",
+    "regionName" : "leftColumn_2",
+    "type" : "region"
+  }, {
+    "id" : "a4151f88-5ab1-4c8d-b466-367e8530f412",
+    "regionName" : "rightColumn_2",
+    "type" : "region"
+  }, {
+    "id" : "291ef6a7-6db6-4ad1-ac60-7ffa0e09e3d7",
+    "regionName" : "leftColumn_3",
+    "type" : "region"
+  }, {
+    "id" : "d5917d33-4aca-44fe-a4d8-8f818d1e85e1",
+    "regionName" : "rightColumn_3",
+    "type" : "region"
+  }, {
+    "id" : "7e438c11-d882-4795-99e0-39d61cda4349",
+    "regionName" : "leftColumn_4",
+    "type" : "region"
+  }, {
+    "id" : "dd04a0b0-6fce-44d4-a755-fe17c63d25ff",
+    "regionName" : "rightColumn_4",
+    "type" : "region"
+  }, {
+    "id" : "40c11616-b5c4-47b8-8760-454291944253",
+    "regionName" : "leftColumn_5",
+    "type" : "region"
+  }, {
+    "id" : "a0e19625-df17-4a84-9949-561018ff7034",
+    "regionName" : "rightColumn_5",
+    "type" : "region"
+  }, {
+    "id" : "27bf55c6-a7e8-4aef-a267-295a8e09d3ba",
+    "regionName" : "leftColumn_6",
+    "type" : "region"
+  }, {
+    "id" : "def77f96-104f-4ab3-8f31-95b2ded9e3d4",
+    "regionName" : "rightColumn_6",
+    "type" : "region"
+  }, {
+    "id" : "17c209d4-876b-49fa-b824-7f41fe66b159",
+    "regionName" : "leftColumn_7",
+    "type" : "region"
+  }, {
+    "id" : "90cceff4-cc6f-445e-bb7a-ba0015b17315",
+    "regionName" : "rightColumn_7",
+    "type" : "region"
+  }, {
+    "id" : "1f9533f8-47cc-4096-8325-f99e35d67d92",
+    "regionName" : "bottom",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "DbUCTUjqODnPLozCelMhLNb7D4XMKp",
+  "type" : "view",
+  "viewType" : "home"
+}

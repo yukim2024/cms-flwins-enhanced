@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7e042635-c731-4a83-ae07-6831052fe261",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "b82af208-fcd4-4aaa-a489-0f28803a52b7",
+  "label" : "Workforce Innovation Opportunity Program",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-workforce-innovation-opportunity-program",
+  "type" : "route",
+  "urlPrefix" : "workforce-innovation-opportunity-program"
+}

@@ -1,0 +1,307 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "13a20b4d-5845-4a7f-94e2-4a34fa87365c",
+  "label" : "DEL - School Readiness",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Division of Early Learning - School Readiness</h1>\n  <p class=\"serviceAgenciesName\">Florida Department of Education</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "1075eeff-0a99-4446-a676-adeb362865fd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "7e7e1e89-c199-45ed-a1c7-a3a10e972d09",
+        "ht" : "b6b86315-269f-49e2-b67f-6acfcb3f9360"
+      },
+      "renditions" : [ {
+        "id" : "7e7e1e89-c199-45ed-a1c7-a3a10e972d09",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">División de Enseñanza Preescolar - Preparación para la escuela</h1>\n  <p class=\"serviceAgenciesName\">Departamento de Educación de Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "b6b86315-269f-49e2-b67f-6acfcb3f9360",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Divizyon Aprantisaj Bonè - Preparasyon pou Lekòl</h1>\n  <p class=\"serviceAgenciesName\">Depatman Edikasyon Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "125a21d3-a595-4672-8053-556186b10be6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ea807ef2-d7d9-4cc6-94a8-d1cb3a12490a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "del-school-readiness",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "4307701e-83c4-4ce1-8c99-6cf833cde9e9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCH6GWOUQZXFAXDK7CFYZPZCX6DU",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "2a3435b7-b01c-49e4-89f1-e456e394e9c9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "23443cdc-4246-4a60-84cd-763874f6589f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "9e7b140f-b567-4c22-acbf-227337d5b737",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "3b899a9f-cd98-489f-ab54-44337f0b06e6",
+        "ht" : "da24d8c1-5ce1-4cbe-a4ab-9aa6c83942b4"
+      },
+      "renditions" : [ {
+        "id" : "3b899a9f-cd98-489f-ab54-44337f0b06e6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "da24d8c1-5ce1-4cbe-a4ab-9aa6c83942b4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "Florida Department of Education Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "department-of-education",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Florida Department of Education",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "FDOE provides a wide range of education and rehabilitation services to Floridians to advance their education and help prepare them for the workforce.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "a51b6998-aaf1-40c0-9b29-4dc62d43172e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f53a7d20-23ef-48d8-ae59-8902558a6ba6",
+        "ht" : "f080abb6-cc1e-499f-b376-c69a75bf9d5f"
+      },
+      "renditions" : [ {
+        "id" : "f53a7d20-23ef-48d8-ae59-8902558a6ba6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Departamento de Educación de Florida",
+            "paragraph" : "El Departamento de Educación de Florida (FDOE por sus siglas en inglés) ofrece una amplia gama de servicios de educación y rehabilitación a los floridanos para avanzar en su educación y ayudar a prepararlos para unirse a la fuerza laboral. "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f080abb6-cc1e-499f-b376-c69a75bf9d5f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "column1Class" : "serviceDepartmentDiv",
+            "headline" : "Depatman Edikasyon Florida",
+            "headlineSize" : "medium",
+            "headlineTag" : "h3",
+            "paragraph" : "FDOE ofri yon pakèt sèvis edikasyon ak reyabilitasyon pou Floridyen yo pou pouswiv etid yo epi ede prepare yo pou mache travay la. "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Florida Department of Education office locations</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Florida Department of Education Headquarters</h3>\n            <p class=\"agenciesAddress\">\n               Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n   \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e0c9f707-9734-45e9-9deb-54b80a8c8dec",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "3d909fe5-3eee-443b-9669-6525ce22254f",
+        "ht" : "34e37d3c-c991-47db-98ab-4398ee4bd555"
+      },
+      "renditions" : [ {
+        "id" : "3d909fe5-3eee-443b-9669-6525ce22254f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Ubicaciones de oficinas del Departamento de Educación de Florida</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Oficinas centrales del Departamento de Educación de Florida</h3>\n            <p class=\"agenciesAddress\">\n               Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "34e37d3c-c991-47db-98ab-4398ee4bd555",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\"  style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2 class=\"smallTitle\">Adrès biwo Depatman Edikasyon Florida yo</h2>\n        </div>\n    </div>\n   \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3  class=\"smallTitle\">Katye Jeneral Depatman Edikasyon Florida</h3>\n            <p class=\"agenciesAddress\">\n               Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n   \n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "f4ba2b02-b366-463b-9774-2656d7ae6438",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "ae81475a-dfff-4cf0-8aab-51264c6cd3ed",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FDOE's DEL is a Workforce Partner of the FL WINS Program, an innovative, consumer-first workforce development Program, providing Floridians with improved access to many workforce programs. ",
+        "title" : "Division of Early Learning - School Readiness"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3295c6c1-7d05-4369-b629-9618fe108763",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "14b3049b-4715-40e0-8bc2-a50e898ff84b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-del-school-readiness"
+}

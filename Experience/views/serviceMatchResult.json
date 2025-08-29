@@ -1,0 +1,90 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "35d18d7e-7e28-4921-b84b-238ab8c85b3d",
+  "label" : "Service Match Result",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2a9f765d-248e-42ee-a0a8-060d5978140c",
+          "columns" : [ {
+            "UUID" : "291ca34d-5843-4d97-b47e-f31cad808123",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2a9f765d-248e-42ee-a0a8-060d5978140c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:serviceMatchResult",
+          "id" : "86edb91c-5ddb-4a94-82eb-4639f7514986",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "291ca34d-5843-4d97-b47e-f31cad808123",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a95e077-8867-48f9-8ff3-69c591f8f47c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "This page connects you with a previous match of your needs and goals with state programs and resources, revolutionizing your path to self-sufficiency.",
+        "title" : "FL WINS - Service Match Result"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8406f964-0d61-4153-90fc-63ef85f143fc",
+      "renditionMap" : {
+        "es" : "f1303dd0-a2b4-41eb-917e-494be88e9482",
+        "ht" : "43df2c6a-d7fd-4c29-96f1-89ad17802082"
+      },
+      "renditions" : [ {
+        "id" : "43df2c6a-d7fd-4c29-96f1-89ad17802082",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Paj sa a konekte w ak yon korespondans ki te deja fèt ant bezwen e objektif ou yo avèk pwogram ak resous leta yo, kap revolisyone pakou w pou vin endepandan",
+            "title" : "FL WINS - Rezilta Service Match"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f1303dd0-a2b4-41eb-917e-494be88e9482",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Esta página le conecta con un emparejamiento previo de sus necesidades y objetivos con programas y recursos estatales, revolucionando su viaje hacia la autosuficiencia.",
+            "title" : "FL WINS - Resultados de Service Match"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "d51d40ce-37fe-49d8-a9a2-69a9308809c0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-service-match-result"
+}

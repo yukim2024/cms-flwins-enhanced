@@ -1,0 +1,162 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0bb54ced-fea9-4a1d-a40b-5ee08d0f6eb7",
+  "label" : "Privacy Statement",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style = 'largeTitle'>Privacy Statement</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "4f9bf5ab-0f0b-4f6f-b9f9-35c47c0de257",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "042fb52a-cb2e-48d7-86c9-8ef280623675",
+        "ht" : "71d3711f-7008-4f06-97bd-e2323abc0be8"
+      },
+      "renditions" : [ {
+        "id" : "042fb52a-cb2e-48d7-86c9-8ef280623675",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style = 'largeTitle'>Declaración de Privacidad</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "71d3711f-7008-4f06-97bd-e2323abc0be8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style = 'largeTitle'>Deklarasyon sou Konfidansyalite</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "5598ff34-8afd-4421-9a5a-6f09d836cded",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "8de47bf0-37a1-4e00-9610-9ee978c81159",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCCW7SUAIKWJDXHKTOXIY3J5JMEI",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgba(212, 212, 212, 0)",
+              "componentBorderStyles" : "",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "rgb(255, 255, 255)",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "left",
+              "contentWidth" : "100",
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "rgb(255, 0, 0)",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "rgb(255, 255, 255)",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "43de1aac-71e4-4202-bd34-8ed65fd6f125",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cbe41f7f-e94d-4255-978b-a79fb373e18f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Privacy Statement"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "55cbc66d-2856-4434-ac70-fdeacfd58453",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "877a4680-1f46-4b0b-81f9-bb6a071fc40d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-privacy-statement"
+}

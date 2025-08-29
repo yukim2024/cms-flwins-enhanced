@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d273c4ee-a23c-4efe-8c75-659e15fafea5",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "986f2d25-4af6-47e1-b412-1a8bbd31f3e7",
+  "label" : "CareerSource Florida",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-careersource-florida",
+  "type" : "route",
+  "urlPrefix" : "careersource-florida"
+}

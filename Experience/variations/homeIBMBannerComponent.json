@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "0af5978d-2f64-4619-a327-18ba47607f21",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "3bfa271a-88c0-4d5a-9f27-382145f86ab9",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_IBM_Banner_Component",
+  "id" : "2f727153-b05e-47cf-b5b2-1f5df3043182",
+  "type" : "experienceVariation"
+}

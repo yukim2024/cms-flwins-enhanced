@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2182ad0e-9072-49e4-9ace-e4f43d372433",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "6438a073-66d4-46dc-ba08-9746c8e34990",
+  "label" : "My Registration Intakes",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-my-registration-intakes",
+  "type" : "route",
+  "urlPrefix" : "my-registration-intakes"
+}

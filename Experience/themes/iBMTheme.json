@@ -1,0 +1,612 @@
+{
+  "activeBrandingSetId" : "48a4b663-f56c-4bc7-9222-44bd397d34b5",
+  "customCSS" : ".comm-navigation__top-level-item[data-label=\"Home\"] {\n    display: none !important;\n}\n\n.slds-listbox__option .slds-media__body .slds-truncate {\n    white-space: normal !important;\n    overflow: visible !important;\n    text-overflow: clip !important;\n}\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 100;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Thin.woff2')  format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Thin.woff') format('woff');\n         \n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 200;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraLight.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraLight.woff') format('woff');\n         \n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 300;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Light.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Light.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 400;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Regular.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Regular.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 500;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Medium.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Medium.woff') format('woff');\n         \n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 600;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-SemiBold.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-SemiBold.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 700;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Bold.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Bold.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 800;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraBold.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-ExtraBold.woff') format('woff');\n         \n}\n\n@font-face {\n    font-family: 'Lexend';\n    font-style: normal;\n    font-weight: 900;\n    src: url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Black.woff2') format('woff2'),\n         url('/flwins/s/sfsites/c/resource/Lexend/Lexend-Black.woff') format('woff');\n        \n}\n\n.filter-input .slds-combobox__input, .sort-select .slds-combobox__input {\n    display: flex!important;\n    align-items: center!important;\n}\n\n/* Global font-family */\n.filter-input .slds-combobox__input, .sort-select .slds-combobox__input {\n    display: flex!important;\n    align-items: center!important;\n}\n\n/* Global font-family */\nbody {\n    font-family: 'Lexend', sans-serif !important;\n}\n\n/* Heading 1 styles */\n/*\nh1 {\n    color: rgba(57, 81, 92, 1);\n    font-size: 60px !important;\n    font-weight: 300 !important;\n    line-height: 60px !important;\n    letter-spacing: -4%\n}\n\n\n@media (max-width: 767px) {\n    h1 {\n        font-size: 64px !important;\n        line-height: 68px !important;\n    }\n}\n*/\n/* Heading 2 styles\nh2 {\n    color: rgba(57, 81, 92, 1) !important;\n    font-size: 26px !important;\n    font-weight: 500 !important;\n    line-height: 32.5px !important;\n}\n */\n/* Heading 3 styles\nh3 {\n    color: rgba(57, 81, 92, 1) !important;\n    font-size: 60px !important;\n    font-weight: 300 !important;\n    line-height: 60px !important;\n}\n\n@media (max-width: 767px) {\n    h3 {\n        font-size: 48px !important;\n        line-height: 58px !important;\n    }\n    \n    runtime_omnistudio_omniscript-omniscript-step-chart [role=\"progressbar\"]{\n      display: block !important;\n    }\n}\n */\n/* Heading 4 styles \nh4 {\n    color: rgba(57, 81, 92, 1) !important;\n    font-size: 18px !important;\n    font-weight: 700 !important;\n    line-height: 22.5px !important;\n}\n*/\n\n/* Paragraph styles */\n/*\np {\n    color: rgba(57, 81, 92, 1) !important;\n    font-size: 18px !important;\n    font-weight: 400 !important;\n    line-height: 22.5px !important;\n}\n*/\n\n/* Label styles */\n/*\nlabel, label>span {\n    color: rgba(57, 81, 92, 1) !important;\n    font-size: 14px !important;\n    font-weight: 400 !important;\n    line-height: 17.5px !important;\n}\n\nli > a {\n  color: rgb(51, 51, 51)!important;\n}\n*/\n\n\n/*\nruntime_omnistudio_omniscript-omniscript-block section, \nruntime_omnistudio_omniscript-omniscript-block section fieldset{\n    padding:0 !important;\n}\n\nruntime_omnistudio_omniscript-omniscript-block section , \nruntime_omnistudio_omniscript-omniscript-block section fieldset runtime_omnistudio_omniscript-omniscript-text-block {\n    margin-left: 20px !important;\n}   \nruntime_omnistudio_omniscript-omniscript-block section {\n    margin-left:0 !important;\n}\nruntime_omnistudio_omniscript-omniscript-block section, \nruntime_omnistudio_omniscript-omniscript-block section fieldset runtime_omnistudio_omniscript-omniscript-text-block runtime_omnistudio_omniscript-omniscript-formatted-rich-text div {\n    color: #39515C;\n    padding-top: 10px;\n    padding-left: 10px;\n}\n\n\n\n\n\nruntime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key=\"cfViewProfile\"] h2.slds-accordion__summary-heading button\n{\n    padding-left:15px;\n}\nruntime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key=\"cfViewProfile\"] h2.slds-accordion__summary-heading button span.slds-accordion__summary-content {\n    font-size: 18px;\n    padding-left:7px;\n    font-weight:700;\n}\n\nruntime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key=\"cfViewProfile\"] div.slds-accordion__content div p {\n    font-size:16px !important;\n    line-height: 20px !important;\n    font-weight: 700 !important;\n    color:#39515C;\n}\n\nruntime_omnistudio_omniscript-omniscript-custom-lwc[data-omni-key=\"cfViewProfile\"] runtime_omnistudio_flexcards-flex-card-state div.slds-card button span.blockLabel {\n    font-weight:700;\n}\n\n*/\n\n/*view profile*/\ndiv.viewProfileNavSection div.EditProfileButtonDiv {\n    width: 167px !important;\n}\n\ndiv.viewProfileNavSection div.EditProfileButtonDiv button {\n    width: 131px !important;\n}\ndiv.viewProfileNavSection div.ChangePasswordBtnDiv button {\n    width:185px !important;\n}\n\n\n/*save for later*/\n\ndiv.saveforlaterbutton button.slds-button_brand {\n    background-color:#39515C !important;\n    color:#fff !important;\n    font-size:16px !important;\n    line-height:20px !important;\n    font-weight:700 !important;\n    padding:15px 20px !important;\n    border-radius:15px !important;\n}\n\nsection.slds-modal div.slds-modal__container slot h1 {\n     font-size:18px !important;\n    font-weight:800 !important;\n    line-height:22.5px !important;\n    color:#fff !important;\n}\n\n/*\n\nruntime_omnistudio_omniscript-omniscript-modal section.slds-modal div.slds-modal__container div.slds-modal__content slot span {\n    font-size: 18px !important;\n    color: #39515C !important;\n    \n}\n\nruntime_omnistudio_omniscript-omniscript-modal section.slds-modal footer {\n    padding-top:20px;\n}\nruntime_omnistudio_omniscript-omniscript-modal section.slds-modal footer li.slds-button-group-item {\n    margin-right:10px;\n}\n\nruntime_omnistudio_omniscript-omniscript-modal section.slds-modal footer button {\n    font-size: 16px !important;\n    color:#39515C !important;\n    border-color:#39515C !important;\n    border-width:2px !important;\n    border-radius:15px !important;\n    padding: 10px 20px !important;  \n    font-weight: 700 !important;  \n}\n\n*/\n\ndiv.myIntakeTitle {\n     margin-top:42px;\n    margin-bottom:20px;\n}\n\n\n\n\n.account-buttons {\n    display: flex;\n    justify-content: center;\n    padding: var(--lwc-spacingMedium);\n}\n\n.account-buttons .create-btn {\n    color: var(--lwc-colorTextButtonBrand);\n    border-radius: var(--lwc-borderRadiusMedium);\n    padding: var(--lwc-spacingSmall) var(--lwc-spacingLarge);\n    font-weight: var(--lwc-fontWeightBold);\n}\n\n.account-buttons .sign-in-btn {\n    background-color: transparent;\n    color: var(--lwc-colorTextButtonBrand);\n    border: 2px solid var(--lwc-colorBorderButtonDefault);\n    border-radius: var(--lwc-borderRadiusMedium);\n    padding: var(--lwc-spacingSmall) var(--lwc-spacingLarge);\n    font-weight: var(--lwc-fontWeightBold);\n}\n\n\n.forceContentFilesHomeDesktop .slds-media__body .slds-line-height--reset, .forceContentFilesHomeDesktop .slds-media__body .slds-page-header__title\n{display:none;}\n.forceContentFilesHomeDesktop .leftNav li:nth-child(4)\n{display:none;}\n.forceContentFilesHomeDesktop .leftNav li:nth-child(2)\n{display:none;}\n\n.test-listViewManager .forceListViewManagerHeader .slds-grid {\n  display: none;\n}\n\n/*notification section*/\n.notification-row div.notification-content h3.notification-text-title {\n    font-size: 16px !important;\n    font-weight: 700 !important;\n    line-height: 20px !important;\n    font-family: 'Lexend', sans-serif !important; \n    margin-bottom: 10px !important; \n}\n\n.unsNotificationsListRow.notification-unread{\n    background-color: #F3F3F3;\n      \n\n}\n\n.unsNotificationsListRow .notification-text {\n    font-size: 16px !important;\n    line-height: 20px !important;\n    font-weight: 400 !important;\n}\n\n\n.unsNotificationsListRow .notification-age {\n    font-size: 14px !important;\n    line-height: 17.5px !important;\n    font-weight: 400 !important;\n}\n\n.unsNotificationsPanel .titleName {\n    color:#39515C !important;\n    font-size: 18px !important;\n    line-height: 22.5px !important;\n    font-weight: 700 !important;\n    \n    \n}\n\n.unsNotificationsPanel .trayMarkAllRead a {\n    font-size: 14px !important;\n    font-weight: 400 !important;\n    line-height:17.5px !important;\n    color:#39515C !important;\n}\n\nbody.comm-page-custom-my-registration-intakes div.forceVirtualActionMarker {\n    display: none\n}\n\n\n.department-banner {\n  background-color: white !important;\n  padding: 1.5rem !important;\n  position: relative;\n}\n\n/* Container with logo background */\n.department-banner .slds-p-vertical_medium.slds-p-horizontal_large {\n  height: 280px !important; /* Total height for logo + content */\n  background-size: 180px 50px !important; /* Control logo size */\n  background-position: top left !important;\n  background-repeat: no-repeat !important;\n  padding: 60px 0 0 0 !important; /* Push content below logo */\n  position: relative;\n  z-index: 1;\n}\n\n\n/* Home page department IBM banners */\n.department-banner {\n  background-color: white !important;\n  padding: 1.5rem !important;\n  position: relative;\n  overflow: hidden !important; /* Prevent background bleed */\n}\n\n/* Main container */\n.department-banner .slds-p-vertical_medium.slds-p-horizontal_large {\n  height: auto !important;\n  background-size: 180px 50px !important;\n  background-position: top left !important;\n  background-repeat: no-repeat !important;\n  padding: 60px 0 0 0 !important;\n  position: relative;\n  z-index: 1;\n  background-color: white !important;\n}\n\n/* White overlay to prevent bleed-through */\n.department-banner .slds-p-vertical_medium.slds-p-horizontal_large::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: white;\n  z-index: -1;\n}\n\n/* Force background image to only show in logo area */\n.department-banner .slds-p-vertical_medium.slds-p-horizontal_large::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 180px;\n  height: 50px;\n  background: inherit;\n  background-size: contain !important;\n  background-position: top left !important;\n  background-repeat: no-repeat !important;\n  z-index: 2;\n}\n\n/* Hide original background */\n.department-banner .x7s-banner-overlay {\n  display: none !important;\n  opacity: 0 !important;\n}\n\n.department-banner .slds-text-heading_medium {\n  font-size: 1.125rem;\n  color: #1a1a1a;\n  margin-bottom: 0.75rem;\n  font-weight: 500;\n}\n\n.department-banner .x7s-banner__text p {\n  font-size: 0.875rem;\n  color: #444;\n  line-height: 1.6;\n  margin-bottom: 1.5rem;\n  max-width: 42rem;\n  position: relative;\n  z-index: 1;\n  background: white;\n}\n\n.department-banner .x7s-banner__buttons {\n  margin-top: 1.5rem;\n  position: relative;\n  z-index: 1;\n}\n\n.department-banner .buttons-horizontal {\n  display: flex;\n  gap: 1.5rem;\n  align-items: center;\n}\n/*\n.department-banner .buttons-horizontal .slds-button_inverse:first-child {\n  border: 1px solid #666;\n  border-radius: 999px;\n  background: transparent;\n  color: #333;\n  padding: 0.5rem 1.25rem;\n  font-size: 0.875rem;\n  text-transform: lowercase;\n}\n\n.department-banner .buttons-horizontal .slds-button_inverse:last-child {\n  border: none;\n  background: transparent;\n  color: #333;\n  padding: 0.5rem 0;\n  font-size: 0.875rem;\n  text-transform: lowercase;\n}\n*/\n.department-banner .slds-container_center {\n  max-width: 100%;\n  padding: 0;\n  background: white;\n  position: relative;\n  z-index: 1;\n}\n\n.department-banner .slds-grid_pull-padded {\n  margin: 0;\n}\n\n.department-banner .slds-p-right_small.slds-p-left_small {\n  padding: 0;\n}\n\n.department-banner .slds-text-color_inverse {\n  color: inherit !important;\n}\n\n/* Update department banner button styles */\n.department-banner .buttons-horizontal .slds-button,\n.department-banner lightning-button button {\n  text-transform: none !important; /* Remove lowercase transformation */\n  font-size: 0.875rem;\n}\n\n/* Style for button-black class */\n/*\n.department-banner .button-black button {\n  background-color: #39515C !important;\n  border-radius: 15px !important;\n  color: white !important;\n  font-weight: bold !important;\n  padding: 5px 20px !important;\n  font-size: 16px !important;\n}\n*/\n/* Style for button-white class */\n/*\n.department-banner .button-white button {\n  background-color: white !important;\n  border: 2px solid #39515C !important;\n  border-radius: 15px !important;\n  color: #39515C !important;\n  font-weight: bold !important;\n  padding: 5px 20px !important;\n  font-size: 16px !important;\n}\n*/\n/* Style for button-text class */\n/*\n.department-banner .button-text button {\n  background-color: white !important;\n  border: none !important;\n  color: #39515C !important;\n  font-weight: bold !important;\n  font-size: 16px !important;\n  padding: 0 !important;\n}\n*/\n/*\n\n.department-banner .button-text button:hover {\n  background-color: white !important;\n  color: #39515C !important;\n  box-shadow: none !important;\n  transform: none !important;\n  text-decoration: underline !important;\n}\n*/\n\n.department-banner .button-text button:focus {\n  outline: 2px solid #39515C !important;\n  background-color: white !important;\n  color: #39515C !important;\n}\n\n.blue-background-text {\n    background-color: rgb(210, 234, 245); padding: .5em; border-radius: 20px 20px 20px 20px; width:50%;\n}\n\n.half-width {\n    width: 50%;\n}\n\n/*homepage*/\n\n.HPTopSecondSection\n.HPcreateAccountBtn.slds-medium-size_8-of-12,\n.HPTheMoreSection\n.HPcreateAccountBtn.slds-medium-size_8-of-12\n{\n    width:45% !important;\n    padding: 0 !important;\n}\n\n.HPTopSecondSection\n.HPSignInBtn.slds-medium-size_4-of-12,\n.HPTheMoreSection\n.HPSignInBtn.slds-medium-size_4-of-12\n{\n    width:55% !important;\n    padding: 0 !important;\n}\n\n\n\n\n.HPTopSecondSection .HPcreateAccountBtn.slds-medium-size_8-of-12 div.x7s-banner__text \np.slds-text-align_left,\n.HPTheMoreSection .HPcreateAccountBtn.slds-medium-size_8-of-12 div.x7s-banner__text \np.slds-text-align_left\n {\n    text-align: center !important;\n    width: 90%! important;\n    \n}\n\n\n.HPTopSecondSection .HPSignInBtn.slds-medium-size_4-of-12 div.x7s-banner__text \np.slds-text-align_left,\n.HPTheMoreSection .HPSignInBtn.slds-medium-size_4-of-12 div.x7s-banner__text \np.slds-text-align_left \n{\n    text-align: center !important;\n    width: 90%! important;\n    \n}\n\n\n\n.HPTopSecondSection button,\n.HPTheMoreSection button {\n    width: 90% !important;\n}\n\n/*mobile view change*/\n@media screen and (max-width: 768px) {\n    home.comm-page-home div.ui-widget div.forceCommunitySection div.slds-grid div:last-child\n    .forceCommunityBannerLayout .slds-is-relative {\n    height: auto !important; \n    }\n    home.comm-page-home  div.forceCommunitySection \n    div.cb-section_row.slds-grid\n    div.cb-section_column\n    div.ui-widget\n    div.forceCommunityBannerLayout\n    div.slds-is-relative\n    div.slds-scrollable_none\n    div[role=“img”] {\n     background-size: contain !important;\n    }\n    \n}\n\n/*end mobile view change*/\n/*end home page*/\n\n\n/*omniscript signature*/\n/*\nruntime_industries_assessment-signature[data-omni-key=\"Intake Signature\"] section.slds-modal \n.slds-modal__content div.slds-gutters {\n    margin:0 !important;\n}\n\nruntime_industries_assessment-signature[data-omni-key=\"Intake Signature\"] section.slds-modal \n.slds-modal__content lightning-tab[aria-labelledby=\"choose__item\"] div.slds-grid div:last-child{\n    display:none !important;\n}\n\nruntime_industries_assessment-signature[data-omni-key=\"Intake Signature\"] section.slds-modal \n.slds-modal__content lightning-tab[aria-labelledby=\"draw__item\"].slds-show div.slds-grid div:last-child{\n    display:block !important;\n}\n*/\n/*end signature*/\n/*footer*/\n.footerFLwinsLogoDiv {\n    width: 108px;\n    margin-top:29px;\n    margin-left:20px;\n}\n\n.footerMainBodyTxt {\n    width:713px;\n    margin-top: 27px !important;\n}\n.FLWINSfooterLinkDiv1  .footerLinksLine.slds-size_1-of-12 {\n    width:25px !important;\n}\n\n.FLWINSfooterLinkDiv1 {\n    margin-top:0 !important;\n    margin-bottom:17px !important;\n}\n\n.FLWINSfooterLinkDiv1 .slds-col .privacyLink,\n.FLWINSfooterLinkDiv1 .slds-col .AccessibilityLink,\n.FLWINSfooterLinkDiv1 .slds-col .LegalLink{\n    width: auto !important;\n}\n.FLWINSfooterLinkDiv1 .slds-col .privacyLink span.slds-action_text,\n.FLWINSfooterLinkDiv1 .slds-col .AccessibilityLink span.slds-action_text,\n.FLWINSfooterLinkDiv1 .slds-col .LegalLink span.slds-action_text\n{\n    color: #39515C !important;\n    font-size: 14px !important;\n    font-weight: 700 !important;\n    line-height: 17.5px !important;\n}\n.FooterSectionWrapper {\n    border: 0 !important;\n}\n.footerLinksWrapper {\n    margin:0;\n}\n.footerMainBodyTxt span.slds-assistive-text, .footerLinksLine span.slds-assistive-text, .myIntakeTitle span.slds-assistive-text{ \n    display: none !important;\n    }\n\n.IntakeRegistrationTitle span.slds-assistive-text .Department span.slds-assistive-text, .programTitle span.slds-assistive-text { \n    display: none !important;\n    }\n/*mobile view change*/\n@media screen and (max-width: 768px) {\n    .footerFLwinsLogoDiv {\n        width: 108px;\n        margin: 0 !important;\n        margin-left:25px;\n\n    }\n    .footerMainBodyTxt {\n        width: 95%;\n        margin: 0 !important;\n\n    }\n    .footerMainBodyLeft {\n        width: 100% !important;\n        \n    }\n    .footerMainBodyTopRow .footerLogoWrapper {\n        margin-top:20px;\n    }\n    .footerLinksRow {\n        display:block;\n        \n    }\n    .footerLinksWrapper {\n        width:100%;\n        margin:0;\n    }\n    .footerMainBodyTopRow .footerMainBodyLeft .block-container div.slds-grid.slds-wrap {\n        justify-content: center;\n    }\n    .footerMainBodyWrapper {\n        width: 100%; \n        margin-bottom: 15px;\n        margin-top: 20px;\n    }\n\n    .footerMainBodyWrapper .block-container .slds-grid.slds-wrap {\n        justify-content: center;\n    }\n\n    .footerLinksRow .footerMainBodyLeft {\n        display:none;\n    }\n    .FLWINSfooterLinkDiv1 {\n        margin: 0 !important;\n    }\n   div.forceCommunityActionsContainerMobile button:nth-of-type(3) {\n    display: none;\n\t}\n\t.footerMainBodyTxt span.slds-assistive-text, .footerLinksLine span.slds-assistive-text { \n    display: none !important;\n    }\n    \n}\n\n/* Notification Override Start*/\n.unsNotificationsPanel .titleName {\n  display: none !important;\n}\n\nspan.unsNotificationsPanel.noNotifications {\n  color: transparent;\n  font-size: 0;\n  line-height: 0;\n}\n\n.tooltip-advanced.tooltip-body {\n  display: none !important;\n}\n\n.pointer.pointer-advanced {\n  display: none !important;\n}\n\n.notification-age {\n  display: none !important;\n}\n\n.notification-link {\n  pointer-events: none !important;\n  cursor: default;\n}\n\n.notification-row.notification-unread {\n  background-color: transparent !important;\n}\n\n.notification-row.notification-unread:hover {\n  background-color: #f5f5f5 !important;\n  cursor: default;\n}\n/* Notification Override End*/\n\n/*omniscript progressbar last div hidden in desktop*/\nruntime_omnistudio_omniscript-omniscript-step-chart [role=\"progressbar\"] {\n  display: none !important;\n}\n@media screen and (max-width: 767px) {\n  runtime_omnistudio_omniscript-omniscript-step-chart [role=\"progressbar\"]{\n      display: block !important;\n    }\n}\n\n.assistive-unread-mark {\n  display: none !important;\n}\n\n/*\n@media (max-width: 768px) {\n  .slds-form-element .slds-grid {\n    align-items: baseline;\n  }\n    \n   .slds-form-element .slds-float_left {\n        width: 50%;\n    }\n    \n    .slds-gutters .slds-medium-size_2-of-12 {   \n    \twidth: 30%;\n    \tmargin-left: -50px;\n    }\n    \n    .slds-gutters .slds-medium-size_10-of-12 {\n        width: 90%;\n    }\n}\n\n.slds-dropdown-trigger_click .slds-grid .slds-form-element__label {\n    white-space: normal;\n}\n*/\n\n/*end footer*/\n/*\n.x7s-theme__logo-link {\n    pointer-events: none;\n}\n*/",
+  "developerName" : "X7S_Theme",
+  "id" : "588e6f52-0c9d-4deb-9ec4-243d80f05b1a",
+  "label" : "IBM Theme",
+  "layouts" : {
+    "6a0AACXk8bZdH0IQg2uNe6Nc24SJiK" : "e4fa75fc-6891-49ae-a258-85fcccf0c4dc",
+    "DbUCTUjqODnPLozCelMhLNb7D4XMKp" : "d59dc230-569d-4f49-8f3b-f719ed1d2242",
+    "Inner" : "384c7dc4-d02e-4db3-8859-cc791e369dfb",
+    "Login" : "9d325e1a-2fde-43f0-a259-9c7b575965b1",
+    "ServiceNotAvailable" : "6dd24956-b1d4-4505-b372-994cdace0831"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "9d325e1a-2fde-43f0-a259-9c7b575965b1",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "d73d353c-ce4f-4ee0-a0db-9fdd3421c30e",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "73ae78d8-dfb2-485b-ac3d-2727208b9e88",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "02d7eced-9bc6-4b63-b234-4d169352e83b",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "dropdownLinkBkgColor" : "rgba(255,255,255,1)",
+      "dropdownLinkBkgColorHover" : "rgba(0,0,0,.1)",
+      "enableFixedHeader" : true,
+      "enableFullWidthBanner" : true,
+      "featuredAlignment" : "Left",
+      "featuredBkgColor" : "transparent",
+      "featuredDesktopColumns" : "6",
+      "featuredHeight" : "300px",
+      "headerBkgColor" : "#FFF",
+      "headerType" : "Top Header Navigation",
+      "hideFooter" : false,
+      "hideHeader" : false,
+      "hideMenu" : false,
+      "hideNotifications" : false,
+      "hideProfile" : false,
+      "hideSearch" : true,
+      "leadBkgColor" : "#eee",
+      "logoHeight" : "55px",
+      "logoWidth" : "110px",
+      "navBkgColor" : "rgba(255,255,255,1)",
+      "navBkgColorScrolled" : "rgba(255,255,255,1)",
+      "navHeight" : "90px",
+      "navHeightScrolled" : "80px",
+      "navShadow" : "small",
+      "navShadowScrolled" : "small",
+      "navTextColor" : "#222",
+      "navTextColorHover" : "#0a9ad7",
+      "navTextColorHoverScrolled" : "#0a9ad7",
+      "navTextColorScrolled" : "#222",
+      "searchBarBkgColor" : "rgba(0,0,0,.1)",
+      "searchBarColor" : "#222",
+      "searchBarPlaceholderColor" : "#777",
+      "searchType" : "Inline Search",
+      "shadedBkgColor" : "#eee",
+      "showFeaturedBottomRegion" : false,
+      "showFeaturedTopRegion" : false,
+      "showHeaderBottomContainer" : false,
+      "showHeaderTopContainer" : false,
+      "showTopMiniRegionLeft" : false,
+      "showTopMiniRegionRight" : false,
+      "themeContentWidth" : "1100px"
+    },
+    "componentName" : "c:X7S_Theme",
+    "id" : "384c7dc4-d02e-4db3-8859-cc791e369dfb",
+    "label" : "Default",
+    "regions" : [ {
+      "id" : "54782773-a4c1-4818-8408-f34d01d7b7b6",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "Referral"
+          }, {
+            "isPublic" : true,
+            "name" : "ProgramEnrollment"
+          }, {
+            "isPublic" : true,
+            "name" : "BenefitAssignment"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "800e99ce-1b1d-4b16-92ab-87cef47f7a68",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "0074fba5-a10b-4ebc-8b37-f53ec3f1d187",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : false,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "6f3a74ff-6fe4-449c-8f45-2d51e611ff65",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "03b8d63d-1419-4b19-8105-51fb17e9a1c5",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : false,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "fad0ad1a-7713-48bf-81a7-667b220dede5",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "0f2af4e9-6c4b-469a-94bf-78dcc938d18e",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "ae52b685-5980-49c3-9ebb-adaa05d62f6e",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "73d8f460-5841-4f92-8a07-6b1826e8e912",
+      "regionName" : "footer",
+      "type" : "region"
+    }, {
+      "id" : "e40a81b0-0935-4416-bed5-77ab307783c3",
+      "regionName" : "templateHeaderTop",
+      "type" : "region"
+    }, {
+      "id" : "25a5f67c-c481-4ffa-9c0b-e54bf035f461",
+      "regionName" : "templateHeaderBottom",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:skipToMainContent",
+        "id" : "085d9df9-6e5e-4b82-a591-b9d0f50ae865",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "removeSpacing" : false,
+          "showBorder" : false,
+          "size" : "xxx-small (.125rem)"
+        },
+        "componentName" : "c:x7sExpSpacer",
+        "id" : "890ef19d-4bf3-4c71-a153-ab91d6dbb94d",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "flexcardName" : "FLWINSFooter",
+          "objectApiName" : "",
+          "recordId" : ""
+        },
+        "componentName" : "runtime_omnistudio:flexcard",
+        "id" : "d5349495-ffac-4886-a0c5-f68aa4d01429",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "8ae9aa3c-2932-4d37-b8a0-9337db05a0ea",
+      "regionName" : "templateFooter",
+      "type" : "region"
+    }, {
+      "id" : "664a1508-8329-445d-9b49-8a5fe4579ddd",
+      "regionName" : "featuredTop",
+      "type" : "region"
+    }, {
+      "id" : "5063913b-7aa9-4a5e-a120-504d8c1a470d",
+      "regionName" : "featuredBottom",
+      "type" : "region"
+    }, {
+      "id" : "f996d54b-bbd4-4155-b378-f49cfcf558d4",
+      "regionName" : "topMiniRegionLeft",
+      "type" : "region"
+    }, {
+      "id" : "3f2a7b5b-cdf4-45ad-9eab-7a6747cb262b",
+      "regionName" : "topMiniRegionRight",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "6dd24956-b1d4-4505-b372-994cdace0831",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "f01dcbc5-e475-41f2-8851-9c24dd4bd94b",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "dbfdce1b-6579-47eb-b10c-4c407cf194a9",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "dropdownLinkBkgColor" : "rgba(255,255,255,1)",
+      "dropdownLinkBkgColorHover" : "rgba(0,0,0,.1)",
+      "enableFixedHeader" : true,
+      "enableFullWidthBanner" : true,
+      "featuredAlignment" : "Left",
+      "featuredBkgColor" : "transparent",
+      "featuredBkgImage" : "",
+      "featuredDesktopColumns" : "6",
+      "featuredHeight" : "300px",
+      "headerBkgColor" : "#FFF",
+      "headerBkgImage" : "",
+      "headerType" : "Top Header Navigation",
+      "hideFooter" : false,
+      "hideHeader" : false,
+      "hideMenu" : false,
+      "hideNotifications" : false,
+      "hideProfile" : false,
+      "hideSearch" : false,
+      "leadBkgColor" : "#eee",
+      "leadBkgImage" : "",
+      "logoHeight" : "60px",
+      "logoWidth" : "120px",
+      "navBkgColor" : "rgba(255,255,255,0)",
+      "navBkgColorScrolled" : "rgba(228,228,228)",
+      "navBkgImage" : "",
+      "navHeight" : "90px",
+      "navHeightScrolled" : "70px",
+      "navShadow" : "small",
+      "navShadowScrolled" : "small",
+      "navTextColor" : "#222",
+      "navTextColorHover" : "#0a9ad7",
+      "navTextColorHoverScrolled" : "#0a9ad7",
+      "navTextColorScrolled" : "#222",
+      "searchBarBkgColor" : "rgba(0,0,0,.1)",
+      "searchBarColor" : "#222",
+      "searchBarPlaceholderColor" : "#777",
+      "searchType" : "Inline Search",
+      "shadedBkgColor" : "#eee",
+      "shadedBkgImage" : "",
+      "showFeaturedBottomRegion" : true,
+      "showFeaturedTopRegion" : false,
+      "showHeaderBottomContainer" : false,
+      "showHeaderTopContainer" : false,
+      "showTopMiniRegionLeft" : false,
+      "showTopMiniRegionRight" : false,
+      "themeContentWidth" : "1100px"
+    },
+    "componentName" : "c:X7S_Theme",
+    "id" : "e4fa75fc-6891-49ae-a258-85fcccf0c4dc",
+    "label" : "IBM Theme (Wide)",
+    "regions" : [ {
+      "id" : "821d16d1-7792-44a6-93bd-14f2616a251d",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "KnowledgeArticleVersion"
+          }, {
+            "isPublic" : true,
+            "name" : "FeedItem"
+          }, {
+            "isPublic" : false,
+            "name" : "Case"
+          }, {
+            "isPublic" : true,
+            "name" : "CollaborationGroup"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "49d24d5a-d0e8-4960-a53c-32399aeb0162",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3a029a31-8cfa-4755-af20-a09e75f2f6ee",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : false,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "37d13ea6-9b35-4acd-8ed8-0bbc45e3bdf9",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "5fa2f716-0abf-4a0f-a256-190b89adeb47",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : true,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "b9fe90e0-1460-4474-8efc-1ad972878033",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "ecf3a4df-dedf-4328-a30c-5d65ac4df9e1",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "720ad170-55ab-4ed9-a74e-df13b172b61b",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "e7a4783c-c45e-47d4-b5e1-e70506d7bafc",
+      "regionName" : "footer",
+      "type" : "region"
+    }, {
+      "id" : "cc52bc58-9f9e-4e2b-91f9-b0856aa41105",
+      "regionName" : "templateHeaderTop",
+      "type" : "region"
+    }, {
+      "id" : "68566a8d-c48b-45a2-8055-5b4fd81e90c5",
+      "regionName" : "templateHeaderBottom",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "removeSpacing" : false,
+          "showBorder" : true,
+          "size" : "medium (1rem)"
+        },
+        "componentName" : "c:x7sExpSpacer",
+        "id" : "dbf6636f-ea84-46c4-b7ea-eff1f9b33c87",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "08aa38ef-82eb-4996-b548-c5ae83be269a",
+      "regionName" : "templateFooter",
+      "type" : "region"
+    }, {
+      "id" : "c6e83e62-6e0c-4c99-9505-3778d94681d6",
+      "regionName" : "featuredTop",
+      "type" : "region"
+    }, {
+      "id" : "50b7529d-0d09-44b5-923e-e9de1caaa5d0",
+      "regionName" : "featuredBottom",
+      "type" : "region"
+    }, {
+      "id" : "d4f6eea3-74c2-4b6b-9ebb-852d690ac4d4",
+      "regionName" : "topMiniRegionLeft",
+      "type" : "region"
+    }, {
+      "id" : "0a871339-98d6-461c-b012-498247793a29",
+      "regionName" : "topMiniRegionRight",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "dropdownLinkBkgColor" : "rgba(255,255,255,1)",
+      "dropdownLinkBkgColorHover" : "rgba(0,0,0,.1)",
+      "enableFixedHeader" : true,
+      "enableFullWidthBanner" : true,
+      "featuredAlignment" : "Left",
+      "featuredBkgColor" : "transparent",
+      "featuredBkgImage" : "",
+      "featuredDesktopColumns" : "6",
+      "featuredHeight" : "300px",
+      "headerBkgColor" : "#FFF",
+      "headerBkgImage" : "",
+      "headerType" : "Top Header Navigation",
+      "hideFooter" : false,
+      "hideHeader" : false,
+      "hideMenu" : false,
+      "hideNotifications" : false,
+      "hideProfile" : false,
+      "hideSearch" : true,
+      "leadBkgColor" : "#eee",
+      "leadBkgImage" : "",
+      "logoHeight" : "55px",
+      "logoWidth" : "110px",
+      "navBkgColor" : "rgba(255,255,255,1)",
+      "navBkgColorScrolled" : "rgba(255,255,255,1)",
+      "navBkgImage" : "",
+      "navHeight" : "90px",
+      "navHeightScrolled" : "80px",
+      "navShadow" : "small",
+      "navShadowScrolled" : "small",
+      "navTextColor" : "#222",
+      "navTextColorHover" : "#0a9ad7",
+      "navTextColorHoverScrolled" : "#0a9ad7",
+      "navTextColorScrolled" : "#222",
+      "searchBarBkgColor" : "rgba(0,0,0,.1)",
+      "searchBarColor" : "#222",
+      "searchBarPlaceholderColor" : "#777",
+      "searchType" : "Inline Search",
+      "shadedBkgColor" : "#eee",
+      "shadedBkgImage" : "",
+      "showFeaturedBottomRegion" : false,
+      "showFeaturedTopRegion" : false,
+      "showHeaderBottomContainer" : false,
+      "showHeaderTopContainer" : false,
+      "showTopMiniRegionLeft" : false,
+      "showTopMiniRegionRight" : false,
+      "themeContentWidth" : "100%"
+    },
+    "componentName" : "c:X7S_Theme",
+    "id" : "d59dc230-569d-4f49-8f3b-f719ed1d2242",
+    "label" : "Home Page",
+    "regions" : [ {
+      "id" : "72d0fb23-16df-47ab-8ebf-9616abc0e20e",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "Referral"
+          }, {
+            "isPublic" : true,
+            "name" : "ProgramEnrollment"
+          }, {
+            "isPublic" : true,
+            "name" : "BenefitAssignment"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "20bcabe2-4c18-4e1d-a715-379c3adb032e",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "44196318-611d-449b-9b39-1042e8e18e83",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : false,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "d671d93c-270a-426a-92dc-e45073b0eb20",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "536877a0-901d-4b0d-a2ee-08c8f5453524",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : true,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "57a11b06-73ec-4a06-a2d5-cd52e2428b05",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b0e14662-303c-4036-86af-0f5575793a7f",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "fcd5809b-936a-4635-8cd9-fecf69fdc431",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "80937f4f-ef8d-4636-9c5e-0d0b964bce31",
+      "regionName" : "footer",
+      "type" : "region"
+    }, {
+      "id" : "ca730ba9-0ca5-4cd4-a929-58175ca8443f",
+      "regionName" : "templateHeaderTop",
+      "type" : "region"
+    }, {
+      "id" : "37eb3c99-2ffa-43d9-8047-a51a4d4b6f9a",
+      "regionName" : "templateHeaderBottom",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "flexcardName" : "FLWINSFooter",
+          "objectApiName" : "",
+          "recordId" : ""
+        },
+        "componentName" : "runtime_omnistudio:flexcard",
+        "id" : "60582bea-03e2-4c8a-a6be-70f05ee690c7",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "41e1a650-23aa-4a95-9640-ca56cbd79cb3",
+      "regionName" : "templateFooter",
+      "type" : "region"
+    }, {
+      "id" : "36fcbe82-2ce9-4807-9607-8d6bdc868856",
+      "regionName" : "featuredTop",
+      "type" : "region"
+    }, {
+      "id" : "d4fd5ce3-edea-4c24-b036-acf64bf0fa57",
+      "regionName" : "featuredBottom",
+      "type" : "region"
+    }, {
+      "id" : "998828a2-1c7e-4482-98f1-b014c498efe3",
+      "regionName" : "topMiniRegionLeft",
+      "type" : "region"
+    }, {
+      "id" : "7990d4ce-f516-4a07-8618-406585133009",
+      "regionName" : "topMiniRegionRight",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

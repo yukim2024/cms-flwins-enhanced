@@ -1,0 +1,63 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b6ac00e6-5a2d-4e49-83cf-8332a99397ea",
+  "label" : "Service Not Available",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" style=\"width: 133.367px; height: 52.45px;\" alt=\"\" src=\"{!contentAsset.flwinsLogoFooter.1}\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4921c3ee-6711-4290-8fe3-555b6846103a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Header + Main Content -->\n<div style=\"padding: 10px 20px 0px 0px; text-align: left;\">\n<h1 style=\"font-size: 36px; margin: 20px 0;\">Site Outage</h1>\n<h2 style=\"font-size: 36px; margin: 20px 0;\">Interrupción del sitio</h2>\n<h2 style=\"font-size: 36px; margin: 20px 0;\">Pann sit</h2>\n<br/>\n<br/>\n<p style=\"font-size: 16px; margin: 0 0 30px;\">\nFLWINS will be temporarily unavailable starting at June 10th, 2025 from 10:05 AM EST. Functionality will resume at June 11th, 2025 from 01:05 PM EST.\n</p>\n<p style=\"font-size: 16px; margin: 0 0 30px;\">\nFL WINS no estará disponible temporalmente hoy desde June 10th, 2025 from 10:05 AM EST hasta June 11th, 2025 from 01:05 PM EST.\n</p>\n<p style=\"font-size: 16px; margin: 0 0 30px;\">\nFLWINS pap disponib tanporèman jodi apati June 10th, 2025 from 10:05 AM EST pou rive June 11th, 2025 from 01:05 PM EST.\n</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "ba890f42-44aa-4d64-a63a-25659b98f8c9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "ht" : "6f603396-185e-4af0-8e03-fee46fd0f78d"
+      },
+      "renditions" : [ {
+        "id" : "6f603396-185e-4af0-8e03-fee46fd0f78d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<!-- Header + Main Content -->\n<div style=\"padding: 10px 20px 0px 0px; text-align: left; font-family:'Lexend'\">\n<h1 style=\"font-size: 36px; margin: 20px 0; font-family:'Lexend'\">Site Outage</h1>\n<br/>\n<br/>\n<p style=\"font-size: 16px; margin: 0 0 30px; font-family:'Lexend'\">\nFLWINS will be temporarily unavailable starting at <strong>June 10th, 2025 from 10:05 AM EST</strong>. Functionality will resume at <strong>June 11th, 2025 from 01:05 PM EST</strong>.\n</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.site_outage_image.1}\" alt=\"\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4143fb19-7601-46d3-aa30-943662c60267",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<!-- Footer -->\n<!-- Footer -->\n<div style=\"background-color: #d3ecf4; padding: 20px;\">\n<div style=\"display: flex; align-items: center; margin-bottom: 15px;\">\n<p style=\"font-size: 12px; color: #2e3e51; margin: 0 0 0 20px;\">\nAn equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. Need Help? 1-833-352-7759 or 1-833-FL-APPLY. All voice telephone numbers on this website may be reached by persons using TTY/TDD equipment via the \"Florida Relay Service\" at 711.\n</p>\n</div>\n\n<div style=\"text-align: center;\">\n<a href=\"https://www.dms.myflorida.com/privacy_statement\" style=\"font-size: 12px; color: #2e3e51; text-decoration: none;\">Privacy Statement</a>\n<span style=\"font-size: 12px; color: #2e3e51; margin: 0 10px;\">|</span>\n<a href=\"https://www.dms.myflorida.com/accessibility_statement\" style=\"font-size: 12px; color: #2e3e51; text-decoration: none;\">Accessibility</a>\n<span style=\"font-size: 12px; color: #2e3e51; margin: 0 10px;\">|</span>\n<a href=\"https://www.dms.myflorida.com/terms_and_conditions\" style=\"font-size: 12px; color: #2e3e51; text-decoration: none;\">Legal</a>\n</div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "a6af6f73-1beb-4c69-b252-8bdaafe77ff4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "565f5543-6b8c-4426-a5db-c6a6ae67c2fa",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "service-not-available"
+}

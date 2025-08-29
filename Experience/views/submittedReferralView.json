@@ -1,0 +1,54 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "46055974-93bc-4e97-9d0e-d264342a9c69",
+  "label" : "Submitted Referral View",
+  "regions" : [ {
+    "id" : "eb36e57c-9b63-414b-94f7-b6d736fdcdd2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "dir" : "ltr",
+        "flexipageRegionWidth" : "LARGE",
+        "inline" : false,
+        "inlineLabel" : "Launch Submitted Referrals",
+        "inlineVariant" : "brand",
+        "layout" : "lightning",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:displaySubmittedReferralsMultiLanguage",
+      "id" : "1835463f-dd97-4f71-a98c-08c130cc74a6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84267883-d1ac-46a7-bffa-3fbab6e2a428",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "dd9f55c8-c57d-4700-8390-399776895236",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Submitted Referral View"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5ab5fc51-cd8b-42d4-b51a-6a798574a4a5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b21fd586-1d0f-44e6-b551-7786d6bb97fd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-submitted-referral-view"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b1bc3b8c-01f8-481b-9240-387ba40d05ba",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "45651f6d-7a82-40a8-97d2-47862fbf2443",
+  "label" : "Trade Adjustment Assistance (TAA)",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-trade-adjustment-assistance-taa",
+  "type" : "route",
+  "urlPrefix" : "trade-adjustment-assistance"
+}

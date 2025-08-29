@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8f4a6c09-3791-4fb9-8733-734115b785e9",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "f30b1a72-d848-4578-90d1-a7c2fe2a2b32",
+  "label" : "Not Found",
+  "pageAccess" : "Public",
+  "routeType" : "custom-not-found",
+  "type" : "route",
+  "urlPrefix" : "not-found"
+}

@@ -1,0 +1,197 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "2182ad0e-9072-49e4-9ace-e4f43d372433",
+  "label" : "My Registration Intakes",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 class = 'largeTitle'>My Registration Intakes</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "054e7067-435f-49ff-a405-53ae1b4740ed",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "f1fc52a1-95db-4d59-adb4-e54ad6288743",
+        "ht" : "f68bae2a-a1eb-45e2-8d57-747198fabd9e"
+      },
+      "renditions" : [ {
+        "id" : "f1fc52a1-95db-4d59-adb4-e54ad6288743",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 class = 'largeTitle'>Mis Admisiones de Registro</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "f68bae2a-a1eb-45e2-8d57-747198fabd9e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 class = 'largeTitle'>Aplikasyon Enskripsyon Mwen</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "c:uploadRegistration",
+      "id" : "f3dd8b0f-ac48-47a0-a224-43de32f7ba18",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f6c4712-3aa0-4bcc-ab35-30a60a1b8e92",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "c23fc7f1-6d04-46b9-a284-9fe5269fc84b",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "d24c683f-85ba-4c05-822e-f7a6b24dde38",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Nan Pwogrè"
+          }, {
+            "UUID" : "efec0b08-bc57-4112-a564-700a55f2898c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Soumèt"
+          } ],
+          "useOverflowMenu" : true
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "c23fc7f1-6d04-46b9-a284-9fe5269fc84b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "My_In_Progress_Forms",
+            "layout" : "FULL",
+            "pageSize" : 50,
+            "scope" : "OmniScriptSavedSession",
+            "showActionBar" : true,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "a61a42cd-50a3-430d-b2bf-480dcd644cd8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d24c683f-85ba-4c05-822e-f7a6b24dde38",
+        "regionLabel" : "In Progress",
+        "regionName" : "1",
+        "renditionMap" : {
+          "es" : "d17102b4-e4cd-4d66-ab5a-49e6a578cbbf",
+          "ht" : "4d3dde0b-2118-4c8c-854e-b7291dee5e82"
+        },
+        "renditions" : [ {
+          "id" : "d17102b4-e4cd-4d66-ab5a-49e6a578cbbf",
+          "renditionValue" : {
+            "regionLabel" : "En curso"
+          },
+          "type" : "renditionComponent"
+        }, {
+          "id" : "4d3dde0b-2118-4c8c-854e-b7291dee5e82",
+          "renditionValue" : {
+            "regionLabel" : "Nan Pwogrè"
+          },
+          "type" : "renditionComponent"
+        } ],
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : false,
+            "filterName" : "My_Submitted_Forms",
+            "layout" : "FULL",
+            "pageSize" : 10,
+            "scope" : "Referral",
+            "showActionBar" : false,
+            "showChartsPanel" : false,
+            "showDisplay" : "grid",
+            "showFilterPanel" : false,
+            "showImageIcon" : false,
+            "showManualRefreshButton" : false,
+            "showObjectName" : false,
+            "showPinnedList" : false,
+            "showSearchBar" : false
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "c69aee48-f508-4130-bd66-3027deea64a7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "efec0b08-bc57-4112-a564-700a55f2898c",
+        "regionLabel" : "Submitted",
+        "regionName" : "3",
+        "renditionMap" : {
+          "es" : "6625453b-98af-4a49-b5c8-6c92db46f462",
+          "ht" : "6d646ca2-daf4-48be-af99-c7149f14ff9b"
+        },
+        "renditions" : [ {
+          "id" : "6625453b-98af-4a49-b5c8-6c92db46f462",
+          "renditionValue" : {
+            "regionLabel" : "Enviado"
+          },
+          "type" : "renditionComponent"
+        }, {
+          "id" : "6d646ca2-daf4-48be-af99-c7149f14ff9b",
+          "renditionValue" : {
+            "regionLabel" : "Soumèt"
+          },
+          "type" : "renditionComponent"
+        } ],
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "61611be6-593a-4002-94c8-2b1aa2959191",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a11f1d83-c9f7-4ebe-89c4-2cc5d28bddc5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Registration Intakes"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a7b3bfeb-9767-43df-8c91-b5b007cb6801",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a0aa546d-8ee8-4111-b76a-076ce2eca7e0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-registration-intakes"
+}

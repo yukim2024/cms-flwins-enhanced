@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0bb54ced-fea9-4a1d-a40b-5ee08d0f6eb7",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "e7d069a3-b330-4f81-998d-b6ffc053a7a8",
+  "label" : "Privacy Statement",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-privacy-statement",
+  "type" : "route",
+  "urlPrefix" : "privacy-statement"
+}

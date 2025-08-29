@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9ca2e88f-27cc-4466-a2ef-340e4461eb2a",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "6d007241-60e6-496a-87a0-5877bee1803c",
+  "label" : "SNAP Employment and Training",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-snap-employment-training",
+  "type" : "route",
+  "urlPrefix" : "snap-employment-training"
+}

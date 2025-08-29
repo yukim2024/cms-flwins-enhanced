@@ -1,0 +1,157 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "893097e3-f9db-4bde-ba31-1f3272397455",
+  "label" : "Service Catalog",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 class='largeTitle'>Service Catalog</h1>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "427413f7-2c0e-4ed5-bd78-bb6013e308ca",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "ccddbaa7-c6f1-4ff3-81c8-9311060dfb66",
+        "ht" : "d0bab50c-4e41-4977-ab13-674cf695f50b"
+      },
+      "renditions" : [ {
+        "id" : "ccddbaa7-c6f1-4ff3-81c8-9311060dfb66",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 class='largeTitle'>Catálogo de servicios</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "d0bab50c-4e41-4977-ab13-674cf695f50b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 class='largeTitle'>Katalòg Sèvis</h1>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "355c9a19-8774-4b1a-8404-96f25b368a2d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "left",
+        "backgroundColor" : "#D2EAF5",
+        "buttonText" : "",
+        "buttonText2" : "Go to service match",
+        "buttonUrl" : "",
+        "buttonUrl2" : "service-match",
+        "columns" : "2",
+        "container" : "x-large",
+        "customClassName" : "go-to-service-match",
+        "darkText" : true,
+        "headline" : "Too much to choose from?",
+        "headlineSize" : "medium",
+        "headlineTag" : "h4",
+        "horizontalPadding" : "xx-large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "Let Service Match recommend services based on your goals and needs.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Middle",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "c495180a-f2ee-49d0-84cf-453750953b61",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "5a315c1e-fb93-4999-85b5-2af3acafcf7a",
+        "ht" : "444f44ae-a31e-49a7-8041-7ca563c7837a"
+      },
+      "renditions" : [ {
+        "id" : "444f44ae-a31e-49a7-8041-7ca563c7837a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText2" : "Ale nan Asosye sèvis",
+            "headline" : "Twòp opsyon pou w chwazi?",
+            "paragraph" : "Kite Asosye sèvis rekòmande sèvis ki baze sou objektif ou ak bezwen ou yo."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5a315c1e-fb93-4999-85b5-2af3acafcf7a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText2" : "Vaya al Emparejamiento de Servicios",
+            "headline" : "¿Demasiadas opciones?",
+            "paragraph" : "Permita que el emparejamiento de servicios recomiende los servicios según sus objetivos y necesidades"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordsPerPage" : 10
+      },
+      "componentName" : "c:serviceCatalog",
+      "id" : "157b84b8-482c-4471-a086-e7c68a6a525d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c7a0079c-697c-40eb-b36f-900939322e13",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "50cb38f6-5387-43e8-b575-1636487e4a84",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Explore state programs and services through FL WINS, which is designed to streamline access, enhance coordination, and support a 'no-wrong-door' policy. Learn more.",
+        "title" : "FL WINS - Service Catalog"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5a3dcb98-b4d2-410f-9156-e3be09578285",
+      "renditionMap" : {
+        "es" : "e8bea0ef-403a-4b8a-846f-ddebf2389fb8",
+        "ht" : "aec80c91-46f0-4f78-80eb-5fbf0d1bd889"
+      },
+      "renditions" : [ {
+        "id" : "e8bea0ef-403a-4b8a-846f-ddebf2389fb8",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Explore programas y servicios estatales a través de FL WINS, diseñada para simplificar el acceso, mejorar la coordinación y apoyar una política “sin puertas equivocadas”. Más información.",
+            "title" : "FL WINS - Catálogo de Servicios"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "aec80c91-46f0-4f78-80eb-5fbf0d1bd889",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "description" : "Eksplore pwogram ak sèvis leta yo atravè FL WINS, ki fèt pou senplifye aksè, amelyore kowòdinasyon, ak sipòte yon politik 'pa gen move pòt'. Aprann plis.",
+            "title" : "FL WINS - Katalòg Sèvis yo"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "4e8fdc8b-ba7b-4074-84e5-ab5b94a61ecc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "b7e6a819-d885-42e1-a102-f905181ffef2",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-service-catalog"
+}

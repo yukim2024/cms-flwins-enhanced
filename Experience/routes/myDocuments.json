@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "48cc83ce-8d7b-45df-83f0-a74fae8f059c",
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "configurationTags" : [ ],
+  "id" : "72de76f3-3290-4033-9beb-0bb908c5035f",
+  "label" : "My Documents",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-my-documents",
+  "type" : "route",
+  "urlPrefix" : "my-documents"
+}

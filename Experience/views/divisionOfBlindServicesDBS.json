@@ -1,0 +1,304 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "482dbbca-bafa-4baa-a3d4-e01a49c984bd",
+  "label" : "Division of Blind Services (DBS)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Division of Blind Services (DBS)</h1>\n  <p class=\"serviceAgenciesName\">Florida Department of Education</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5685c34c-73c2-4eca-9545-f72732ee57d3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "55bb8bab-df70-479c-bd4c-06950c02a26a",
+        "ht" : "58da49b4-653c-4aa1-aa46-4e30066879b1"
+      },
+      "renditions" : [ {
+        "id" : "55bb8bab-df70-479c-bd4c-06950c02a26a",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">División de Servicios para Ciegos (DBS)</h1>\n  <p class=\"serviceAgenciesName\">Departamento de Educación de Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "58da49b4-653c-4aa1-aa46-4e30066879b1",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"titleContainer\">\n  <h1 class=\"largeTitle\">Divizyon Sèvis pou Avèg (DBS)</h1>\n  <p class=\"serviceAgenciesName\">Depatman Edikasyon Florida</p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "removeSpacing" : false,
+        "showBorder" : false,
+        "size" : "medium (1rem)"
+      },
+      "componentName" : "c:x7sExpSpacer",
+      "id" : "2b0edd37-8c74-48f3-82d9-11698cf562f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "155bde13-e067-422c-a715-b62a55e5dd2b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "contentUrlName" : "division-of-blind-services",
+        "language" : "en_US"
+      },
+      "componentName" : "c:programNeeds",
+      "id" : "6f65e59f-6fed-4232-bceb-016c07e3bb62",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MC6ZEZFKJIKRC2NEXTOLABL5NAUA",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "borderColor" : "rgb(255, 255, 255)",
+              "componentBorderStyles" : "{\"borderStyle\":\"none\"}",
+              "componentHoverEffect" : "none",
+              "componentPadding" : "none",
+              "contentBackgroundColor" : "#ffffff",
+              "contentOffset" : "0",
+              "contentOffsetBackgroundColor" : "#ffffff",
+              "contentOffsetPadding" : "none",
+              "contentPosition" : "center",
+              "contentWidth" : 100,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagConstraints" : "media",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "imageAlignment" : "top",
+              "imageAltText" : "",
+              "imageBorderColor" : "#ffffff",
+              "imageBorderStyles" : "",
+              "imageUrl" : "",
+              "mediaAspectRatio" : "16:9",
+              "mediaHeight" : 450,
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "{!CurrentItem.body}",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "",
+              "metadataTextDecoration" : "",
+              "showDateTime" : false,
+              "showExcerpt" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFeaturedMedia" : false,
+              "showFlag" : false,
+              "showMetadata1" : false,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : false,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "{!CurrentItem.body}",
+              "subTitleFontSize" : "regular",
+              "subTitleTextColor" : "",
+              "textAlignment" : "left",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:tileLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "eb78dad0-0f00-4534-ab58-1f90b5206731",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1fa88a3b-44bd-4dca-abc0-3abe3c0d67b5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h2 class=\"smallTitle\">Partner agency providing service</h2>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "4d1771bf-6c87-45a5-b813-7e4010a218a4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "bc2f985c-74a9-44b7-bd63-6696949d7fae",
+        "ht" : "34ed29fd-30c6-4785-8f6e-b5bb1decad85"
+      },
+      "renditions" : [ {
+        "id" : "bc2f985c-74a9-44b7-bd63-6696949d7fae",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Agencia asociada proveedora del servicio</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "34ed29fd-30c6-4785-8f6e-b5bb1decad85",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 class=\"smallTitle\">Ajans patnè k ap ofri sèvis</h2>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "align" : "left",
+        "ariaLabel" : "Florida Department of Education Learn More",
+        "backgroundColor" : "#FFFFFF",
+        "buttonClass" : "button-text",
+        "buttonIcon" : "utility:chevronright",
+        "buttonIconPosition" : "right",
+        "buttonSpacing" : "large",
+        "buttonText" : "Learn More",
+        "buttonUrl" : "department-of-education",
+        "buttonsInSeparateRows" : false,
+        "column1Class" : "serviceDepartmentDiv",
+        "columns" : "1",
+        "container" : "x-large",
+        "customClassName" : "white-with-border",
+        "darkText" : true,
+        "headline" : "Florida Department of Education",
+        "headlineSize" : "medium",
+        "headlineTag" : "h3",
+        "horizontalPadding" : "large",
+        "imageType" : "None",
+        "overlayOpacity" : "0",
+        "paragraph" : "FDOE provides a wide range of education and rehabilitation services to Floridians to advance their education and help prepare them for the workforce.",
+        "subHeadlineSize" : "medium",
+        "subHeadlineTag" : "h2",
+        "verticalAlignment" : "Top",
+        "verticalPadding" : "large"
+      },
+      "componentName" : "c:x7sExpBanner",
+      "id" : "0c1fb3e9-cfef-4690-ad43-e8929da2ee92",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "5bd7d8a5-452b-4818-81e5-79b79544da5e",
+        "ht" : "5b90d1eb-7d4a-4b6f-a506-ad05415264f4"
+      },
+      "renditions" : [ {
+        "id" : "5bd7d8a5-452b-4818-81e5-79b79544da5e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Más información",
+            "headline" : "Departamento de Educación de Florida",
+            "paragraph" : "El Departamento de Educación de Florida (FDOE por sus siglas en inglés) ofrece una amplia gama de servicios de educación y rehabilitación a los floridanos para avanzar en su educación y ayudar a prepararlos para unirse a la fuerza laboral."
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5b90d1eb-7d4a-4b6f-a506-ad05415264f4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "buttonText" : "Aprann plis",
+            "headline" : "Depatman Edikasyon Florida",
+            "paragraph" : "FDOE ofri yon pakèt sèvis edikasyon ak reyabilitasyon pou Floridyen yo pou pouswiv etid yo epi ede prepare yo pou mache travay la."
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2  class=\"smallTitle\">Florida Department of Education office locations</h2>\n        </div>\n    </div>\n    \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n             <h3 class=\"smallTitle\">Florida Department of Education Headquarters</h3><br/>\n             <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://dbs.fldoe.org/Information/contact.html\" class=\"locationLink\">See a list of locations</a>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "2d8f8c02-5524-4b56-a823-9a7abba4f898",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "es" : "714d9d60-03f1-4eda-bf60-6c04eca50eb9",
+        "ht" : "270fb4a9-090c-4ace-8e9e-a997c8b6a011"
+      },
+      "renditions" : [ {
+        "id" : "714d9d60-03f1-4eda-bf60-6c04eca50eb9",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n            <h2  class=\"smallTitle\">Ubicaciones de oficinas del Departamento de Educación de Florida</h2>\n        </div>\n    </div>\n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3 class=\"smallTitle\">Oficinas centrales del Departamento de Educación de Florida</h3>\n            <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://dbs.fldoe.org/Information/contact.html\"  class=\"locationLink\">Ver un listado de ubicaciones</a>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "270fb4a9-090c-4ace-8e9e-a997c8b6a011",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"agenciesLocation\" style=\"display: flex; flex-direction: column;\">\n    <div style=\"display: flex;\">\n        <div style=\"flex: 12;\">\n           <h2  class=\"smallTitle\">Adrès biwo Depatman Edikasyon Florida yo</h2>\n        </div>\n    </div>\n    \n    <div style=\"display: flex;\" class=\"agenciesLocationTitle\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <h3 class=\"smallTitle\">Katye Jeneral Depatman Edikasyon Florida</h3><br/>\n            <p class=\"agenciesAddress\">\n                Turlington Building, Suite 1514<br/>\n                325 West Gaines Street<br/>\n                Tallahassee, Florida 32399\n            </p>\n        </div>\n    </div>\n    <div style=\"display: flex;\">\n        <div style=\"flex: 1;\">\n            <img src=\"/sfsites/c/resource/1722331066000/SalesforceLightningDesignSystemIcons/utility/checkin_60.png\" alt=\"Location Icon\" style=\"width: 20px; height: 20px; margin-top: 2px;\">\n        </div>\n        <div style=\"flex: 11;\">\n            <a href=\"https://dbs.fldoe.org/Information/contact.html\" class=\"locationLink\">Gade yon lis adrès</a>\n        </div>\n    </div>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "1898fb55-5b28-4ee1-9aad-fc58dc141116",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "23465315-7eca-4d0a-97a3-2e2131d679e5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "FDOE's DBS is a Workforce Partner of the FL WINS Program, enhancing workforce access for blind and visually impaired Floridians.",
+        "title" : "Division of Blind Services (DBS)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87702616-3f46-4b1f-a53d-e9800ad96728",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "65bc30d0-127d-425a-b005-5db91476daf1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-division-of-blind-services"
+}

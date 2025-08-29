@@ -1,0 +1,103 @@
+{
+  "appPageId" : "83a2c8de-6326-4b69-8edf-d22526f0e192",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a0346ce8-e807-4775-aa68-29ebccaab825",
+  "label" : "referralIntake",
+  "regions" : [ {
+    "id" : "abb3f347-e118-4cec-905c-1caabe7f2911",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "IntakeTitle",
+        "objectApiName" : "",
+        "recordId" : ""
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "9c567326-91c5-4b87-9b86-c0b475a2390a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:submitLoadingScreen",
+      "id" : "f809a07e-1586-45fd-82a0-30f2d90459ec",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flexcardName" : "IntakeProgramDetailsTitleSection",
+        "objectApiName" : "",
+        "recordId" : ""
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "77ef84c4-acae-4099-a0e6-9deca98a8fd4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "Multi-Language",
+        "subType" : "Referral",
+        "theme" : "lightning",
+        "type" : "IntakeForm"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "325c0a54-5492-41b9-a77e-581153f09a84",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d5f9b19b-9b8b-4acd-9b89-a484f1970f4d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "10544b5e-854f-4ca4-b4d0-21a49891125f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "FL WINS - Registration Intake"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fad219d5-971c-4cc8-84ea-f590ef21816f",
+      "renditionMap" : {
+        "es" : "755c9e49-97d4-4bfe-897d-dc21d6ef3cc5",
+        "ht" : "6c3a09c2-3ec3-4f0c-b9eb-875cf5576c0e"
+      },
+      "renditions" : [ {
+        "id" : "6c3a09c2-3ec3-4f0c-b9eb-875cf5576c0e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "FL WINS - Aplikasyon Enskripsyon "
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "755c9e49-97d4-4bfe-897d-dc21d6ef3cc5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "FL WINS - Admisión de registro"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "4b0c00f9-a453-404f-bc48-749e66060659",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-referralintake"
+}
