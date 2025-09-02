@@ -12,7 +12,7 @@ public with sharing class MyDocumentsFileUploadController {
 
      // Method for uploading files to Salesforce
      @AuraEnabled
-     public static Id uploadFileToServer(String fileName, String base64Data, Boolean createDocumentLink) {
+     public static Id uploadFileToServer(String fileName, String base64Data, Boolean createDocumentLink, String documentType) {
          Blob fileBody = EncodingUtil.base64Decode(base64Data);
  
          ContentVersion cv = new ContentVersion();
@@ -20,9 +20,13 @@ public with sharing class MyDocumentsFileUploadController {
          cv.PathOnClient = '/' + fileName;
          cv.VersionData = fileBody;
          cv.IsMajorVersion = true;
+         cv.Document_Type__c = 'documentType -'+ documentType;
          String contentDocumentId = '';
+         
          if(!Test.isRunningTest()) { 
              insert cv; 
+             cv = [SELECT Id, Title, Document_Type__c FROM ContentVersion WHERE Id = :cv.Id];
+             System.debug('Document_Type__c value: ' + cv.Document_Type__c);
              contentDocumentId = [SELECT ContentDocumentId FROM ContentVersion WHERE Id = :cv.Id].ContentDocumentId;
          }
  
@@ -34,6 +38,7 @@ public with sharing class MyDocumentsFileUploadController {
          ContentDocumentLink cdl = new ContentDocumentLink();
          cdl.ContentDocumentId = contentDocumentId != '' ? contentDocumentId : null;
          cdl.LinkedEntityId = accountId;
+         cdl.ShareType='V';
  
          if(!Test.isRunningTest() && createDocumentLink) { insert cdl; }
          

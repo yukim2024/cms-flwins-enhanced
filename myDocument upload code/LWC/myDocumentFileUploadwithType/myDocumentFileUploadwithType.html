@@ -30,7 +30,13 @@
        
     </template>
 
-    <c-my-documents-custom-file-uploader></c-my-documents-custom-file-uploader>
+    <c-my-documents-custom-file-uploader onmydocuploadfinished={handleUploadFinished}
+    onmydocuploaderror={handleUploadError}
+    onmydocuploading={handleUploading}
+    onmydocfileuploadevent={fetcUploadDocuments}
+    selecteddocumenttype = {selectedDocument.name}
+    >
+    </c-my-documents-custom-file-uploader>
 
 <!--
     <lightning-file-upload

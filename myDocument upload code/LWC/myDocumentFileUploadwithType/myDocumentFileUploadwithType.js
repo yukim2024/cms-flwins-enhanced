@@ -1,5 +1,6 @@
 import { LightningElement, api,  track  } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
+import getUserDocuments from '@salesforce/apex/myDocumentsController.getUserDocuments';
 import MY_DOCUMENTS_LABEL from '@salesforce/label/c.myDocuments_MyDocuments';	
 import TITLE_LABEL from '@salesforce/label/c.myDocuments_Title';	
 import LAST_MODIFIED_LABEL from '@salesforce/label/c.myDocuments_LastModified';	
@@ -44,6 +45,11 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
             uploadedFiles.forEach(file => {
                 console.log('Uploaded File Name: ' + file.name);
             });
+
+             this.dispatchEvent(new CustomEvent('uploadfilescompleted', {
+                bubbles: true,
+                composed: true
+            }));
         }
     
     
@@ -51,6 +57,54 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
         // event.detail.files contains the selected file(s)
         this.selectedFiles = event.detail.files;
         console.log('Selected files:', this.selectedFiles);
-    }
+         }
+
+
+        @api
+        triggerUpload() {
+            const uploader = this.template.querySelector('c-my-documents-custom-file-uploader');
+            if (uploader) {
+                console.log('triggerUpload was reched in mydocumentfileuploadwithtype ');
+                uploader.myDocUploadFiles();
+                console.log('calling upload files');
+            } else {
+                console.log('not --- calling upload files');
+            }
+        }
+
+
+        
+
+        handleUploadError(event) {
+            console.error('Upload error:', event.detail.error);
+        }
+
+
+        handleUploading() {
+            console.error('mydocumentfileuploadwithatype - dispatch uploading');
+            this.dispatchEvent(new CustomEvent('uploading', {
+                bubbles: true,
+                composed: true
+            }));
+        }
+
+
+        
+        fetcUploadDocuments(){
+            console.log('tt');
+             this.isLoading = true;
+                    getUserDocuments()
+                        .then(result => {
+                            if(result) {
+                                this.userDocuments = JSON.parse(result);
+                                this.showNoResults = this.userDocuments.length == 0;
+                            }
+                            this.isLoading = false;
+                        })
+                        .catch(() => {
+                            //console.log(error);
+                            this.isLoading = false;
+                        });
+        }
 
 }

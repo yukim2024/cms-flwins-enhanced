@@ -522,6 +522,14 @@ Once the form has been processed, your submission will show on your My Registrat
         <value>Change password</value>
     </labels>
     <labels>
+        <fullName>My_Document_Select_document_type</fullName>
+        <categories>Document Upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Document Select document type</shortDescription>
+        <value>Select document type</value>
+    </labels>
+    <labels>
         <fullName>My_Document_Upload_Title</fullName>
         <categories>Document Upload</categories>
         <language>en_US</language>

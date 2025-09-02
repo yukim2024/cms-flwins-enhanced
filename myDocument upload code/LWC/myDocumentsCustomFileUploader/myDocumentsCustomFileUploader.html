@@ -17,24 +17,26 @@
     </div>
 
      <template if:true={files.length}>
-        <ul class="slds-list_vertical slds-m-top_small">
-            <template for:each={files} for:item="file">
-                <li key={file.name} class="slds-list__item slds-hint-parent">
-                    <span>{file.name}</span>
-                    <button class="slds-button  slds-m-left_small"
-                            title="Remove"
-                            onclick={removeFile}
-                            data-name={file.name}>
-                        
-                        <span >Delete</span>
-                    </button>
-                </li>
-            </template>
-        </ul>
+        <div class="myDocumentCustomFileShowDetail">
+            <div class="showAttachedFiles">Your attaached files</div>
+            <ul class="slds-list_vertical slds-m-top_small">
+                <template for:each={files} for:item="file">
+                    <li key={file.name} class="slds-hint-parent">
+                        <span>{file.name}</span>
+                        <button class="slds-button  slds-m-left_small slds-button_neutral "
+                                title="Remove"
+                                onclick={removeFile}
+                                data-name={file.name}>
+                            <span><span class="attachedFileSize">({file.size}</span> | <span class="attachedFileDelete">Delete</span>)</span>
+                        </button>
+                    </li>
+                </template>
+            </ul>
+        </div>
         <!--
         <button class="slds-button slds-button_brand slds-m-top_small" onclick={uploadFiles}>Upload</button>
         -->
-    </template>
+     </template>
     <!--
     <div class="slds-box slds-theme_default">
         <label class="slds-form-element__label" for="fileInput">Upload Files (or drop files)</label>
