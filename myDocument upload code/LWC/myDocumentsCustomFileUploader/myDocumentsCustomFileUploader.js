@@ -1,9 +1,28 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, track, api } from 'lwc';
 import uploadFileToServer from '@salesforce/apex/MyDocumentsFileUploadController.uploadFileToServer';
+import insertUploadMetric from '@salesforce/apex/MyDocumentsFileUploadController.insertFileUploadMetric';
 
 export default class MyDocumentsCustomFileUploader extends LightningElement {
  @track files = [];
+@api uploadFileLabel = 'Upload File';
+@api cancelLabel = 'Cancel';
+@api selecteddocumenttype; // passed from Step2 LWC
+@track showWrongFormatError = false;
+ @track isUploadFileDisabled = false;
 
+ get acceptedFormats() {
+        return ['.png', '.jpeg', '.jpg', '.pdf', '.heic', '.doc']; 
+    }
+
+acceptedMimeTypes = [
+    'application/msword',
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    'image/png',
+    'image/jpeg',
+    'application/pdf',
+    'image/heic',
+    'image/heif'
+];
     handleFilesSelected(event) {
         const input = event.target;
         const selectedFile = event.target.files[0]; // only take first file
@@ -11,13 +30,16 @@ export default class MyDocumentsCustomFileUploader extends LightningElement {
             this.files = [{
                 file: selectedFile,
                 name: selectedFile.name,
+                size: this.formatFileSize(selectedFile.size), 
                 progress: 0,
                 progressStyle: 'width: 0%',
                 iconName: this.getIconName(selectedFile.name)
             }];
              // Dispatch event to notify parent
             this.dispatchEvent(new CustomEvent('fileselected', {
-                detail: { hasFiles: true } // or pass this.files if needed
+                detail: { hasFiles: true },
+                bubbles: true,      // allow event to bubble up the DOM
+                composed: true 
             }));
         }
          input.value = '';
@@ -34,6 +56,7 @@ export default class MyDocumentsCustomFileUploader extends LightningElement {
             this.files = [{
                 file: droppedFile,
                 name: droppedFile.name,
+                size: this.formatFileSize(droppedFile.size),
                 progress: 0,
                 progressStyle: 'width: 0%',
                 iconName: this.getIconName(droppedFile.name)
@@ -48,7 +71,9 @@ export default class MyDocumentsCustomFileUploader extends LightningElement {
         // Notify parent if no files left
         if (this.files.length === 0) {
             this.dispatchEvent(new CustomEvent('fileselected', {
-                detail: { hasFiles: false }
+                detail: { hasFiles: false },
+                bubbles: true,
+                composed: true
             }));
         }
     }
@@ -72,23 +97,125 @@ export default class MyDocumentsCustomFileUploader extends LightningElement {
         }
     }
 
-    uploadFiles() {
-        this.files.forEach(fileWrapper => {
-            const reader = new FileReader();
-            reader.onload = () => {
-                const base64 = reader.result.split(',')[1];
-                uploadFileToServer({ fileName: fileWrapper.name, base64Data: base64 })
-                    .then(() => {
-                        this.incrementProgress(fileWrapper);
-                    })
-                    .catch(error => {
-                        console.error('Upload error', error);
-                    });
-            };
-            reader.readAsDataURL(fileWrapper.file);
-        });
+    @api
+    async myDocUploadFiles() {
+        console.log('customfile upload was called with myDocUploadFiles');
+        console.log('selecteddocumenttype:', this.selecteddocumenttype);
+        this.isUploadFileDisabled = true;
+
+    
+
+        if (!this.files || this.files.length === 0) {
+            console.warn('No files to upload');
+            this.isUploadFileDisabled = false;
+            return;
+        }
+        console.log(' myDocUploadFiles -- dispatch uploading')
+        this.dispatchEvent(new CustomEvent('myDocUploading', {
+            bubbles: true,
+            composed: true
+        }));
+
+        const filenames = [];
+        const failedFiles = [];
+
+    for (const fileWrapper of this.files) {
+        const file = fileWrapper.file;
+
+
+        // Validate file type and size
+        if (!this.acceptedMimeTypes.includes(file.type)) {
+            console.warn(`Invalid file type: ${file.name}`);
+            failedFiles.push(file.name);
+            continue;
+        }
+
+        if (file.size > 5242880) { // 5 MB limit
+            console.warn(`File too large: ${file.name}`);
+            failedFiles.push(file.name);
+            continue;
+        }
+
+         filenames.push({ name: file.name, size: file.size });
+
+        const reader = new FileReader();
+        reader.onloadend = () => {
+            const base64 = reader.result.split(',')[1];
+            const start = performance.now();
+            uploadFileToServer({
+                fileName: file.name,
+                base64Data: base64,
+                createDocumentLink: false,
+                documentType:"yyy-" + this.selecteddocumenttype
+                //,
+                //documentType: this.selecteddocumenttype
+            })
+            .then((result) => {
+                const end = performance.now();
+                this.uploadTime = Math.round(end - start);
+
+                insertUploadMetric({
+                    documentId : result,
+                    fileName: file.name,
+                    userId: USER_ID,
+                    fileUploadTime: this.uploadTime,
+                    fileSize: file.size
+                })
+                // eslint-disable-next-line
+                .then(result => {
+                })
+                    //this.closeModal();
+                    this.dispatchEvent(new CustomEvent('mydocfileuploadevent'));
+
+                    // Notify parent/grandparent that upload finished
+                    /*
+                    console.log('mydocument custom file uploader --> upload finished dispatch event', file.name);
+                    this.dispatchEvent(new CustomEvent('mydocuploadfinished', {
+                        detail: { files: filenames },
+                        bubbles: true,
+                        composed: true
+                    }));*/
+
+                })
+                // eslint-disable-next-line
+                .catch(()=> {
+                    this.isUploadFileDisabled = false;
+                    //console.error('Upload failed:', error);
+                });
+         };
+
+        reader.readAsDataURL(file);
     }
 
+    console.log('isUploadFileDisabled = false', this.selecteddocumenttype);
+    this.isUploadFileDisabled = false;
+
+    console.log('sending dispatch with mydocuploadfinished ');
+    this.dispatchEvent(new CustomEvent('mydocuploadfinished', {
+        detail: { files: filenames, failedFiles },
+        bubbles: true,
+        composed: true
+    }));
+
+    if (failedFiles.length > 0) {
+        this.dispatchEvent(new CustomEvent('mydocuploaderror', {
+            detail: { error: `Failed to upload: ${failedFiles.join(', ')}` },
+            bubbles: true,
+            composed: true
+        }));
+    }
+}
+
+
+
+
+
+  formatFileSize(bytes) {
+        if (bytes === 0) return '0 Bytes';
+        const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(1024));
+        return parseFloat((bytes / Math.pow(1024, i)).toFixed(2)) + ' ' + sizes[i];
+    }
     incrementProgress(fileWrapper) {
         let progress = 0;
         const interval = setInterval(() => {

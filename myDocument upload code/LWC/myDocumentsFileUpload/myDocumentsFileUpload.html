@@ -1,4 +1,25 @@
 <template>
+
+
+    <div class="file-upload-container">
+
+        <lightning-layout pull-to-boundary="medium">
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+
+                <span class="file-upload-mobile">
+                    <p>{label.FILE_SIZE_LIMIT_LABEL} {label.FILE_TYPES_LABEL}</p>
+                </span>
+                <span class="file-upload-desktop">
+                    <p>{label.FILE_SIZE_LIMIT_LABEL}</p>
+                    <p>{label.FILE_TYPES_LABEL}</p>
+                </span>
+
+            </lightning-layout-item>
+           
+        </lightning-layout>
+
+    </div>
+    
     <template if:true={selectedDocument}>
         <div class="slds-box slds-m-top_medium">
             <h2>Selected Document in 2nd Child</h2>
@@ -6,5 +27,18 @@
             <p><strong>Description:</strong> {selectedDocument.description}</p>
         </div>
     </template>
-    test222
+    
+
+    <lightning-file-upload
+        label="Attach receipt"
+        name="fileUploader"
+        accept={acceptedFormats}
+        record-id={myRecordId} 
+        onuploadfinished={handleUploadFinished}
+        multiple
+    >
+    </lightning-file-upload>
+
+
+
 </template>

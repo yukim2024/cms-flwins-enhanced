@@ -1,6 +1,5 @@
 .slds-file-selector {
-    border: 2px dashed #d8dde6;
-    border-radius: 0.25rem;
+    border: 1px dashed var(--flwins-c-navy-navy-70);
     padding: 1rem;
     text-align: center;
     cursor: pointer;
@@ -51,4 +50,15 @@
 }
 .slds-file-selector__input {
     display: none;
+}
+
+.slds-file-selector_files .slds-button_neutral  {
+    background-color: var(--buttonPrimaryBtnNeutral-backgroundcolor) !important;
+    border: var(--buttonPrimaryBtnNeutral-btnBorder) !important;
+    border-radius: var(--buttonPrimaryBtnNeutral-borderRadius) !important;
+    font-size: var(--buttonPrimaryBtnNeutral-font-size) !important;
+    line-height: var(--buttonPrimaryBtnNeutral-line-height) !important;
+    font-weight: var(--buttonPrimaryBtnNeutral-font-weight) !important;
+    padding: var(--buttonPrimaryBtnNeutral-padding) !important;
+    color: var(--buttonPrimaryBtnNeutral-font-color) !important; 
 }

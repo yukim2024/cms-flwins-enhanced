@@ -35,12 +35,12 @@ public with sharing class myDocumentsController {
             ud.LastModifiedDate = cd.LastModifiedDate;
             ud.DownloadUrl = portalUrl + '/sfc/servlet.shepherd/document/download/' + cd.Id + '?operationContext=S1'; //#toolbar=0&navpanes=0
             ud.FileType = cd.FileExtension;
-
             udIdToUd.put(ud.Id, ud);
         }
 
-        for(ContentVersion cv : [SELECT Id,ContentDocumentId,FileExtension FROM ContentVersion WHERE ContentDocumentId IN :udIdToUd.keySet()  WITH USER_MODE ORDER BY LastModifiedDate ASC]) {
+        for(ContentVersion cv : [SELECT Id,ContentDocumentId,FileExtension, Document_Type__c FROM ContentVersion WHERE ContentDocumentId IN :udIdToUd.keySet()  WITH USER_MODE ORDER BY LastModifiedDate ASC]) {
             String previewUrl = '';
+            String docType = '';
            if(cv.FileExtension == 'doc' || cv.FileExtension == 'docx') {
                 //previewUrl =  portalUrl + '/sfc/servlet.shepherd/version/renditionDownload?rendition=THUMB720BY480&versionId='+cv.Id;
                 previewUrl =  portalUrl + '/sfc/servlet.shepherd/version/renditionDownload?rendition=SVGZ&versionId='+cv.Id;
@@ -50,6 +50,7 @@ public with sharing class myDocumentsController {
                 previewUrl = portalUrl + '/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId='+cv.Id;
             }
             udIdToUd.get(cv.ContentDocumentId).PreviewUrl = previewUrl;
+            udIdToUd.get(cv.ContentDocumentId).docType = cv.Document_Type__c;
         }
 
         return JSON.serialize(udIdToUd.values());
@@ -82,5 +83,6 @@ public with sharing class myDocumentsController {
         @AuraEnabled public String PreviewUrl {get;set;}
         @AuraEnabled public DateTime LastModifiedDate {get;set;}
         @AuraEnabled public String FileType {get;set;}
+        @AuraEnabled public String Doctype {get;set;} 
     }
 }

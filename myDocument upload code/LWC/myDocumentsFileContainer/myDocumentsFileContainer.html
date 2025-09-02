@@ -1,10 +1,10 @@
 <template>
     <div data-region-name="header">
-        <div class="header-container header-container-space titleContainer myDocFileContainer">
-            <h1 class="largeTitle">
-                {label.documentUploadtitle}
-            </h1>
-        </div>
+    <div class="header-container header-container-space titleContainer myDocFileContainer">
+        <h1 class="largeTitle">
+            {label.documentUploadtitle}
+        </h1>
+    </div>
     </div>
     <!-- Step 1 -->
     <template if:true={isStep1}>
@@ -21,6 +21,9 @@
        <c-my-document-file-uploadwith-type
             selected-document={selectedDocType}
             onfileselected={handleFileSelected}
+            onuploadfilescompleted={handleUploadFinished}
+            onmydocuploaderror={handleUploadError} 
+            onuploading={myDocHandleUploading}
             onback={handleBack}
             onnext={handleNext}>
        </c-my-document-file-uploadwith-type>
@@ -28,29 +31,47 @@
 
     
     <!-- Navigation Buttons -->
-    <div class="slds-m-top_medium slds-grid slds-grid_align-end">
-        <lightning-button 
-            variant="neutral" 
-            label="Back" 
-            onclick={handleBack}
-            disabled={isBackDisabled}>
-        </lightning-button>
+       <div class="slds-m-top_medium slds-grid slds-grid_align-end">
+         isNextDisabled = {isNextDisabled} / currentStep = {currentStep} // hasFiles = {hasFiles} / hasFiles = 
+            <lightning-button 
+                variant="neutral" 
+                label="Back" 
+                onclick={handleBack}
+                disabled={isBackDisabled}>
+            </lightning-button>
 
-        <lightning-button 
-            variant="brand" 
-            label={buttonLabel}
-            onclick={handleNext}
-            disabled={isNextDisabled}
-            class="slds-m-left_small">
-        </lightning-button>
-    </div>
+            <lightning-button 
+                variant="brand" 
+                label={buttonLabel}
+                onclick={handleNext}
+                disabled={isNextDisabled}
+                class="slds-m-left_small">
+            </lightning-button>
+        </div>
 
-    <!-- if no document type was not selected-->
-    <template if:true={showErrorModal}>
-        MyDocumentsTypeSelectErrorModal
-        <c-my-documents-type-select-error-modal 
-            message="Error: Please select the document type you are uploading" 
-            onclose={handleErrorClose}>
-        </c-my-documents-type-select-error-modal>
-    </template>
+        <!-- if no document type was not selected-->
+        <template if:true={showErrorModal}>
+            MyDocumentsTypeSelectErrorModal
+            <c-my-documents-type-select-error-modal 
+                message="Error: Please select the document type you are uploading" 
+                onclose={handleErrorClose}>
+            </c-my-documents-type-select-error-modal>
+        </template>
+
+        <!-- Loading Overlay -->
+        <template if:true={isLoading}>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+            <div class="slds-spinner_container">
+                <lightning-spinner alternative-text="Uploading..." size="medium"></lightning-spinner>
+                <p class="slds-text-align_center slds-m-top_small">Uploading, please wait...</p>
+            </div>
+        </template>
+
+        <!-- Error Modal -->
+        <template if:true={showErrorModal}>
+            <c-my-documents-type-select-error-modal 
+                message="Error: Please select the document type you are uploading" 
+                onclose={handleErrorClose}>
+            </c-my-documents-type-select-error-modal>
+        </template>
 </template>
