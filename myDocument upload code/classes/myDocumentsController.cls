@@ -49,6 +49,9 @@ public with sharing class myDocumentsController {
             } else {
                 previewUrl = portalUrl + '/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId='+cv.Id;
             }
+
+            System.debug('docType for ' + cv.Id + ': ' + cv.Document_Type__c);
+            System.debug('FileExtension for ' + cv.Id + ': ' + cv.FileExtension);
             udIdToUd.get(cv.ContentDocumentId).PreviewUrl = previewUrl;
             udIdToUd.get(cv.ContentDocumentId).docType = cv.Document_Type__c;
         }
@@ -83,6 +86,6 @@ public with sharing class myDocumentsController {
         @AuraEnabled public String PreviewUrl {get;set;}
         @AuraEnabled public DateTime LastModifiedDate {get;set;}
         @AuraEnabled public String FileType {get;set;}
-        @AuraEnabled public String Doctype {get;set;} 
+        @AuraEnabled public String docType {get;set;} 
     }
 }

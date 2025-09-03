@@ -20,7 +20,7 @@ public with sharing class MyDocumentsFileUploadController {
          cv.PathOnClient = '/' + fileName;
          cv.VersionData = fileBody;
          cv.IsMajorVersion = true;
-         cv.Document_Type__c = 'documentType -'+ documentType;
+         cv.Document_Type__c =  documentType;
          String contentDocumentId = '';
          
          if(!Test.isRunningTest()) { 
@@ -39,9 +39,11 @@ public with sharing class MyDocumentsFileUploadController {
          cdl.ContentDocumentId = contentDocumentId != '' ? contentDocumentId : null;
          cdl.LinkedEntityId = accountId;
          cdl.ShareType='V';
+         cdl.Visibility = 'AllUsers'; 
  
          if(!Test.isRunningTest() && createDocumentLink) { insert cdl; }
          
+          System.debug('cv.Id value: ' + cv.Id);
          return cv.Id;
      }
 
@@ -49,14 +51,20 @@ public with sharing class MyDocumentsFileUploadController {
     // Inserts a "File Upload Metrics" record with the provided parameters
     @AuraEnabled
     public static void insertFileUploadMetric(String documentId, String fileName, Integer fileSize, String userId, Integer fileUploadTime) {
-        //System.debug('uploadStartTime: ' + uploadStartTime);
-        insert new File_Upload_Metrics__c(
-            File_Name__c = fileName,
-            File_Size_KB__c = fileSize / 1024.0,
-            ContentDocument_Id__c = documentId,
-            Upload_Duration_Exact__c = fileUploadTime,
-            User__c = userId
-        );
+        System.debug('uploadStartTime: ' + documentId);
+        
+        try {
+            insert new File_Upload_Metrics__c(
+                File_Name__c = fileName,
+                File_Size_KB__c = fileSize / 1024.0,
+                ContentDocument_Id__c = documentId,
+                Upload_Duration_Exact__c = fileUploadTime,
+                User__c = userId
+            );
+        } catch (Exception e) {
+            System.debug('insertFileUploadMetric failed: ' + e.getMessage());
+            throw new AuraHandledException('Failed to insert File Upload Metric: ' + e.getMessage());
+        }
     }
 
 

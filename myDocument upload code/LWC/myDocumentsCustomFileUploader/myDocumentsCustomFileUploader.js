@@ -146,7 +146,7 @@ acceptedMimeTypes = [
                 fileName: file.name,
                 base64Data: base64,
                 createDocumentLink: false,
-                documentType:"yyy-" + this.selecteddocumenttype
+                documentType:this.selecteddocumenttype
                 //,
                 //documentType: this.selecteddocumenttype
             })
@@ -165,6 +165,7 @@ acceptedMimeTypes = [
                 .then(result => {
                 })
                     //this.closeModal();
+                    console.log('insertUploadMetric succeeded for', file.name);
                     this.dispatchEvent(new CustomEvent('mydocfileuploadevent'));
 
                     // Notify parent/grandparent that upload finished
@@ -179,6 +180,7 @@ acceptedMimeTypes = [
                 })
                 // eslint-disable-next-line
                 .catch(()=> {
+                    console.error('insertUploadMetric failed:', err);
                     this.isUploadFileDisabled = false;
                     //console.error('Upload failed:', error);
                 });
