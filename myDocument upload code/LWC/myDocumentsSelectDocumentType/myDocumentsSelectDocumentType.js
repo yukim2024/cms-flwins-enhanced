@@ -1,5 +1,7 @@
 import { LightningElement, track, wire, api} from 'lwc';
 import getDocumentTypes from '@salesforce/apex/MyDocumentsFileUploadController.getDocumentTypeTranslations';
+import Select_Document_Type from '@salesforce/label/c.My_Document_Select_document_type';
+
 import LANG from "@salesforce/i18n/lang";
 
 export default class MyDocumentsSelectDocumentType extends LightningElement {
@@ -7,6 +9,9 @@ export default class MyDocumentsSelectDocumentType extends LightningElement {
     @track documentTypes = []; 
     userLang = LANG;
     selectedDocumentTypeValue;
+    customLabel = {
+        Select_Document_Type
+    }
     @wire(getDocumentTypes, { userLanguage: '$userLang' })
     wiredTranslations({ error, data }) {
         if (data) {

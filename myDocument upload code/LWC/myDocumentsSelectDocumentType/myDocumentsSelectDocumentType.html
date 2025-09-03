@@ -1,22 +1,34 @@
 <template>
-     <lightning-card title="Select document type" class="my-document-selectType"  variant="narrow">
-      
+    <div class="documentTypeSelectionWapper">
+     <h2 class="documentTypeSubtitle"> {customLabel.Select_Document_Type} </h2>
+      <div  class="my-document-selectType">
         <div if:true={documentTypes}>
-             <div  class="card-container">
+             <div  class="card-container ">
                  <template for:each={documentTypes} for:item="docType">
+
                      <div key={docType.id} 
                             class={docType.className}
                             onclick={handleCardClick}
                             data-id={docType.id}>
-                             <div class="card-document-type slds-p-left_medium">
+                             <div class="card-document-type slds-p-left_medium custom-radio slds-radio">
                                 <input type="radio"
                                     name="docType"
                                     value={docType.name}
                                     checked={docType.isSelected}
                                     onchange={handleSelection}
-                                    id={docType.id} />
-                                <label for={docType.name}>{docType.name}</label>
+                                    id={docType.id} 
+                                    class="docTypeSelctioin"
+                                    />
+                                
+                                <!--
                                  <p class="slds-m-top_small desc-document-type">{docType.description}</p>
+                                 -->
+                                 <span class="slds-radio_faux docTypeSelctioinRadio"></span>
+                                 <label for={docType.id} class="slds-radio__label">
+                                    <span class="docTypeRadio-text">{docType.name}</span>
+                                    <span class="docTypeRadio-desc">{docType.description}</span>
+                                
+                                </label>
                             </div>
                     </div>
             </template>
@@ -30,7 +42,7 @@
                 <p><strong>Description:</strong> {selectedDocumentType.description}</p>
             </div>
         </template>
-     
-    </lightning-card>
+     </div>
+   </div>
     
 </template>

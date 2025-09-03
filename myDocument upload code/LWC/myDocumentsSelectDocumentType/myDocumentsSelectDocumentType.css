@@ -3,6 +3,9 @@
     flex-direction: column;
     gap: 1rem;
 }
+.documentTypeSelectionWapper{
+    margin-top:29px;
+}
 
 .card-item {
     border: 3px solid var(--flwins-c-navy-navy-80); 
@@ -20,4 +23,33 @@
 .card-item.selected {
     border-color:  var(--flwins-c-sky-sky-30);
     background-color: var(--flwins-c-white); /* light blue highlight */
+}
+.custom-radio {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+.docTypeRadio-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-weight: var(--flwins-font-weight-700) !important;
+
+}
+.docTypeRadio-desc{
+     margin-left:  20px;
+      margin-top:  10px;
+     display: block;
+}
+   
+.docTypeRadio-label {
+    display:block;
+}
+
+.docTypeSelctioinRadio {
+    margin-top: 5px;
+}
+
+.documentTypeSubtitle {
+    margin-bottom: 29px;
 }
