@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>QR Code Generator</masterLabel>
+    <description>Generate QR codes from text or URLs with customizable settings</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Page</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage,lightningCommunity__Default">
+            <property name="hideControls" type="Boolean" label="Hide UI Controls" description="If true, only the QR code will be displayed without input controls" default="false" />
+            <property name="text" type="String" label="QR Code Text" description="Text or URL to encode in the QR code" />
+            <property name="qrSize" type="Integer" label="QR Code Size" description="Size of the QR code in pixels" default="400" min="100" max="600" />
+            <property name="errorCorrectionLevel" type="String" label="Error Correction Level" description="Error correction level for the QR code (L=Low 7%, M=Medium 15%, Q=Quartile 25%, H=High 30%)" default="H" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

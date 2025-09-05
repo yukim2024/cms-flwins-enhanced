@@ -1,0 +1,56 @@
+<template>
+    <div class="file-upload-button-container">
+        <lightning-button class="upload-files-button" variant="brand" aria-label={uploadFileLabel} label={uploadFileLabel} onclick={openModal}></lightning-button>
+    </div>
+
+    <template if:true={showModal}>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+        <section role="dialog" aria-modal="true" tabindex="0" aria-label={uploadFileLabel} class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">{uploadFileLabel}</h2>
+                    <lightning-button-icon
+                        class="slds-modal__close"
+                        title={cancelLabel}
+                        icon-name="utility:close"
+                        icon-class="slds-button_icon-inverse"
+                        onclick={closeModal}
+                    ></lightning-button-icon>
+                </header>
+                <div class="slds-modal__content">
+                    <div>
+                        <label for="file-upload-input">
+                            <lightning-button 
+                                label={uploadFileLabel} 
+                                title={uploadFileLabel} 
+                                icon-name="utility:download" 
+                                class="slds-m-left_x-small"
+                                onclick={clickFileInput}
+                                disabled={isUploadFileDisabled}>
+                            </lightning-button>
+                        </label>
+                        <input
+                          type="file"
+                          id="file-upload-input"
+                          class="file-upload-input"
+                          name="file-upload-input"
+                          accept={acceptedFormats}
+                          onchange={handleFileChange}
+                          disabled={isUploadFileDisabled}
+                          hidden
+                           />
+                    </div>
+
+                    <div if:true={showWrongFormatError}>
+                        <p class="file-upload-error">{wrongFormatError}</p>
+                    </div>
+
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button class="cancel-button" variant="neutral" label={cancelLabel} onclick={closeModal}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

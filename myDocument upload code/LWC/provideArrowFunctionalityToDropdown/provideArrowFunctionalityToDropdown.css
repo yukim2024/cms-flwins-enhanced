@@ -1,0 +1,4 @@
+.uiMenuItem.selected {
+    background-color: #0070d2; /* Salesforce Blue */
+    color: white;
+}

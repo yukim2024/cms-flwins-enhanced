@@ -1,14 +1,31 @@
 import { LightningElement, track, api } from 'lwc';
 import uploadFileToServer from '@salesforce/apex/MyDocumentsFileUploadController.uploadFileToServer';
 import insertUploadMetric from '@salesforce/apex/MyDocumentsFileUploadController.insertFileUploadMetric';
+import UPLOAD_FILE_S_LABEL from '@salesforce/label/c.myDocuments_UploadFile';
+import CANCEL_LABEL from '@salesforce/label/c.myDocuments_Cancel';	
+import OR_DRAG_FILES_LABEL from '@salesforce/label/c.or_drag_files_here';
+import YOUR_Attached_FILES_LABEL from '@salesforce/label/c.Your_attached_files';
+import YOUR_Attached_FILES_DELETE_LABEL from '@salesforce/label/c.Your_attached_files_Delete';
+
+
+
 
 export default class MyDocumentsCustomFileUploader extends LightningElement {
  @track files = [];
-@api uploadFileLabel = 'Upload File';
-@api cancelLabel = 'Cancel';
+//@api uploadFileLabel = UPLOAD_FILE_S_LABEL;
+//@api cancelLabel = CANCEL_LABEL;
 @api selecteddocumenttype; // passed from Step2 LWC
 @track showWrongFormatError = false;
  @track isUploadFileDisabled = false;
+
+ label = {
+        uploadFileLabel: UPLOAD_FILE_S_LABEL,
+        cancelLabel: CANCEL_LABEL,
+        orDragFilesLabel:OR_DRAG_FILES_LABEL,
+        attachedFileLabel:YOUR_Attached_FILES_LABEL,
+        attachedFileDeleteLabel:YOUR_Attached_FILES_DELETE_LABEL
+
+};
 
  get acceptedFormats() {
         return ['.png', '.jpeg', '.jpg', '.pdf', '.heic', '.doc']; 

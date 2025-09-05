@@ -1,3 +1,4 @@
+
 .slds-file-selector {
     border: 1px dashed var(--flwins-c-navy-navy-70);
     padding: 1rem;
@@ -61,4 +62,16 @@
     font-weight: var(--buttonPrimaryBtnNeutral-font-weight) !important;
     padding: var(--buttonPrimaryBtnNeutral-padding) !important;
     color: var(--buttonPrimaryBtnNeutral-font-color) !important; 
+}
+
+.button__icon2 {
+    margin-left:10px;
+}
+
+.custom-file-uploader-wrapper {
+    width: 85%;
+}
+
+.custom-file_text {
+    font-size:18px;
 }

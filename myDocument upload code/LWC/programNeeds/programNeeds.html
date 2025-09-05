@@ -1,0 +1,15 @@
+<template>
+    <template if:true={program}>
+        <div class="needs-section">
+            <div class="needs-container">
+                <span class="sr-only">{screenReaderText}</span>
+                <span class="needs-addressed-label" aria-hidden="true">{program_Needs_Addressed}</span> 
+                <template for:each={needs} for:item="need">
+                    <span key={need} class="need-bubble" aria-hidden="true">
+                        <span class="need-label">{need}</span>
+                    </span>
+                </template>
+            </div>
+        </div>
+    </template>
+</template>

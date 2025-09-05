@@ -1,0 +1,24 @@
+<template>
+    <template if:true={showSpinner}>
+        <lightning-spinner alternative-text="Loading" variant="brand" size="large"></lightning-spinner>
+    </template>
+    <template for:each={allDataConvertedList} for:item="wrap">
+        <lightning-accordion key={wrap.sectionHeder} allow-multiple-sections-open active-section-name={activeSections}>
+            <lightning-accordion-section name={wrap.sectionHeder} label={wrap.sectionHeder}>
+                <div class="slds-grid slds-gutters slds-wrap intakeReview">
+                    <template for:each={wrap.responseList} for:item="field">
+                        <div key={field.label} class={field.columnSizeClass}>
+                            <div class="reviewLabel">{field.label}</div>
+                            <div if:true={field.hasValue} class="reviewValue">
+                                {field.value}
+                            </div>
+                            <div if:false={field.hasValue} class="reviewValue novalue">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </lightning-accordion-section>
+        </lightning-accordion>
+    </template>
+</template>

@@ -1,0 +1,28 @@
+<template>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" medium-device-size="4" large-device-size="4" small-device-size="12">
+            <div class="filters-container">
+                <c-sidebar-search-filters
+                    service-count-text={serviceCountText}
+                    keyword={keyword}
+                    selected-agency={selectedAgency}
+                    agency-options={agencyOptions}
+                    onfilterchange={handleFilterChange}
+                    onclearfilters={handleClearFilters}
+                ></c-sidebar-search-filters>
+            </div>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" medium-device-size="8" large-device-size="8" small-device-size="12">
+            <c-program-list
+                records={processedRecords}
+                records-per-page={recordsPerPage}
+                sort-options={sortOptions}
+                sort-direction={sortDirection}
+                onsortchange={handleSortChange}
+                show-sort-by={showSortBy}
+                show-pagination={showPagination}
+            ></c-program-list>
+        </lightning-layout-item>
+    </lightning-layout>
+    <lightning-spinner lwc:if={showSpinner} alternative-text="Loading" variant="brand" size="large"></lightning-spinner>
+</template>
