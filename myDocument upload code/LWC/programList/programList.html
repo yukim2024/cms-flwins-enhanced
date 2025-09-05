@@ -1,0 +1,40 @@
+<template>
+    <div class="header">
+        <template if:true={showSortBy}>
+            <div class="sort-container">
+                <label class="sort-label">{labelSortBy}</label>
+                <lightning-combobox class="sort-select"
+                                    label={labelSortBy}
+                                    variant="label-hidden"
+                                    options={sortOptions}
+                                    value={sortDirection}
+                                    onchange={handleSortChange}
+                                    aria-label={labelSortBy}
+                                    aria-required="true">
+                </lightning-combobox>
+            </div>
+        </template>
+    </div>
+    <div class="main-content">
+        <template for:each={displayRecords} for:item="content">
+            <c-program-card key={content.Id}
+                             source={source}
+                             agency={content.Agency}
+                             name={content.Name}
+                             excerpt={content.Excerpt}
+                             referral-exists={content.referralExists}
+                             referral-status={content.referralStatus}
+                             referral-date={content.referralDate}
+                             label-learn-more={labelLearnMore}
+                             content-url-name={content.ContentURLName}>
+            </c-program-card>
+        </template>
+        <template if:true={showPagination}>
+            <div class="pagination">
+                <span class="pagination-text">{paginationText}</span>
+                <button class="pagination-button" onclick={handlePrevPage} disabled={isPrevDisabled}>{labelPrevious}</button>
+                <button class="pagination-button" onclick={handleNextPage} disabled={isNextDisabled}>{labelNext}</button>
+            </div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,66 @@
+<template>
+    <template if:true={showSpinner}>
+        <lightning-spinner alternative-text="Loading" variant="brand" size="large"></lightning-spinner>
+    </template>
+    <template if:true={resultsLoaded}>
+        <c-x7s-exp-spacer size="x-large (2rem)"></c-x7s-exp-spacer>
+        <div class="slds-var-p-left_small titleContainer">
+            <c-x7s-exp-spacer></c-x7s-exp-spacer>
+            <h1 class="largeTitle" if:true={serviceMatchResultsExist}>
+                {label.RECOMMENDED_SERVICES}&nbsp;
+                <template if:false={isGuestUser}>
+                    {label.FOR_TEXT} {firstName}
+                </template>
+            </h1>
+            <p class="largeTxt resultsParagraph">{label.SERVICE_MATCH_RESULTS_TITLE}</p>
+        </div>
+
+        <c-x7s-exp-spacer size="x-large (2rem)"></c-x7s-exp-spacer>
+
+        <template if:true={serviceMatchResultsExist}>
+            <template for:each={processedSections} for:item="section">
+                <div key={section.need} class="slds-m-bottom_xx-large">
+                    <h2 class="slds-text-heading_medium slds-var-p-left_small slds-var-m-bottom_small">{label.serviceWizardBasedOnYourNeed} {section.need}</h2>
+                    <c-program-list
+                        records={section.programs}
+                        show-sort-by={showSortBy}
+                        show-pagination={showPagination}
+                        source={source}
+                    ></c-program-list>
+                </div>
+            </template>
+        </template>
+        <template if:false={serviceMatchResultsExist}>
+            <h2 class="slds-text-heading_medium slds-var-p-left_small slds-var-m-bottom_small">
+                {label.SERVICE_MATCH_RESULTS_DONT_EXIST}
+            </h2>
+        </template>
+
+        <!-- Banner component -->
+        <c-x7s-exp-banner 
+            custom-class-name="department-banner"
+            button-class="button-white"
+            button-class2="button-text"
+            sub-headline={label.NOT_FINDING_SERVICE}
+            button-text={label.GO_TO_SERVICE_MATCH}
+            button-url="service-match"
+            button2-text={label.BROWSE_ALL_PROGRAMS}
+            button2-icon="utility:chevronright"
+            button2-icon-position="right"
+            button2-url="service-catalog"
+            columns="1"
+            sub-headline-tag="h2"
+            background-color="#ffffff"
+            dark-text="true"
+            horizontal-padding="none">
+        </c-x7s-exp-banner>
+
+        <template if:true={showSendResultsToEmail}>
+            <!-- Break line before QR code -->
+            <hr class="slds-m-vertical_medium" />
+            
+            <c-generate-qr-code onmessageevent={handleQrInfo}>
+            </c-generate-qr-code>
+        </template>
+    </template>
+</template>

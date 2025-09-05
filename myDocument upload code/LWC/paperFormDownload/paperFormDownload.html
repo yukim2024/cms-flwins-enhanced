@@ -1,0 +1,28 @@
+<template>
+    <hr style="border: none; height: 2px; color: #BCBDCB; background-color: #BCBDCB">
+    <div class="slds-var-m-horizontal-large" aria-label={labels.servicepage_NeedToCompleteOffline}>
+        <p class="slds-text-heading_medium slds-p-bottom_small">{labels.servicepage_NeedToCompleteOffline}</p>
+        <span aria-label={labels.servicepage_DownloadPaperVersion} class="slds-p-bottom_medium text">
+            {labels.servicepage_DownloadPaperVersion} |
+            <a href="#" title={labels.languageSelector_English} onclick={downloadEN} class="slds-p-horizontal_xx-small download-link">
+                <span class="nowrap">
+                    EN <lightning-icon icon-name="utility:download" size="x-small"
+                        class="slds-p-left_xx-small"></lightning-icon>
+                </span>
+            </a> |
+            <a href="#" title={labels.languageSelector_Spanish} onclick={downloadES} class="slds-p-horizontal_xx-small download-link">
+                <span class="nowrap">
+                    ES <lightning-icon icon-name="utility:download" size="x-small"
+                        class="slds-p-left_xx-small"></lightning-icon>
+                </span>
+            </a> |
+            <a href="#" title={labels.languageSelector_Haitian} onclick={downloadHT} class="slds-p-horizontal_xx-small download-link">
+                <span class="nowrap">
+                    HT <lightning-icon icon-name="utility:download" size="x-small"
+                        class="slds-p-left_xx-small"></lightning-icon>
+                </span>
+            </a>
+        </span>
+    </div>
+    <hr style="border: none; height: 2px; color: #BCBDCB; background-color: #BCBDCB">
+</template>

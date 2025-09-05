@@ -1,0 +1,28 @@
+.reviewLabel {
+    margin: var(--general-label-margin) !important;
+    font-size:var(--general-label-font-size); 
+    font-weight:var(--general-label-font-weight);
+    line-height:var(--general-label-line-height);
+    color:var(--general-label-font-color);
+}
+
+.reviewValue {
+    margin-bottom: 24px; 
+    font-size:18px; 
+    font-weight:400;
+    line-height:22.5px;
+    color:#39515C;
+    padding-bottom:8px;
+    padding-top: 3px;
+    border-bottom: 1px solid #797C97;
+    overflow-wrap: break-word;
+}
+
+.intakeReview {
+    margin-left: 0px;
+}
+
+.slds-accordion__summary-content {
+    font-size: 18px;
+    font-weight: 700;
+}

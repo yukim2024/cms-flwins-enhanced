@@ -1,24 +1,30 @@
 <template>
 
-     <div class="slds-file-selector slds-file-selector_files"
+     <div class="slds-file-selector slds-file-selector_files custom-file-uploader-wrapper"
          ondragover={handleDragOver}
          ondrop={handleDrop}>
-        <input type="file" id="fileInput" 
-               class="slds-file-selector__input"
-               onchange={handleFilesSelected} />
+        <input type="file" 
+                id="fileInput" 
+                class="slds-file-selector__input"
+                accept={acceptedFormats}
+                disabled={isUploadFileDisabled}
+                onchange={handleFilesSelected} 
+                />
         
         <label class="slds-file-selector__body" for="fileInput">
             <span class="slds-file-selector__button slds-button slds-button_neutral">
-                <lightning-icon icon-name="utility:upload" alternative-text="Upload"></lightning-icon>
-                &nbsp; Upload Files
+                {label.uploadFileLabel}
+                <lightning-icon 
+                icon-name="utility:upload"  
+                class="button__icon2" size="x-small"></lightning-icon>
             </span>
-            <span class="slds-file-selector__text">or drag files here</span>
+            <span class="slds-file-selector__text custom-file_text">{label.orDragFilesLabel}</span>
         </label>
     </div>
 
      <template if:true={files.length}>
         <div class="myDocumentCustomFileShowDetail">
-            <div class="showAttachedFiles">Your attaached files</div>
+            <div class="showAttachedFiles">{label.attachedFileLabel}</div>
             <ul class="slds-list_vertical slds-m-top_small">
                 <template for:each={files} for:item="file">
                     <li key={file.name} class="slds-hint-parent">
@@ -27,7 +33,7 @@
                                 title="Remove"
                                 onclick={removeFile}
                                 data-name={file.name}>
-                            <span><span class="attachedFileSize">({file.size}</span> | <span class="attachedFileDelete">Delete</span>)</span>
+                            <span><span class="attachedFileSize">({file.size}</span> | <span class="attachedFileDelete">{label.attachedFileDeleteLabel}</span>)</span>
                         </button>
                     </li>
                 </template>

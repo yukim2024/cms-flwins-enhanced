@@ -1,0 +1,15 @@
+<template>
+    
+    <lightning-layout multiple-rows=true>
+        <template for:each={programOverviewList} for:item="programOverview">
+
+            <lightning-layout-item padding="around-small" key={programOverview.Id} size="12" small-device-size="12" medium-device-size="6" large-device-size="4">
+                <c-program-overview-tile
+                    program-enrollment={programOverview}
+                ></c-program-overview-tile>
+            </lightning-layout-item>
+
+        </template>
+    </lightning-layout>
+
+</template>

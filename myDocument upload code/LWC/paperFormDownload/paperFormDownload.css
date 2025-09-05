@@ -1,0 +1,22 @@
+.text {
+    background-color: white;
+    border: none;
+    color: #39515C;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+.nowrap {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.download-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}

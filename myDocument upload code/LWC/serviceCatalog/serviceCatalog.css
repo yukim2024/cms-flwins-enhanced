@@ -1,0 +1,13 @@
+.filters-container {
+    margin-right: 50px;
+}
+
+.sort-container {
+    margin-right: 50px!important;
+}
+
+@media (max-width: 768px) {
+    .filters-container {
+        margin-right: 0px;
+    }
+}

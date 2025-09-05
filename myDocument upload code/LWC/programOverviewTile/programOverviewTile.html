@@ -1,0 +1,66 @@
+<template>
+    <div class="program-overview-tile-container" aria-label="Program Status Tile">
+
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading" variant="brand" size="medium"></lightning-spinner>
+        </template>
+
+        <p class="program-status">
+            {statusText}
+        </p>
+
+        <div class="progress-indicator-container">
+            <lightning-layout>
+                
+                <lightning-layout-item size="4">
+                    <lightning-icon class="filled" icon-name="utility:dash" size="large"></lightning-icon>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="4">
+                    <template lwc:if={statusIsInProgessOrCompleted}>
+                        <lightning-icon class="filled" icon-name="utility:dash" size="large"></lightning-icon>
+                    </template>
+                    <template lwc:else>
+                        <lightning-icon class="unfilled" icon-name="utility:dash" size="large"></lightning-icon>
+                    </template>
+                </lightning-layout-item>
+                
+                <lightning-layout-item size="4">
+                    <template lwc:if={statusIsCompleted}>
+                        <lightning-icon class="filled" icon-name="utility:dash" size="large"></lightning-icon>
+                    </template>
+                    <template lwc:else>
+                        <lightning-icon class="unfilled" icon-name="utility:dash" size="large"></lightning-icon>
+                    </template>
+                </lightning-layout-item>
+                
+            </lightning-layout>
+        </div>
+
+        <div class="program-body-container">
+            <div class="program-name-container">
+                <h2>{programEnrollment.Program.Name}</h2>
+            </div>
+
+            <div class="program-information-container">
+                <template if:true={statusIsApplied}>
+                    <lightning-icon icon-name="utility:send" alternative-text="Connected" size="small"></lightning-icon><span> {labels.regIntakeSubmitted} {parsedAppDate}</span>
+                </template>
+    
+                <template if:true={statusIsInProgress}>
+                    <div class="enrolled"><lightning-icon icon-name="utility:check" alternative-text="Connected" size="small"></lightning-icon><span> {labels.enrolled}</span></div>
+                </template>
+    
+                <template if:true={statusIsCompleted}>
+                    
+                </template>
+            </div>
+        </div>
+
+        
+
+        <div class="last-updated-container">
+            <span>{labels.updated} <lightning-formatted-date-time value={programEnrollment.LastModifiedDate} year="numeric" month="numeric" day="numeric"></lightning-formatted-date-time></span>
+        </div>
+    </div>
+</template>

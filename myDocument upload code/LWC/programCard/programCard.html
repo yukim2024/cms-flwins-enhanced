@@ -1,0 +1,28 @@
+<template>
+    <div aria-label={name} class="card slds-var-p-around_medium slds-var-m-horizontal_small slds-var-m-bottom_medium">
+        <label class="department-name">{agency}</label>
+        <h3 class="cardTitle">{name}</h3> <!-- Added against the bug - https://dev.azure.com/flwins/FL%20WINS/_workitems/edit/11849 -->
+        <p class="excerpt">{excerpt}</p>
+        <lightning-layout multiple-rows class="card-footer">
+            <lightning-layout-item flexibility="auto" size="12" small-device-size="12" medium-device-size="6" large-device-size="6">
+                <button data-agencyname={agency} aria-label={learnMoreAriaLabel} class="learn-more" onclick={navigateToProgramPage}>
+                    {labelLearnMore}&nbsp;
+                    <lightning-icon icon-name="utility:chevronright" size="xx-small" class="learn-more-icon"></lightning-icon>
+                </button>
+            </lightning-layout-item>
+            <template if:true={showReferral}>
+                <lightning-layout-item flexibility="auto" size="12" small-device-size="12" medium-device-size="6" large-device-size="6">
+                    <div class="referral-status">
+                        <lightning-icon icon-name={referralIconName} size="xx-small" class="referral-icon"></lightning-icon>
+                        <label class="referral-text">
+                            {referralStatusText}
+                            <template if:true={showReferralDate}>
+                                <br>{formattedReferralDate}
+                            </template>
+                        </label>
+                    </div>
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+</template>

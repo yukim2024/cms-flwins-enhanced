@@ -1,0 +1,51 @@
+.program-overview-tile-container {
+    border: 2px #394f5b solid;
+    border-radius: 18px;
+    padding: 24px;
+
+}
+
+.progress-indicator-container {
+    height: 24px;
+}
+
+.program-body-container {
+    flex-direction: column;
+    height: 240px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.program-information-container {
+    margin-top: auto;
+}
+
+.program-name-container {
+    margin-bottom: auto;
+}
+
+.unfilled {
+    --slds-c-icon-color-foreground-default: #bdbecc;
+}
+
+.filled {
+    --slds-c-icon-color-foreground-default: #394f5b;
+}
+
+.last-updated-container {
+    margin-top: 24px;
+}
+
+.last-updated-container span {
+    font-size: 12px;
+}
+
+.program-information-container span {
+    font-size: 14px;
+    vertical-align: sub;
+}
+.enrolled {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
