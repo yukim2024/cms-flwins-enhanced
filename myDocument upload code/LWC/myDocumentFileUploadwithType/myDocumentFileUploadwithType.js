@@ -15,7 +15,7 @@ import CONFIRM_LABEL from '@salesforce/label/c.myDocuments_Confirm';
 
 
 export default class MyDocumentFileUploadwithType extends LightningElement {
-    @api selectedDocument; // receives data from parent
+   //@api selectedDocument; // receives data from parent
     @track files = [];
      @api recordId;
     @track selectedFiles = [];  
@@ -33,7 +33,22 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
             CONFIRM_LABEL
         };
     
-       
+       _selectedDocument;
+
+        @api
+        set selectedDocument(value) {
+            this._selectedDocument = value;
+            if (value) {
+                console.log('Currently selected document typeddd:', value.name);
+                console.log('Currently selected DeveloperName :', value.DeveloperName);
+                
+                // You can also reset files or update UI here if needed
+            }
+        }
+
+        get selectedDocument() {
+            return this._selectedDocument;
+        }
     
         get acceptedFormats() {
             return ['.pdf', '.png','.jpeg','.jpg','.heic','.doc'];
@@ -106,5 +121,7 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
                             this.isLoading = false;
                         });
         }
+
+        
 
 }

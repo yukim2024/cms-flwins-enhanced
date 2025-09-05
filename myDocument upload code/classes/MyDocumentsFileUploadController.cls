@@ -43,7 +43,6 @@ public with sharing class MyDocumentsFileUploadController {
  
          if(!Test.isRunningTest() && createDocumentLink) { insert cdl; }
          
-          System.debug('cv.Id value: ' + cv.Id);
          return cv.Id;
      }
 
@@ -80,6 +79,9 @@ public with sharing class MyDocumentsFileUploadController {
             entry.put('id', doc.Id); // Pass Id to LW
             entry.put('className','card-item');
             entry.put('isSelected',false);
+            entry.put('MasterLabel',doc.MasterLabel);
+            entry.put('DeveloperName',doc.DeveloperName);
+          
 
             String labelName = doc.DeveloperName;
             String labelDescription = doc.Description;
