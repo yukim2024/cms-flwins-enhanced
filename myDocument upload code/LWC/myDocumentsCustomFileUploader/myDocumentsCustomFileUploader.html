@@ -28,12 +28,12 @@
             <ul class="slds-list_vertical slds-m-top_small">
                 <template for:each={files} for:item="file">
                     <li key={file.name} class="slds-hint-parent">
-                        <span>{file.name}</span>
-                        <button class="slds-button  slds-m-left_small slds-button_neutral "
+                        <span class="custom-file-name">{file.name}</span>
+                        <button class="slds-button  slds-button_text"
                                 title="Remove"
                                 onclick={removeFile}
                                 data-name={file.name}>
-                            <span><span class="attachedFileSize">({file.size}</span> | <span class="attachedFileDelete">{label.attachedFileDeleteLabel}</span>)</span>
+                            <span><span class="attachedFileSize ">({file.size}</span> | <span class="attachedFileDelete">{label.attachedFileDeleteLabel}</span>)</span>
                         </button>
                     </li>
                 </template>

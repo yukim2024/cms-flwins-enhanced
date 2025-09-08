@@ -12,6 +12,9 @@ import DELETE_TITLE_LABEL from '@salesforce/label/c.myDocuments_DeleteTitle';
 import DELETE_MODAL_CONTENT_LABEL from '@salesforce/label/c.myDocuments_DeleteModalContent';	
 import CANCEL_LABEL from '@salesforce/label/c.myDocuments_Cancel';	
 import CONFIRM_LABEL from '@salesforce/label/c.myDocuments_Confirm';	
+import CHOOSE_LABEL from '@salesforce/label/c.My_Document_Choose_Text';	
+import FILE_TEXT_LABEL from '@salesforce/label/c.File_Text';	
+
 
 
 export default class MyDocumentFileUploadwithType extends LightningElement {
@@ -30,7 +33,9 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
             DELETE_TITLE_LABEL,
             DELETE_MODAL_CONTENT_LABEL,
             CANCEL_LABEL,
-            CONFIRM_LABEL
+            CONFIRM_LABEL, 
+            CHOOSE_LABEL,
+            FILE_TEXT_LABEL
         };
     
        _selectedDocument;
