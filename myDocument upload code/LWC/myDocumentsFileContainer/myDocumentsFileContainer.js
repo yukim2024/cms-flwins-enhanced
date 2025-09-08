@@ -32,6 +32,7 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
     handleStep1Next(event) {
         this.selectedCard = event.detail.selectedCard; // from child event
         this.currentStep = 2;
+
     }
 
      // ---- Upload Events ----
@@ -113,7 +114,7 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
     }
 
     get buttonLabel(){
-        return this.currentPage === 2? 'Done':'Next';
+        return this.currentStep === 2? 'Done':'Next';
     }
    
      handleMyDocUploadFinished(event){

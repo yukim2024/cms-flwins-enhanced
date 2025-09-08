@@ -56,7 +56,9 @@ tbody td {
     margin-top:20px;
     margin-bottom: 20px;
 }
-
+.button__icon2 {
+    margin-left:10px;
+}
 @media screen and (width < 337px) { 
     .file-upload-desktop {
         display: none;
