@@ -1,24 +1,36 @@
 import { LightningElement, track, api } from 'lwc';
 import uploadFileToServer from '@salesforce/apex/MyDocumentsFileUploadController.uploadFileToServer';
 import insertUploadMetric from '@salesforce/apex/MyDocumentsFileUploadController.insertFileUploadMetric';
+import checkIfDocTypeExists from '@salesforce/apex/MyDocumentsFileUploadController.checkIfDocTypeExists';
+import deleteDocument from '@salesforce/apex/myDocumentsController.deleteUserDocument';
 import UPLOAD_FILE_S_LABEL from '@salesforce/label/c.myDocuments_UploadFile';
 import CANCEL_LABEL from '@salesforce/label/c.myDocuments_Cancel';	
 import OR_DRAG_FILES_LABEL from '@salesforce/label/c.or_drag_files_here';
 import YOUR_Attached_FILES_LABEL from '@salesforce/label/c.Your_attached_files';
 import YOUR_Attached_FILES_DELETE_LABEL from '@salesforce/label/c.Your_attached_files_Delete';
+import USER_ID from '@salesforce/user/Id';
 
-
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 
 export default class MyDocumentsCustomFileUploader extends LightningElement {
+userId = USER_ID;
  @track files = [];
 //@api uploadFileLabel = UPLOAD_FILE_S_LABEL;
 //@api cancelLabel = CANCEL_LABEL;
 @api selecteddocumenttype; // passed from Step2 LWC
 @track showWrongFormatError = false;
- @track isUploadFileDisabled = false;
+@track isUploadFileDisabled = false;
+@track errorMessage1 = '';
 
- label = {
+@track showReplaceModal = false;
+@track pendingFile = null; // hold file until user decides
+@track existingDocs = new Set(); // store uploaded doc types
+
+//MAX_FILE_SIZE = 150 * 1024 * 1024; // 150 MB - need replace to this later
+MAX_FILE_SIZE =3 * 1024 * 1024 // 3MB
+
+label = {
         uploadFileLabel: UPLOAD_FILE_S_LABEL,
         cancelLabel: CANCEL_LABEL,
         orDragFilesLabel:OR_DRAG_FILES_LABEL,
@@ -40,26 +52,121 @@ acceptedMimeTypes = [
     'image/heic',
     'image/heif'
 ];
+
+
     handleFilesSelected(event) {
+        
         const input = event.target;
         const selectedFile = event.target.files[0]; // only take first file
+        this.errorMessage1 = null;
+        if (!selectedFile) return;
+
         if (selectedFile) {
-            this.files = [{
-                file: selectedFile,
-                name: selectedFile.name,
-                size: this.formatFileSize(selectedFile.size), 
-                progress: 0,
-                progressStyle: 'width: 0%',
-                iconName: this.getIconName(selectedFile.name)
-            }];
-             // Dispatch event to notify parent
-            this.dispatchEvent(new CustomEvent('fileselected', {
-                detail: { hasFiles: true },
-                bubbles: true,      // allow event to bubble up the DOM
-                composed: true 
-            }));
+             if (selectedFile.size > this.MAX_FILE_SIZE) {
+                console.log('selected file is too big');
+                this.selectedFile = null;
+                this.files = [];
+                this.errorMessage1 = `File "${selectedFile.name}" -  This file size exceeds the limit of ${this.formatFileSize(this.MAX_FILE_SIZE)}.`;
+                 console.error(this.errorMessage1);
+
+                 // 🔥 Show popup error
+                this.dispatchEvent(
+                    new ShowToastEvent({
+                        title: 'File Upload Error',
+                        message: this.errorMessage1,
+                        variant: 'error',
+                        mode: 'dismissable' // stays until user closes
+                    })
+                );
+                input.value = ''; 
+                // Notify parent that no files are selected
+                this.dispatchEvent(new CustomEvent('fileselected', {
+                    detail: { hasFiles: false },
+                    bubbles: true,
+                    composed: true
+                }));
+                return;
+            }
+            console.log('selected file is NOT big' + selectedFile.name );
+            console.log('this.selecteddocumenttype' + this.selecteddocumenttype);
+            console.log('this.userId' + this.userId);
+            // 🚨 Check if restricted doc type already exists
+            checkIfDocTypeExists({ 
+                documentType: this.selecteddocumenttype, 
+                linkedEntityId: this.userId  
+            })
+            .then(result => {
+                console.log('Document exists:', result);
+                if(result) {
+                    //Document exists--
+                    this.pendingFile = selectedFile;
+                    this.showReplaceModal = true; //show Modal
+                } else {
+                    //safe to upload
+                    /*
+                     this.files = [{
+                        file: selectedFile,
+                        name: selectedFile.name,
+                        size: this.formatFileSize(selectedFile.size), 
+                        progress: 0,
+                        progressStyle: 'width: 0%',
+                        iconName: this.getIconName(selectedFile.name)
+                    }];
+                    this.dispatchEvent(new CustomEvent('fileselected', {
+                        detail: { hasFiles: true },
+                        bubbles: true,      // allow event to bubble up the DOM
+                        composed: true 
+                    }));
+                    */
+                   this.addFileToList(selectedFile);
+                }
+            })
+            .catch(error => {
+                console.error('Error checking document:', error);
+            });
+
+           
+
+            
         }
          input.value = '';
+    }
+
+    isRestrictedType(docType) {
+        const restricted = ['Birth Certificate', "Driver’s License", 'Medicaid/Medicare Card', 'Social Security Card'];
+        return restricted.includes(docType);
+    }
+
+    addFileToList(file) {
+        this.files = [{
+            file: file,
+            name: file.name,
+            size: this.formatFileSize(file.size),
+            progress: 0,
+            progressStyle: 'width: 0%',
+            iconName: this.getIconName(file.name)
+        }];
+
+        // Notify parent that a file is selected
+        this.dispatchEvent(new CustomEvent('fileselected', {
+            detail: { hasFiles: true },
+            bubbles: true,
+            composed: true
+        }));
+    }
+
+    handleReplaceConfirm() {
+        if (this.pendingFile) {
+            this.addFileToList(this.pendingFile);
+            this.pendingFile = null;
+            this.myDocUploadFiles();
+        }
+        this.showReplaceModal = false;
+    }
+
+    handleReplaceCancel() {
+        this.pendingFile = null;
+        this.showReplaceModal = false;
     }
 
     handleDragOver(event) {
@@ -69,7 +176,38 @@ acceptedMimeTypes = [
     handleDrop(event) {
         event.preventDefault();
         const droppedFile = event.dataTransfer.files[0]; // only take first file
+        console.log("droppedFile is " + droppedFile);
+        this.errorMessage1 = null;
+
         if (droppedFile) {
+            if (droppedFile.size > this.MAX_FILE_SIZE) {
+                // if file size is bigger than max file size, Clear files array
+                this.files = [];
+
+                this.errorMessage1 = `File "${droppedFile.name}" - This file size exceeds the limit of ${this.formatFileSize(this.MAX_FILE_SIZE)}.`;
+                console.error(this.errorMessage1);
+
+                // Show popup error
+                this.dispatchEvent(
+                    new ShowToastEvent({
+                        title: 'File Upload Error',
+                        message: this.errorMessage1,
+                        variant: 'error',
+                        mode: 'dismissable'
+                    })
+                );
+
+                // Notify parent that no files are selected
+                this.dispatchEvent(new CustomEvent('fileselected', {
+                    detail: { hasFiles: false },
+                    bubbles: true,
+                    composed: true
+                }));
+
+                return;
+            }
+
+
             this.files = [{
                 file: droppedFile,
                 name: droppedFile.name,
@@ -78,6 +216,13 @@ acceptedMimeTypes = [
                 progressStyle: 'width: 0%',
                 iconName: this.getIconName(droppedFile.name)
             }];
+
+            // Notify parent that file is selected
+            this.dispatchEvent(new CustomEvent('fileselected', {
+                detail: { hasFiles: true },
+                bubbles: true,
+                composed: true
+            }));
         }
     }
 
@@ -147,7 +292,7 @@ acceptedMimeTypes = [
             continue;
         }
 
-        if (file.size > 5242880) { // 5 MB limit
+        if (file.size >  this.MAX_FILE_SIZE) { // 5 MB limit
             console.warn(`File too large: ${file.name}`);
             failedFiles.push(file.name);
             continue;

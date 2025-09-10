@@ -15,6 +15,7 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
     @track hasFiles = false; // track if files are selected
     showErrorModal = false;
     @track isLoading = false; 
+    key = 0;
 
     get isStep1() {
         return this.currentStep === 1;
@@ -39,6 +40,14 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
     handleUploadFinished(event) {
         this.isLoading = false;
         console.log('Upload finished:');
+        this.key += 1;
+        
+        this.navigateToListPage();
+       
+    }
+
+
+    navigateToListPage() {
         // Optionally navigate to a "done" step
          this[NavigationMixin.Navigate]({
             type: 'standard__webPage',
@@ -47,6 +56,8 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
             }
         });
     }
+
+    
     handleUploadError(event) {
         this.isLoading = false;
         console.error('Upload error:', event.detail.error);
