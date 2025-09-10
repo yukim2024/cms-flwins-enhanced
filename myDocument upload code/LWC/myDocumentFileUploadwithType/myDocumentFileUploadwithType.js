@@ -44,7 +44,7 @@ export default class MyDocumentFileUploadwithType extends LightningElement {
         set selectedDocument(value) {
             this._selectedDocument = value;
             if (value) {
-                console.log('Currently selected document typeddd:', value.name);
+                console.log('Currently selected document type:', value.name);
                 console.log('Currently selected DeveloperName :', value.DeveloperName);
                 
                 // You can also reset files or update UI here if needed

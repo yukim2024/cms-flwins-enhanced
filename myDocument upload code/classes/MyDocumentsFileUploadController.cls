@@ -72,7 +72,7 @@ public with sharing class MyDocumentsFileUploadController {
     public static List<Map<String, Object>> getDocumentTypeTranslations(String userLanguage) {
         List<Map<String, Object>> result = new List<Map<String, Object>>();
 
-        List<DocumentType> docTypes = [SELECT Id,DeveloperName, MasterLabel, CreatedDate, Description FROM DocumentType];
+        List<DocumentType> docTypes = [SELECT Id,DeveloperName, MasterLabel, CreatedDate, Description FROM DocumentType WITH USER_MODE];
 
         for (DocumentType doc : docTypes) {
             Map<String, Object> entry = new Map<String, Object>();
@@ -101,5 +101,90 @@ public with sharing class MyDocumentsFileUploadController {
         System.debug('result: ' + result);
         
         return result;
+    }
+
+    
+    // check if this document type is already uploaded
+    /*
+    @AuraEnabled(cacheable=true)
+    public static Boolean checkIfDocTypeExists(String documentType, Id linkedEntityId) {
+          // Get max upload count
+        DocumentType docType = [
+            SELECT Id, DeveloperName, Language, MasterLabel, Description, IsActive, FormType, MaximumFileUploadCount 
+            FROM DocumentType
+            WHERE IsActive = true
+            and DeveloperName =:documentType
+            WITH USER_MODE
+        ];
+       
+
+        String q = 'SELECT Id, DeveloperName, MaximumFileUploadCount ' +
+                   'FROM DocumentType WHERE DeveloperName = :documentType';
+        String url = '/services/data/v61.0/tooling/query/?q=' + EncodingUtil.urlEncode(q, 'UTF-8');
+
+        HttpRequest req = new HttpRequest();
+        req.setMethod('GET');
+        req.setEndpoint('callout:Callout_Self' + url); 
+        Http h = new Http();
+        HttpResponse res = h.send(req);
+
+        // If max upload = 1, check if file exists
+        if (docType.MaximumFileUploadCount == 1) {
+                List<ContentVersion> existingFiles = [
+                SELECT Id
+                FROM ContentVersion
+                WHERE ContentDocumentId IN (
+                    SELECT ContentDocumentId
+                    FROM ContentDocumentLink
+                    WHERE LinkedEntityId = :linkedEntityId
+                )
+                AND Document_Type__c = :documentType
+                WITH USER_MODE
+            ];
+            return !existingFiles.isEmpty(); // true = show replace modal
+        }
+        
+        
+        return false; // no modal needed for multiple uploads
+    }
+*/
+    @AuraEnabled(cacheable=true)
+    public static Boolean checkIfDocTypeExists(String documentType, Id linkedEntityId) {
+        DocumentType[] docTypes = [
+            SELECT Id, DeveloperName, Language, MasterLabel, Description, IsActive, FormType, MaximumFileUploadCount
+            FROM DocumentType
+            WHERE IsActive = true
+            and DeveloperName =:documentType
+            WITH USER_MODE
+        ];
+        if (docTypes.isEmpty()) {
+            return false;
+        }
+        DocumentType docType = docTypes[0];
+        if (docType.MaximumFileUploadCount == 1) {
+            List<ContentDocumentLink> cdlList = [
+                SELECT ContentDocumentId
+                FROM ContentDocumentLink
+                WHERE LinkedEntityId = :linkedEntityId
+                WITH USER_MODE
+            ];
+             if (cdlList.isEmpty()) {
+                return false;
+            }
+            Set<Id> contentDocIds = new Set<Id>();
+            for (ContentDocumentLink cdl : cdlList) {
+                contentDocIds.add(cdl.ContentDocumentId);
+            }
+            List<ContentVersion> existingFiles = [
+                SELECT Id
+                FROM ContentVersion
+                WHERE ContentDocumentId IN :contentDocIds
+                AND Document_Type__c = :documentType
+                WITH USER_MODE
+            ];
+
+            return !existingFiles.isEmpty();
+        }
+        return false;
     }
 }

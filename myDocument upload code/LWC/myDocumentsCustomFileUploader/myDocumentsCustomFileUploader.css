@@ -87,10 +87,7 @@
     font-weight: var(--flwins-font-weight-400);
     color: var(--flwins-c-color-mainPrimaryColor);
     font-size: var(--flwins-c-font-size_18);
-   
-}
-.custom-file-name{
-     margin-right:15px;
+    margin-right:15px;
 }
 
 .attachedFileDelete {

@@ -10,7 +10,8 @@
                 disabled={isUploadFileDisabled}
                 onchange={handleFilesSelected} 
                 />
-        
+       
+            
         <label class="slds-file-selector__body" for="fileInput">
             <span class="slds-file-selector__button slds-button slds-button_neutral">
                 {label.uploadFileLabel}
@@ -21,6 +22,33 @@
             <span class="slds-file-selector__text custom-file_text">{label.orDragFilesLabel}</span>
         </label>
     </div>
+ <!-- Error message -->
+    <template if:true={errorMessage1}>
+        there is error
+        <div class="slds-text-color_error slds-m-top_small">
+            {errorMessage1}
+        </div>
+    </template>
+ <!-- If a document already exists for this user and if this document type (documenttype.MaximumFileUploadCount) is 1. 
+  This modal will be displayed.  -->
+    <template if:true={showReplaceModal}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">Duplicate Document</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium">
+                    You have already uploaded this document type. 
+                    Would you like to replace the existing document, or cancel to keep the existing one?
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button variant="neutral" label="Cancel" onclick={handleReplaceCancel}></lightning-button>
+                    <lightning-button variant="brand" label="Continue and Replace" onclick={handleReplaceConfirm}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
 
      <template if:true={files.length}>
         <div class="myDocumentCustomFileShowDetail">
