@@ -1,8 +1,8 @@
 import { LightningElement, track  } from 'lwc';
 import labelDocumentUpload from '@salesforce/label/c.My_Document_Upload_Title';
 import { NavigationMixin } from 'lightning/navigation';
-
-
+import checkIfDocTypeExists from '@salesforce/apex/MyDocumentsFileUploadController.checkIfDocTypeExists';
+import USER_ID from '@salesforce/user/Id';
 
 export default class MyDocumentsFileContainer extends NavigationMixin(LightningElement) {
     label = {
@@ -10,11 +10,13 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
     };
     selectedDocType;
     showErrorModal = false;
+    userId = USER_ID;
     @track currentStep = 1;
     @track selectedCard = '';
     @track hasFiles = false; // track if files are selected
     showErrorModal = false;
     @track isLoading = false; 
+    @track showReplaceModal = false;
     key = 0;
 
     get isStep1() {
@@ -72,11 +74,28 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
 
     handleNext() {
        if (this.currentStep === 1) {
+            console.log('childCmp' + childCmp);
             const childCmp = this.template.querySelector('c-my-documents-select-document-type');
             if (!childCmp.isDocumentTypeSelected()) {
-            this.showErrorModal = true; // Show error popup
+                this.showErrorModal = true; // Show error popup
             }else {
-                this.navigateToNextScreen();
+                checkIfDocTypeExists({ 
+                documentType: childCmp, 
+                linkedEntityId: this.userId  
+            })
+            .then(result => {
+                console.log('Document exists:', result);
+                if(result) {
+                   
+                    this.showReplaceModal = true; //show Modal
+                } else {
+                    this.navigateToNextScreen();
+                }
+            })
+            .catch(error => {
+                console.error('Error checking document:', error);
+            });
+               
             }
             //this.handleStep1Next({ detail: { selectedCard: this.selectedCard }});
         } else if (this.currentStep === 2) {
@@ -131,20 +150,32 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
      handleMyDocUploadFinished(event){
         console.log('Upload finished for: ', event.detail.fileName);
         const uploadedFiles = event.detail.files;
+        this.isLoading = false; // ✅ stop spinner
         alert('No. of files uploaded : ' + uploadedFiles.length);
-       
+        this.navigateToListPage();
+       /*
         this[NavigationMixin.Navigate]({
             type: 'standard__webPage',
             attributes: {
                 name: '/s/my-documents?c__refresh=true'   // API name of the Experience Builder page
             }
         });
-      
+      */
      
+    }
+
+    navigateToListPage() {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: '/my-documents'
+            }
+        });
     }
 
     handleMyDocUploadError(event) {
         console.log('Upload error: ', event.detail.error);
+        this.isLoading = false;
         this.showErrorModal = true;
     }
 
@@ -154,5 +185,32 @@ export default class MyDocumentsFileContainer extends NavigationMixin(LightningE
         console.log('my documents file container uploading message received');
         this.isLoading = true;  // show spinner
     }
+
+    handleReplaceConfirm() {
+        if (this.pendingFile) {
+            this.handleDeleteDocs();
+           // this.addFileToList(this.pendingFile);
+           // this.pendingFile = null;
+           // this.myDocUploadFiles();
+        }
+        this.showReplaceModal = false;
+    }
+
+     handleDeleteDocs() {
+        deleteDocumentByDocType({ userId: this.userId, documentType: this.selecteddocumenttype })
+            .then((result) => {
+                if (result === 'success') {
+                    console.log('Documents deleted successfully.');
+                } else if (result === 'not_found') {
+                    console.log('No matching documents found.');
+                } else {
+                    console.error('Error deleting documents.');
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+
 
 }

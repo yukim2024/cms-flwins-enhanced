@@ -73,6 +73,42 @@ public with sharing class myDocumentsController {
         return result;
     }
 
+   // Deletes the specified Content Document Type record
+    @AuraEnabled
+    public static String deleteUserDocumentsByDocumentType(String documentType, Id userId) {
+        String result = 'success';
+        try {
+            // Find latest versions uploaded by the user with the given type
+            List<ContentVersion> versions = [
+                SELECT ContentDocumentId
+                FROM ContentVersion
+                WHERE CreatedById = :userId
+                AND Document_Type__c = :documentType
+                AND IsLatest = true
+            ];
+            
+            Set<Id> docIds = new Set<Id>();
+            for (ContentVersion v : versions) {
+                docIds.add(v.ContentDocumentId);
+            }
+
+            if (!docIds.isEmpty()) {
+                List<ContentDocument> docsToDelete = [
+                    SELECT Id FROM ContentDocument WHERE Id IN :docIds
+                ];
+                delete docsToDelete;
+            } else {
+                result = 'not_found'; // nothing matched
+            }
+        } catch (Exception e) {
+            result = 'error';
+            // Optionally log the error
+            // System.debug('Delete failed: ' + e.getMessage());
+        }
+        return result;
+    }
+
+
     // Returns the base URL of the portal site
     public static String getPortalUrl() {
         Id siteId = [SELECT Id FROM Site WHERE Name = 'FL_WINS' LIMIT 1].Id;
