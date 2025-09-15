@@ -23,6 +23,7 @@
             onfileselected={handleFileSelected}
             onuploadfilescompleted={handleUploadFinished}
             onmydocuploaderror={handleUploadError} 
+            onmydocuploading={myDocHandleUploading}
             onuploading={myDocHandleUploading}
             onback={handleBack}
             onnext={handleNext}>
@@ -70,7 +71,12 @@
                 <p class="slds-text-align_center slds-m-top_small">Uploading, please wait...</p>
             </div>
         </template>
-
+        <template if:true={isLoading}>
+            <lightning-spinner
+                alternative-text="Uploading..."
+                size="large">
+            </lightning-spinner>
+        </template>
         <!-- Error Modal -->
         <template if:true={showErrorModal}>
             <c-my-documents-type-select-error-modal 

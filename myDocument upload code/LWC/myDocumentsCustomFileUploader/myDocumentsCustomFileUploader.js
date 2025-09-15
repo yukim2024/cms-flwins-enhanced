@@ -2,7 +2,7 @@ import { LightningElement, track, api } from 'lwc';
 import uploadFileToServer from '@salesforce/apex/MyDocumentsFileUploadController.uploadFileToServer';
 import insertUploadMetric from '@salesforce/apex/MyDocumentsFileUploadController.insertFileUploadMetric';
 import checkIfDocTypeExists from '@salesforce/apex/MyDocumentsFileUploadController.checkIfDocTypeExists';
-import deleteDocument from '@salesforce/apex/myDocumentsController.deleteUserDocument';
+import deleteDocumentByDocType from '@salesforce/apex/myDocumentsController.deleteUserDocumentsByDocumentType';
 import UPLOAD_FILE_S_LABEL from '@salesforce/label/c.myDocuments_UploadFile';
 import CANCEL_LABEL from '@salesforce/label/c.myDocuments_Cancel';	
 import OR_DRAG_FILES_LABEL from '@salesforce/label/c.or_drag_files_here';
@@ -18,7 +18,7 @@ userId = USER_ID;
  @track files = [];
 //@api uploadFileLabel = UPLOAD_FILE_S_LABEL;
 //@api cancelLabel = CANCEL_LABEL;
-@api selecteddocumenttype; // passed from Step2 LWC
+@api selecteddocumenttype; // passed from Step2 LWC -- Document Type
 @track showWrongFormatError = false;
 @track isUploadFileDisabled = false;
 @track errorMessage1 = '';
@@ -55,7 +55,6 @@ acceptedMimeTypes = [
 
 
     handleFilesSelected(event) {
-        
         const input = event.target;
         const selectedFile = event.target.files[0]; // only take first file
         this.errorMessage1 = null;
@@ -132,11 +131,7 @@ acceptedMimeTypes = [
          input.value = '';
     }
 
-    isRestrictedType(docType) {
-        const restricted = ['Birth Certificate', "Driver’s License", 'Medicaid/Medicare Card', 'Social Security Card'];
-        return restricted.includes(docType);
-    }
-
+ 
     addFileToList(file) {
         this.files = [{
             file: file,
@@ -157,9 +152,10 @@ acceptedMimeTypes = [
 
     handleReplaceConfirm() {
         if (this.pendingFile) {
+            this.handleDeleteDocs();
             this.addFileToList(this.pendingFile);
             this.pendingFile = null;
-            this.myDocUploadFiles();
+           // this.myDocUploadFiles();
         }
         this.showReplaceModal = false;
     }
@@ -171,6 +167,22 @@ acceptedMimeTypes = [
 
     handleDragOver(event) {
         event.preventDefault();
+    }
+
+    handleDeleteDocs() {
+        deleteDocumentByDocType({ userId: this.userId, documentType: this.selecteddocumenttype })
+            .then((result) => {
+                if (result === 'success') {
+                    console.log('Documents deleted successfully.');
+                } else if (result === 'not_found') {
+                    console.log('No matching documents found.');
+                } else {
+                    console.error('Error deleting documents.');
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
     }
 
     handleDrop(event) {
@@ -265,8 +277,6 @@ acceptedMimeTypes = [
         console.log('selecteddocumenttype:', this.selecteddocumenttype);
         this.isUploadFileDisabled = true;
 
-    
-
         if (!this.files || this.files.length === 0) {
             console.warn('No files to upload');
             this.isUploadFileDisabled = false;
@@ -284,7 +294,6 @@ acceptedMimeTypes = [
     for (const fileWrapper of this.files) {
         const file = fileWrapper.file;
 
-
         // Validate file type and size
         if (!this.acceptedMimeTypes.includes(file.type)) {
             console.warn(`Invalid file type: ${file.name}`);
@@ -298,8 +307,9 @@ acceptedMimeTypes = [
             continue;
         }
 
-         filenames.push({ name: file.name, size: file.size });
+        filenames.push({ name: file.name, size: file.size });
 
+        console.warn('FileReader');
         const reader = new FileReader();
         reader.onloadend = () => {
             const base64 = reader.result.split(',')[1];
@@ -309,12 +319,11 @@ acceptedMimeTypes = [
                 base64Data: base64,
                 createDocumentLink: false,
                 documentType:this.selecteddocumenttype
-                //,
-                //documentType: this.selecteddocumenttype
             })
             .then((result) => {
                 const end = performance.now();
                 this.uploadTime = Math.round(end - start);
+                console.log('uploadTime', this.uploadTime); 
 
                 insertUploadMetric({
                     documentId : result,
@@ -323,28 +332,35 @@ acceptedMimeTypes = [
                     fileUploadTime: this.uploadTime,
                     fileSize: file.size
                 })
-                // eslint-disable-next-line
+              
                 .then(result => {
                 })
                     //this.closeModal();
-                    console.log('insertUploadMetric succeeded for', file.name);
-                    this.dispatchEvent(new CustomEvent('mydocfileuploadevent'));
+                    console.log('Upload + metric complete for', file.name);
+                    //this.dispatchEvent(new CustomEvent('mydocfileuploadevent'));
 
                     // Notify parent/grandparent that upload finished
-                    /*
+                    
                     console.log('mydocument custom file uploader --> upload finished dispatch event', file.name);
                     this.dispatchEvent(new CustomEvent('mydocuploadfinished', {
-                        detail: { files: filenames },
+                        detail: { files: filenames, failedFiles},
                         bubbles: true,
                         composed: true
-                    }));*/
+                    }));
+                    this.isUploadFileDisabled = false;
 
                 })
                 // eslint-disable-next-line
                 .catch(()=> {
                     console.error('insertUploadMetric failed:', err);
-                    this.isUploadFileDisabled = false;
+                   // this.isUploadFileDisabled = false;
                     //console.error('Upload failed:', error);
+                    this.dispatchEvent(new CustomEvent('mydocuploaderror', {
+                        detail: { error: error.body?.message || 'Upload failed' },
+                        bubbles: true,
+                        composed: true
+                    }));
+                    this.isUploadFileDisabled = false;
                 });
          };
 
